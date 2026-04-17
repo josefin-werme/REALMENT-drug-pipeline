@@ -1,8 +1,8 @@
 source settings.sh
 maf="maf005"
 eqtls="z165"
-tissue="brain_cortex" # nigra, blood, amygdala, caudate (when predicted)
-tissue="brain_substantia_nigra" # nigra, blood, amygdala, caudate (when predicted)
+tissue="brain_cortex" 
+tissue="brain_substantia_nigra" # 
 method="spearman"
 pheno_item="d20003-ATC4N"
 
@@ -15,7 +15,7 @@ ROC=T	# set to "cases" or "controls" if run to determine which ones should be pr
 enrich=F
 classN_cases=T # only relevant for enrich; if F then all non_classN people will be analysed instead
 
-tmpdir="/gpfs/scratch1/nodespecific/tcn1309/josefin.tmp/validate"
+tmpdir="/path/to/tmp/validate"
 
 #for tissue in $(echo "brain_substantia_nigra" "brain_cortex" "brain_amygdala" "whole_blood"); do
 for tissue in "brain_caudate"; do

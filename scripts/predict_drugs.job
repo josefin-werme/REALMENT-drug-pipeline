@@ -91,6 +91,7 @@ head -1 chunk$chunk_start.zgrex > grex.genes
 srun --ntasks=1 --cpus-per-task=$n_cores --exact Rscript ../predict_drugs.R infiles.txt $outname $method $n_cores
 #Rscript ../predict_drugs.R infiles.txt $outname $method $n_cores
 
+
 outdir=$drugs_pred/$outname
 if [[ ! -d $outdir ]]; then mkdir $outdir; fi
 

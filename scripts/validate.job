@@ -42,6 +42,7 @@ if [[ ! -d "$jobdir/ROC" ]]; then mkdir "$jobdir/ROC"; fi
 #if [[ ! -d "$jobdir/ROC/$phen" ]]; then mkdir "$jobdir/ROC/$phen"; fi
 # local 
 outdir=$validation/$prefix # this is the project outdir, files are also left in the temporary jobdir
+if [[ ! -d $validation ]]; then mkdir $validation; fi
 if [[ ! -d $outdir ]]; then mkdir $outdir; fi
 if [[ ! -d $outdir/enrich_atc ]]; then mkdir $outdir/enrich_atc; fi 
 if [[ ! -d $outdir/ROC ]]; then mkdir $outdir/ROC; fi

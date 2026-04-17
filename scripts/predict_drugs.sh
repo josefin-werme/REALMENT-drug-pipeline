@@ -51,6 +51,7 @@ n_ind_tot=$(nrow $iid_file)
 
 ## Make output dir
 outdir=$drugs_pred/$prefix
+if [[ ! -d $drugs_pred ]]; then mkdir $drugd_pred; fi
 if [[ ! -d $outdir ]]; then mkdir $outdir; fi 
 
 # check if outfiles exist 

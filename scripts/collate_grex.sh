@@ -4,7 +4,7 @@ tissue="brain_nucleus_accumbens"
 
 prefix=collate_grex-$maf-$eqtls-$tissue
 
-tmpdir="/gpfs/scratch1/nodespecific/tcn1309/josefin.tmp/collate/"
+tmpdir="/path/to/tmp/collate/"
 jobdir="$tmpdir/$tissue"
 if [[ ! -d $tmpdir ]]; then mkdir $tmpdir; fi
 if [[ ! -d $jobdir ]]; then mkdir $jobdir; fi

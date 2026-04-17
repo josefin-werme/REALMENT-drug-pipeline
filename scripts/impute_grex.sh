@@ -1,8 +1,4 @@
 eqtls="z165"
-tissue="brain_putamen" 		# NOTE: last time there was 350 genes left to impute
-tissue="brain_cerebellum" 		# NOTE: last time there was 350 genes left to impute
-#tissue="pituitary" 		# NOTE: last time there was 350 genes left to impute
-#tissue="brain_anterior_cingulate"
 #tissue="brain_frontal_cortex"
 #tissue="brain_hippocampus"
 tissue="brain_hypothalamus"
@@ -10,16 +6,11 @@ tissue="brain_hypothalamus"
 #Wdebug="TRUE"; n_debug=10
 #HIGH_MEM="TRUE"
 
-# TODO: 'brain_anterior_cingulate/brain_anterior_cingulate_b24.eqtl.chr[CHR].stats'
-#brain_cerebellum brain_frontal_cortex/brain_frontal_cortex_b9.eqtl.chr[CHR].stats
-# TODO: why are not the correct n/o genes showing when submitting teh imputation???
-
 npar=10
 genes_per_job=50
 mem="84G"
 WT=6:00 
 n_retry=0 
-
 
 if [[ $debug == "TRUE" ]]; then 
 	npar=$n_debug
