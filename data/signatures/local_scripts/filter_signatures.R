@@ -1,0 +1,256 @@
+
+# --------------------------------------------------- #
+# ----- SCRIPT TO FILTER DRUG DATA ADDITIONALLY ----- #
+# --------------------------------------------------- #
+# Last edited: 31st Oct 2024
+
+# This script subsets the data to named compounds (acc to hamonize_ids() function), and exemplar signatures
+# The initial processing/filtering script found in ~/DrugSignatures/signatureSearchProcessData.R
+
+# !!!! IMPORTANT !!!! 
+# Create the filtering files locally, but RUN THE FINAL FILTERING ON THE CLUSTER (code at bottom) 
+# reason being I am not 100% whether the lincs2 data files in this directory have been altered (though I believe lincs2.h5 is identical to cluster)
+
+## Packages
+suppressPackageStartupMessages({
+	library(ExperimentHub); library(SummarizedExperiment); library(HDF5Array); library(annotate); library(org.Hs.eg.db); library(data.table)
+})
+
+## Directories
+base.dir = "~/surfdrive/POSTDOC/Genes_to_Drugs/"
+lincs.dir = "~/surfdrive/POSTDOC/Genes_to_Drugs/DrugSignatures/LINCS2020"
+
+# Read in ATC data and source drug ID harmonising function
+source(file.path(base.dir, "* validation_functions.R"))
+read_atc()
+
+#####
+# -------------------------------------------------- #
+# ------ FILTER COMPOUNDS TO ONLY NAMED DRUGS ------ #
+# -------------------------------------------------- #
+#####
+# i.e. those that can be mapped using harmonize_ids() function
+# this file can also be used to map the compounds to named drugs later
+
+## Read in compound meta data
+comp.all = fread(file.path(lincs.dir, "compoundinfo_beta.txt"), data.table = F)
+comp.all = comp.all[,c("pert_id","cmap_name","compound_aliases","moa")]
+dim(comp.all); head(comp.all)
+
+## Harmonise drug IDs and subset to mapped drugs
+univ.ids = harmonise_ids_vec(comp.all$cmap_name)
+univ.alias = harmonise_ids_vec(comp.all$compound_aliases)
+
+#-- where cmap conversion failed, use converted alias
+sum(is.na(univ.ids))
+na.univ.ids = is.na(univ.ids)
+univ.ids[na.univ.ids] = univ.alias[na.univ.ids]
+sum(is.na(univ.ids))
+
+#-- set drug_ids to univ.ids
+comp.all$drug_id = univ.ids
+dim(comp.all); head(comp.all)
+
+## Subset to only drugs with a mapped ID
+comp.mapped = comp.all[!is.na(comp.all$drug_id),]
+dim(comp.mapped); head(comp.mapped)
+
+## Create final ID conversion file with only mapped drugs (and no duplicates)
+comp.mapped = comp.mapped[,c('pert_id','drug_id','moa')]
+comp.mapped = unique(comp.mapped)
+dim(comp.mapped); head(comp.mapped)
+write.table(comp.mapped, file.path(lincs.dir,"compoundIDs_mapped.txt"), row.names = F, quote = F, sep = '\t')
+
+
+##### 
+# ------------------------------------------------ #
+# ---- Filter only on high quality signatures ---- #
+# ------------------------------------------------ #
+##### 
+# NOTE: Filtering on the exemplar signatures only. The original downloaded and processed lincs2 data (read in below)
+# was already filtered on these (see ~/DrugSignatures/signatureSearchProcessData.R), 
+# but still keeping this here for completion (and reassurance). Decided not to filter on hiq or qc for now since
+# I dont want to risk results changing too much. (And can always filter results later to check)
+
+siginfo.full = fread(file.path(lincs.dir, "siginfo_beta.txt"), data.table=F)
+
+## Filtered data subsets
+# siginfo.qc = subset(siginfo.full, qc_pass == 1)
+# siginfo.hiq = subset(siginfo.full, is_hiq == 1)
+siginfo.exm = subset(siginfo.full, is_exemplar_sig == 1) # Exemplar signatures. 
+
+# all hiq should be in qc.hiq since qc is a requirement, but they are not exactly?
+# dim(siginfo.hiq)
+# sum(siginfo.hiq$sig_id %in% siginfo.qc.hiq$sig_id)
+
+# siginfo.qc.hiq.exm = subset(siginfo.full, is_exemplar_sig == 1 & is_hiq == 1 & qc_pass == 1)
+# siginfo.qc.hiq = subset(siginfo.full, is_hiq == 1 & qc_pass == 1)
+# siginfo.qc.exm = subset(siginfo.full, is_exemplar_sig == 1 & qc_pass == 1)
+# siginfo.hiq.exm = subset(siginfo.full, is_exemplar_sig == 1 & is_hiq == 1)
+
+## Set to chosen filter
+siginfo = siginfo.exm
+
+## Create compound ID equivalent to that in the lincs dataset
+siginfo$compound_id = apply(siginfo[,c("pert_id","cell_iname","pert_type")], 1, paste, collapse="__")
+
+## Create siginfo subset by filtering on named compounds (from above)
+siginfo.mapped = subset(siginfo, pert_id %in% comp.mapped$pert_id)[,c("pert_id","cell_iname","pert_type","compound_id")]
+dim(siginfo.mapped); head(siginfo.mapped)
+
+## Add drug IDs to siginfo.mapped
+siginfo.mapped$drug_id = comp.mapped[match(siginfo.mapped$pert_id, comp.mapped$pert_id),]$drug_id
+head(siginfo.mapped)
+
+## Save file (use to subset data on cluster)
+write.table(siginfo.mapped, file.path(lincs.dir, "exemplar_signatures_mappedIDs.txt"), row.names=F, quote=F, sep = '\t')
+
+##### 
+# ------------------------- #
+# ---- LOAD SIGNATURES ---- #
+# ------------------------- #
+##### 
+# NOTE: these data sets were created using  ~/DrugSignatures/signatureSearchProcessData.R
+
+db_path = file.path(lincs.dir,"lincs2.h5") 
+
+## Read in data
+se = SummarizedExperiment(HDF5Array(db_path, name="assay"))
+rownames(se) = HDF5Array(db_path, name="rownames")
+colnames(se) = HDF5Array(db_path, name="colnames")
+
+## Create compound info
+rows = strsplit(se@colData@rownames, "__")
+coldat = data.frame(compound = sapply(rows, "[[", 1),
+					cell = sapply(rows, "[[", 2),
+					trt = sapply(rows, "[[", 3),
+					row.names = se@colData@rownames)
+
+## Re-process data with compound info
+se = SummarizedExperiment(HDF5Array(db_path, name="assay"), colData = coldat)
+rownames(se) = HDF5Array(db_path, name="rownames")
+colnames(se) = HDF5Array(db_path, name="colnames")
+
+## Extract signature dataset
+sigdat = assay(se); dim(sigdat)
+
+# COMPARE NATHAN (read in below)
+# sum(nath_sig %in% colnames(sigdat))
+# dim(se)
+# dim(sigdat)
+
+## Filter signatures
+#--- check just the exemplar filter
+sigdat.exm = sigdat[,colnames(sigdat) %in% siginfo$compound_id]
+dim(sigdat.exm) # SAME as orig (i.e. reassurance that the lincs2.h5 data was already filtered on these)
+
+#--- filter on both exemplar and compounds with mapped drug IDs 
+sigdat.mapped = sigdat[,colnames(sigdat) %in% siginfo.mapped$compound_id]
+dim(sigdat.mapped)
+
+## Store (NOTE: do this only on cluster, code below)
+# write.table(sigdat.hiq, file.path(lincs.dir,"lincsh5.comp-hiq.dat"))
+
+##### 
+# ----------------------------------------- #
+# ---- Check overlap with Nathans data ---- #
+# ----------------------------------------- #
+##### 
+
+# load("normal.drug.info.RData") # ON CLUSTER 
+load(paste0(base.dir,"DrugSignatures/Nathans_signatures/normal.drug.info.RData")) # LOCALLY
+dim(josy.info) # 13k sig
+dim(sigdat.mapped) # 31k sig
+
+nath_comp_ids = apply(josy.info[,c("pert_id","cell_iname","pert_type")], 1, paste, collapse="__")
+
+sum(nath_comp_ids %in% colnames(sigdat.exm)) # most!
+sum(nath_comp_ids %in% colnames(sigdat.mapped)) # most!
+
+
+
+##### 
+# ------------------------------------------------ #
+# ---- CODE TO FILTER THE DATA ON THE CLUSTER ---- #
+# ------------------------------------------------ #
+##### 
+# NOTE: Doing the actual filtering on the cluster (rather than locally) as I am not 100% whether the lincs2 data files in this directory have been altered (though I believe lincs2.h5 is identical to cluster)
+# Script saved on cluster as "filter_lincs_exemplar_mapped.R"
+
+## Terminal code to copy data
+# cd /Users/work/surfdrive/POSTDOC/Genes_to_Drugs/DrugSignatures/LINCS2020
+# scp exemplar_signatures_mappedIDs.txt josefin@snellius.surf.nl:/gpfs/work5/0/vusr0748/realment/data/signatures
+
+suppressPackageStartupMessages({
+	library(ExperimentHub); library(SummarizedExperiment); library(HDF5Array); library(annotate); library(org.Hs.eg.db); library(data.table)
+})
+
+## Read in mappped exemplar signatures
+sigs.mapped = fread("exemplar_signatures_mappedIDs.txt", header=T, data.table=F)
+
+## Read in lincs data
+db_path = file.path("lincs2.h5")
+se = SummarizedExperiment(HDF5Array(db_path, name="assay"))
+rownames(se) = HDF5Array(db_path, name="rownames")
+colnames(se) = HDF5Array(db_path, name="colnames")
+
+## Create compound info
+rows = strsplit(se@colData@rownames, "__")
+coldat = data.frame(compound = sapply(rows, "[[", 1),
+					cell = sapply(rows, "[[", 2),
+					trt = sapply(rows, "[[", 3),
+					row.names = se@colData@rownames)
+
+## Re-process data with compound info
+se = SummarizedExperiment(HDF5Array(db_path, name="assay"), colData = coldat)
+rownames(se) = HDF5Array(db_path, name="rownames")
+colnames(se) = HDF5Array(db_path, name="colnames")
+
+## Extract signature dataset
+sigdat = assay(se); dim(sigdat)
+
+## Subset
+sigdat.mapped = sigdat[,colnames(sigdat) %in% sigs.mapped$compound_id]
+sigdat.mapped
+
+#sm = as.data.frame(sigdat.mapped)
+#dim(sm)
+
+# writeHDF5Array(sigdat.mapped, filepath = "lincs2_mapped.h5", name = "lincs2_mapped", with.dimnames = T)
+# write.table(sigdat.mapped, "lincs2_mapped.dat")
+
+## NOTE: Script saved on cluster as "filter_lincs_exemplar_mapped.R"
+
+# sm = sigdat.mapped[1:20,1:20]
+# writeHDF5Array(sm, filepath = "lincs2_mapped.h5", name = "lincs2_mapped", with.dimnames = TRUE)
+# mat = HDF5Array(file = "lincs2_mapped.h5", name = "lincs2_mapped")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

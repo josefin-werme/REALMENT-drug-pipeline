@@ -1,0 +1,3300 @@
+pert_id	drug_id	moa
+BRD-A08715367	theanine	
+BRD-A12237696	citrulline	
+BRD-K05674516	sofosbuvir	
+BRD-K25075681	meclinertant	
+BRD-K25835157	cerdulatinib	
+BRD-K27853494	phenylpropanolamine	
+BRD-K62277907	sarsagenin	
+BRD-K71822263	d-serine	
+BRD-K81647657	3-methyladenine	
+BRD-K82244583	binimetinib	
+BRD-K87737963	momelotinib	
+BRD-K89464729	gsk-269962a	
+BRD-K92041145	6-o-benzylguanine	
+BRD-K92073408	norethisterone	
+BRD-K97101532	tezacaftor	
+BRD-K32795028	1-benzylimidazole	
+BRD-K74430258	1,2-dichlorobenzene	
+BRD-K63784565	10-hydroxycamptothecin	
+BRD-K44408410	2-methoxyestradiol	
+BRD-K21910317	2,4-dinitrophenol	
+BRD-K24689407	3-bromo-7-nitroindazole	
+BRD-K37846922	3,3'-diindolylmethane	
+BRD-K04430056	7-nitroindazole	
+BRD-K27406233	l-acetylleucine	
+BRD-K59058747	acetylcysteine	
+BRD-K67174965	acetylcysteine	
+BRD-A09062839	amylocaine	
+BRD-A63236097	andrographolide	
+BRD-K20001883	apabetalone	
+BRD-K64178227	pyruvic acid	
+BRD-K08287586	butylparaben	
+BRD-K08111712	chloramphenicol	
+BRD-K22969690	chloramphenicol	
+BRD-A51182606	chloramphenicol	
+BRD-K89595132	chlorpheniramine	
+BRD-A04553218	chlorpheniramine	
+BRD-A09073503	chlorpromazine	
+BRD-K40367460	chlorpromazine	
+BRD-A94494639	chlorpromazine	
+BRD-K89997465	chlorpromazine	
+BRD-K51073125	chlorpromazine	
+BRD-K59058766	chlorprothixene	
+BRD-K81091703	chlorprothixene	
+BRD-A26384407	chlorthalidone	
+BRD-K49668410	clarithromycin	
+BRD-K16762525	clarithromycin	
+BRD-K73589401	corticosterone	
+BRD-K29731656	corticosterone	
+BRD-K47000838	cytochalasin b	
+BRD-K26664453	cytochalasin b	
+BRD-K30697463	desoximetasone	
+BRD-A49447682	desoximetasone	
+BRD-K07265709	dexrazoxane	
+BRD-K24053527	dextromethorphan	
+BRD-K33211335	dextromethorphan	
+BRD-A27143604	nadide	
+BRD-K45330754	diethylstilbestrol	
+BRD-K17084514	diethylstilbestrol	
+BRD-K97440753	dihydroergocristine	
+BRD-A65076780	dihydroergocristine	
+BRD-A44701612	dihydroergocristine	
+BRD-K72166146	dihydroergotamine	
+BRD-M19787235	dihydroergotamine	
+BRD-A54845972	dihydroergotamine	
+BRD-M15413738	dihydrostreptomycin	
+BRD-A54236247	racephedrine	
+BRD-K50660797	epicatechin	
+BRD-K19216856	epigallocatechin	
+BRD-A53131506	epitestosterone	
+BRD-K25836724	epitestosterone	
+BRD-K88969189	ethinylestradiol	
+BRD-A56470328	fludrocortisone	
+BRD-K00824317	flurandrenolide	
+BRD-A49765801	flurandrenolide	
+BRD-K13027675	fluorometholone	
+BRD-A13133631	fluorometholone	
+BRD-K24255045	fluoxymesterone	
+BRD-A21490874	fluoxymesterone	
+BRD-A86044036	flurbiprofen	
+BRD-K13005598	foxy-5	
+BRD-K76674262	omacetaxine mepesuccinate	
+BRD-A24643465	omacetaxine mepesuccinate	
+BRD-K62627508	idasanutlin	
+BRD-K01815685	indole-3-carbinol	
+BRD-K33583600	isoliquiritigenin	
+BRD-K82681249	js-k	
+BRD-K33141550	n-omega-nitro-l-arginine methyl ester	
+BRD-K69236721	lumacaftor	
+BRD-K88741031	methyl 2,5-dihydroxycinnamate	
+BRD-K34685430	methylergometrine	
+BRD-A63667919	methylergometrine	
+BRD-K05831461	l-acetylleucine	
+BRD-K88625236	nonoxynol-9	
+BRD-K39981244	norepinephrine	
+BRD-K87349682	norepinephrine	
+BRD-A91555231	norepinephrine	
+BRD-A39415247	norethisterone	
+BRD-K42805893	osimertinib	
+BRD-K50817623	pancuronium	
+BRD-K67844266	pevonedistat	
+BRD-K99498722	plinabulin	
+BRD-K60507178	podofilox	
+BRD-K47869605	podofilox	
+BRD-A16746338	podofilox	
+BRD-K21361524	selinexor	
+BRD-K11215326	tazemetostat	
+BRD-A28856712	tetryzoline	
+BRD-K26619122	thiocolchicoside	
+BRD-A11605036	thiocolchicoside	
+BRD-K38310698	troleandomycin	
+BRD-K59469039	tyrphostin ag 879	
+BRD-K62391742	venetoclax	
+BRD-K93442924	vorapaxar	
+BRD-K28761384	zuclopenthixol	
+BRD-K00198051	zuclopenthixol	
+BRD-K78364995	cefotaxime	
+BRD-K43230258	crisaborole	
+BRD-A56621826	oxytetracycline	
+BRD-K23586533	clindamycin	
+BRD-A86619021	andrographolide	
+BRD-K94979336	3-isobutyl-1-methyl-7h-xanthine	
+BRD-M07056525	choline	
+BRD-A50311610	meclizine	CAR agonist
+BRD-K43002773	ipatasertib	Akt inhibitor
+BRD-K70301465	ibrutinib	BTK inhibitor
+BRD-K45293975	7-hydroxystaurosporine	CDK inhibitor
+BRD-K45293975	7-hydroxystaurosporine	CHK inhibitor
+BRD-K65503129	cct-018159	HSP inhibitor
+BRD-K42828737	sunitinib	KIT inhibitor
+BRD-A12230535	nutlin-3	MDM inhibitor
+BRD-K64538373	ro-4987655	MEK inhibitor
+BRD-K45293975	7-hydroxystaurosporine	PKC inhibitor
+BRD-A67373739	aica ribonucleotide	AMPK activator
+BRD-K42828737	sunitinib	FLT3 inhibitor
+BRD-K12184916	dactolisib	MTOR inhibitor
+BRD-K12184916	dactolisib	PI3K inhibitor
+BRD-K42828737	sunitinib	PDGFR inhibitor
+BRD-K42828737	sunitinib	VEGFR inhibitor
+BRD-K30577245	docetaxel	Tubulin inhibitor
+BRD-K78659596	ixazomib	Proteasome inhibitor
+BRD-K04548931	epirubicin	Topoisomerase inhibitor
+BRD-K00312224	podofilox	Estrogen receptor agonist
+BRD-A18497530	5-iodotubercidin	Adenosine kinase inhibitor
+BRD-K75844781	m-chlorophenylpiperazine	Serotonin receptor agonist
+BRD-M66874015	quetiapine	Dopamine receptor antagonist
+BRD-K42828737	sunitinib	RET tyrosine kinase inhibitor
+BRD-M66874015	quetiapine	Serotonin receptor antagonist
+BRD-K30421593	timolol	Adrenergic receptor antagonist
+BRD-K16037980	z-160	N-type calcium channel blocker
+BRD-K19796430	sonidegib	Smoothened receptor antagonist
+BRD-K07954936	2-iminobiotin	Nitric oxide synthase inhibitor
+BRD-A79431551	3-deazaadenosine	Adenosylhomocysteinase inhibitor
+BRD-K48619321	methscopolamine	Acetylcholine receptor antagonist
+BRD-A47449001	ipratropium	Acetylcholine receptor antagonist
+BRD-K43305603	rocuronium	Acetylcholine receptor antagonist
+BRD-A55424491	methotrexate	Dihydrofolate reductase inhibitor
+BRD-A43673346	clindamycin	
+BRD-K53229386	hesperidin	
+BRD-A49035384	metacycline	
+BRD-K06181161	pentoxyverine	
+BRD-K11640013	sulfamethazine	
+BRD-K17498618	atracurium	
+BRD-K19477839	sgx-523	
+BRD-K38055836	etamivan	
+BRD-K43736954	cortisone	
+BRD-K46523383	pramocaine	
+BRD-K47878171	bephenium	
+BRD-K54028654	trehalose	
+BRD-K56940463	oxetacaine	
+BRD-K67261995	iodipamide	
+BRD-K71125014	sulfadimethoxine	
+BRD-K73391359	quinisocaine	
+BRD-K75360161	protionamide	
+BRD-K79092138	nitrofural	
+BRD-K79145749	dibenzepin	
+BRD-K82522873	n-6022	
+BRD-K83896451	l-glutamine	
+BRD-K84892605	iowh-032	
+BRD-K91733562	secoisolariciresinol	
+BRD-K94353609	fluocinolone	
+BRD-K99984802	flunixin	
+BRD-A95032015	abacavir	
+BRD-K91623615	abt-751	
+BRD-A95696820	acadesine	
+BRD-A81585303	acadesine	
+BRD-M41783010	acamprosate	
+BRD-K68075732	esatenolol	
+BRD-K37814297	acepromazine	
+BRD-K87070823	acetamide	
+BRD-K52960356	acetohexamide	
+BRD-K82381502	acetylcholine	
+BRD-K63736853	acipimox	
+BRD-K32318651	acyclovir	
+BRD-K40718343	aee-788	
+BRD-A48300215	ajmaline	
+BRD-K96029467	alagebrium	
+BRD-K79131256	albendazole	
+BRD-A13711138	alcuronium	
+BRD-A96407378	allantoin	
+BRD-A82892199	vitamin e	
+BRD-K67043667	altretamine	
+BRD-K89055274	alverine	
+BRD-M94527406	amantadine	
+BRD-K70330367	amantadine	
+BRD-K21728777	amg-900	
+BRD-K73947551	amifostine	
+BRD-A30051119	amikacin	
+BRD-K88043978	amikacin	
+BRD-K29530284	amlexanox	
+BRD-A37390343	amorolfine	
+BRD-K68432770	ampicillin	
+BRD-A16754160	ampicillin	
+BRD-K47827687	amprenavir	
+BRD-K49060658	anethole	
+BRD-A75305484	anidulafungin	
+BRD-K82261406	anisomycin	
+BRD-K91370081	anisomycin	
+BRD-K12057390	apigenin	
+BRD-K01493881	apigenin	
+BRD-A61486721	apramycin	
+BRD-K87278688	armodafinil	
+BRD-K39621635	artemether	
+BRD-K79759031	artesunate	
+BRD-K17944737	artesunate	
+BRD-A47829399	artesunate	
+BRD-A70514680	articaine	
+BRD-A66199457	asiaticoside	
+BRD-K06542892	asp-3026	
+BRD-K09757388	atazanavir	
+BRD-K39252998	atipamezole	
+BRD-A19795905	atovaquone	
+BRD-A38161572	atovaquone	
+BRD-A84493640	atovaquone	
+BRD-A75935363	atracurium	
+BRD-K45995181	auranofin	
+BRD-A79465854	auranofin	
+BRD-K83720053	avagacestat	
+BRD-K67901620	avasimibe	
+BRD-K45861246	azaperone	
+BRD-K83186168	azd-1981	
+BRD-K28392481	azd-4547	
+BRD-K34801930	azd-5069	
+BRD-K31495718	azd-7687	
+BRD-K37687095	azd-8330	
+BRD-K73794685	azithromycin	
+BRD-K74501079	azithromycin	
+BRD-K73437736	azlocillin	
+BRD-K62607865	aztreonam	
+BRD-K12437696	aztreonam	
+BRD-A33070992	bacampicillin	
+BRD-K47976015	balapiravir	
+BRD-K25361343	batimastat	
+BRD-K82818427	batimastat	
+BRD-K85030058	benactyzine	
+BRD-K17068645	bendamustine	
+BRD-A42423104	benproperine	
+BRD-K11717138	benzbromarone	
+BRD-K75466013	benzocaine	
+BRD-K04368295	benzofuran	
+BRD-A55748233	benzoin	
+BRD-K28542495	benzydamine	
+BRD-K76133116	benzydamine	
+BRD-K55191674	benzylpenicillin	
+BRD-A91008255	bepridil	
+BRD-K12968785	bergapten	
+BRD-A17555397	beta-alanine	
+BRD-K74225533	beta carotene	
+BRD-A09495397	bicuculline	
+BRD-K25210139	bietaserpine	
+BRD-A94543220	bifonazole	
+BRD-K89210380	biotin	
+BRD-K63899271	biotin	
+BRD-K39987650	bisacodyl	
+BRD-K39120595	bithionol	
+BRD-K33245965	bms-833923	
+BRD-K49669424	bretylium	
+BRD-A63675168	brivudine	
+BRD-K47631482	bromhexine	
+BRD-K17500877	bropirimine	
+BRD-K79095980	broxuridine	
+BRD-K23301018	broxyquinoline	
+BRD-K36660044	bufexamac	
+BRD-A01636364	bupivacaine	
+BRD-K23204545	busulfan	
+BRD-K99622919	butacaine	
+BRD-K27217864	butamben	
+BRD-K90630139	butenafine	
+BRD-A16665823	butoconazole	
+BRD-K68584490	gamma-butyrolactone	
+BRD-K06858286	cabazitaxel	
+BRD-K80684056	cantharidin	
+BRD-K54208592	carbaryl	
+BRD-K94848716	carbarsone	
+BRD-K61559475	dihydroxymethoxychalcone	
+BRD-K21670884	cariporide	
+BRD-K03600606	cianidanol	
+BRD-A61899133	cianidanol	
+BRD-K45746021	cc-401	
+BRD-K20338176	cefaclor	
+BRD-K87116849	cefalotin	
+BRD-M47937986	cefatrizine	
+BRD-K52237148	cefazolin	
+BRD-A65282128	cefazolin	
+BRD-K52735702	cefdinir	
+BRD-K15766189	cefdinir	
+BRD-K03012696	cefdinir	
+BRD-A12077521	cefepime	
+BRD-K58662656	cefepime	
+BRD-K04993501	cefixime	
+BRD-K71059170	cefixime	
+BRD-K54283240	cefixime	
+BRD-K48470486	cefmetazole	
+BRD-K02292852	cefoperazone	
+BRD-K06319591	ceforanide	
+BRD-K37848908	ceforanide	
+BRD-A67981824	cefotaxime	
+BRD-K76018977	cefotaxime	
+BRD-K91289464	cefotetan	
+BRD-A78723049	cefotetan	
+BRD-K21815137	cefotiam	
+BRD-K02275692	cefotiam	
+BRD-K70976396	cefoxitin	
+BRD-K46970505	cefozopran	
+BRD-A87387433	cefpodoxime	
+BRD-A85137183	cefprozil	
+BRD-K81001086	cefsulodin	
+BRD-K59935627	ceftazidime	
+BRD-K63641886	cefuroxime	
+BRD-A76746748	cefuroxime	
+BRD-K37187815	cefuroxime	
+BRD-K90733503	cephalexin	
+BRD-K28210218	cefalotin	
+BRD-K96194081	cepharanthine	
+BRD-K87904882	chelerythrine	
+BRD-K29458283	chlorambucil	
+BRD-K52256627	chlorhexidine	
+BRD-K90241462	chlormadinone	
+BRD-K88785477	chloroform	
+BRD-A91699651	chloroquine	
+BRD-K17075857	chloroxine	
+BRD-K17223896	chloroxylenol	
+BRD-A39210489	chlortetracycline	
+BRD-A41555725	chlortetracycline	
+BRD-A83695761	chromanol	
+BRD-K22861715	chrysin	
+BRD-K58736316	cianidanol	
+BRD-K89046952	cyclacillin	
+BRD-A54537387	cinchonidine	
+BRD-K72915123	cinchophen	
+BRD-K46839850	cinepazide	
+BRD-K14704277	cinoxacin	
+BRD-K04804440	ciprofloxacin	
+BRD-A57957888	citiolone	
+BRD-K04704168	clemizole	
+BRD-A61676498	climbazole	
+BRD-A93964801	clinafloxacin	
+BRD-A52252998	clindamycin	
+BRD-A23034328	clindamycin	
+BRD-K09255212	clioquinol	
+BRD-A43809092	clobutinol	
+BRD-K56614220	clofazimine	
+BRD-K02900412	clofoctol	
+BRD-K15567837	clopamide	
+BRD-A80908310	cloperastine	
+BRD-K97521363	clorsulon	
+BRD-K10990317	clothiapine	
+BRD-K23933163	cloxacillin	
+BRD-K01244426	cloxacillin	
+BRD-K03390685	cobimetinib	
+BRD-K57773246	colistin	
+BRD-K65428967	cordycepin	
+BRD-K80110068	cortisone	
+BRD-A62731508	cortisone	
+BRD-K23913458	coumarin	
+BRD-K56940914	cresol	
+BRD-K57179821	crotamiton	
+BRD-K13240564	crotamiton	
+BRD-A27370296	cyclandelate	
+BRD-A41250306	cyclopenthiazide	
+BRD-A77291778	cyclopentolate	
+BRD-K53226837	cycloserine	
+BRD-K35520305	dacarbazine	
+BRD-K42095107	daidzein	
+BRD-K35589454	danegaptide	
+BRD-K17823458	danoprevir	
+BRD-K10065684	dantron	
+BRD-K35723520	darinaparsin	
+BRD-K02943813	dasabuvir	
+BRD-K80419150	debrisoquine	
+BRD-M09350392	debrisoquine	
+BRD-K23623876	perflubutane	
+BRD-A64125466	dehydrocholic acid	
+BRD-K85833139	prasterone	
+BRD-K59325863	delanzomib	
+BRD-A34145622	demeclocycline	
+BRD-A72130500	demeclocycline	
+BRD-A75368507	demeclocycline	
+BRD-A75402480	desoxycortone	
+BRD-K77685957	dequalinium	
+BRD-K39462424	dexchlorpheniramine	
+BRD-K44309363	dexniguldipine	
+BRD-K62326629	dichlorophen	
+BRD-K23779958	dichlorvos	
+BRD-A06426627	diclazuril	
+BRD-K05673000	dicloxacillin	
+BRD-K94080537	diethyltoluamide	
+BRD-K18518344	digitoxigenin	
+BRD-K92923799	digitoxigenin	
+BRD-K18619710	digoxigenin	
+BRD-K55113501	digoxigenin	
+BRD-K10974103	diloxanide	
+BRD-K22193694	dioxybenzone	
+BRD-A30693873	diperodon	
+BRD-K51730347	diphencyprone	
+BRD-K47608922	dipyrocetyl	
+BRD-K52756523	dirithromycin	
+BRD-K64400208	fg-9041	
+BRD-K85266041	fg-9041	
+BRD-K39965020	doconexent	
+BRD-K05524748	dronedarone	
+BRD-A29349577	dropropizine	
+BRD-K14658796	drotaverine	
+BRD-K72259270	dyclonine	
+BRD-K50564936	e-2012	
+BRD-K29359156	ebselen	
+BRD-K03353589	ecabet	
+BRD-A51820102	econazole	
+BRD-K35458079	edaravone	
+BRD-K86892782	edoxudine	
+BRD-K37355418	efaproxiral	
+BRD-K54472332	elvitegravir	
+BRD-K61452026	emtricitabine	
+BRD-K78113049	enoxacin	
+BRD-K76534306	enrofloxacin	
+BRD-K08206212	entecavir	
+BRD-A13982089	ephedrine	
+BRD-A98431941	ephedrine	
+BRD-A39268308	epibatidine	
+BRD-K36270037	esculin	
+BRD-A99411506	esculin	
+BRD-M72681210	physostigmine	
+BRD-A70858459	estramustine	
+BRD-K71055333	etamsylate	
+BRD-K96042922	etanidazole	
+BRD-K54556307	ethambutol	
+BRD-A74500471	ethambutol	
+BRD-K51207550	ethionamide	
+BRD-K56792340	ethoxyquin	
+BRD-K32977963	eugenol	
+BRD-K45033733	famciclovir	
+BRD-A08255417	famprofazone	
+BRD-A49622760	faropenem	
+BRD-K04264130	favipiravir	
+BRD-K18157228	5-fluoro-2'-deoxycytidine	
+BRD-K91740057	felbinac	
+BRD-A71033472	fendiline	
+BRD-K84566043	fenpiverinium	
+BRD-K26739552	fenspiride	
+BRD-K67217586	fenthion	
+BRD-A33697453	fenticonazole	
+BRD-K07160047	fiacitabine	
+BRD-K57371763	fidaxomicin	
+BRD-K37688416	fipexide	
+BRD-K47639036	flavoxate	
+BRD-K61717546	fleroxacin	
+BRD-K11298197	florfenicol	
+BRD-K73088654	floxuridine	
+BRD-K47832606	floxuridine	
+BRD-A80638690	floxuridine	
+BRD-A60052764	flucloxacillin	
+BRD-A13650332	flucloxacillin	
+BRD-K82143716	flucytosine	
+BRD-A69777949	flumequine	
+BRD-K81774264	flumethasone	
+BRD-K34817515	fluocinolone	
+BRD-K57886322	fluocinonide	
+BRD-K47036706	fluocinonide	
+BRD-K31611373	fluprostenol	
+BRD-K58746048	flurandrenolide	
+BRD-A00218260	flutrimazole	
+BRD-K59110290	fosamprenavir	
+BRD-K48461310	fosfomycin	
+BRD-A67514145	furaltadone	
+BRD-A35713041	furaltadone	
+BRD-K11756522	furazolidone	
+BRD-A71157293	fursultiamine	
+BRD-K43106192	gallamine	
+BRD-A52922642	gallopamil	
+BRD-K28217197	ganaxolone	
+BRD-K22662435	ganciclovir	
+BRD-A74980173	gatifloxacin	
+BRD-K81981783	gavestinel	
+BRD-K49890030	gavestinel	
+BRD-K92015269	gbr-12783	
+BRD-K34034388	gbr-12783	
+BRD-K68938568	gdc-0152	
+BRD-A40787240	gemifloxacin	
+BRD-M10279501	gentamicin	
+BRD-A94702766	ginkgolide a	
+BRD-A65550283	ginsenosides	
+BRD-K34341643	glasdegib	
+BRD-K70131229	glucosamine	
+BRD-K73866522	glycerin	
+BRD-K24943235	grazoprevir	
+BRD-K08273968	griseofulvin	
+BRD-K12423485	griseofulvin	
+BRD-U24835547	gsk-1059615	
+BRD-K02708799	gsk-1059615	
+BRD-K06750613	gsk-1059615	
+BRD-K60341624	gsk-1292263	
+BRD-K37590257	gsk-256066	
+BRD-K49215523	gsk-2636771	
+BRD-K89015388	gsk-923295	
+BRD-K96282009	guaiacol	
+BRD-A90515964	guaifenesin	
+BRD-K67847053	guanabenz	
+BRD-K62676709	guanethidine	
+BRD-M18219129	guanethidine	
+BRD-K01980392	guvacine	
+BRD-A51964809	halofantrine	
+BRD-K13238168	haloprogin	
+BRD-A32988684	heptaminol	
+BRD-K30553453	hesperetin	
+BRD-K93633846	hesperidin	
+BRD-K38903228	hesperidin	
+BRD-K99792991	hexachlorophene	
+BRD-K10598093	hexamethonium	
+BRD-A18605525	hexetidine	
+BRD-K99946902	hexylresorcinol	
+BRD-A34751532	homosalate	
+BRD-K50406511	hycanthone	
+BRD-A77722753	hydralazine	
+BRD-A37444045	hydralazine	
+BRD-A06390036	hydroquinidine	
+BRD-A78295502	hydroquinine	
+BRD-K04809113	hydroxytyrosol	
+BRD-K39330046	hyoscyamine	
+BRD-K40530731	hyoscyamine	
+BRD-A78303415	hyoscyamine	
+BRD-K29673530	hypericin	
+BRD-A06210771	icariin	
+BRD-K65639003	icariin	
+BRD-K37516142	idebenone	
+BRD-A85439007	idoxuridine	
+BRD-K76634210	idoxuridine	
+BRD-K51662849	ilomastat	
+BRD-A78195072	imexon	
+BRD-K42870217	imipenem	
+BRD-K74057757	indibulin	
+BRD-A28787076	inosine	
+BRD-K43860855	iobenguane	
+BRD-A08660406	iodixanol	
+BRD-K75855670	diiodohydroxyquinoline	
+BRD-A60217728	iohexol	
+BRD-K75868704	iopamidol	
+BRD-A72075775	iopromide	
+BRD-A65818372	ioversol	
+BRD-K93618743	ipriflavone	
+BRD-K88568253	iproniazid	
+BRD-A93353767	isoconazole	
+BRD-A24587114	isoetharine	
+BRD-K05737787	isoeugenol	
+BRD-M59543297	isometheptene	
+BRD-K31616564	isosorbide	
+BRD-K47178855	isosorbide	
+BRD-A23067620	itraconazole	
+BRD-A34817987	itraconazole	
+BRD-K24652731	ivermectin	
+BRD-A48570745	ivermectin	
+BRD-K25837718	josamycin	
+BRD-K52431530	josamycin	
+BRD-K08327065	kanamycin	
+BRD-K02898090	kifunensine	
+BRD-K65667145	kinetin	
+BRD-K96134740	kitasamycin	
+BRD-K02992638	lamivudine	
+BRD-K10207760	lasalocid	
+BRD-A72711497	lasalocid	
+BRD-K40831222	latamoxef	
+BRD-K66707493	lawsone	
+BRD-K08248804	lcl-161	
+BRD-K05446112	ledipasvir	
+BRD-K03289534	lersivirine	
+BRD-K94288301	letermovir	
+BRD-A75919782	leucovorin	
+BRD-K73107279	levamisole	
+BRD-K09471561	levofloxacin	
+BRD-A54635441	levopropoxyphene	
+BRD-K62996583	lidoflazine	
+BRD-K49384696	lincomycin	
+BRD-K72922393	linsidomine	
+BRD-A05334458	lisofylline	
+BRD-K66937583	lodoxamide	
+BRD-A75850590	lomefloxacin	
+BRD-K62858456	lomerizine	
+BRD-K51768138	lomustine	
+BRD-K96670504	lonidamine	
+BRD-K78513633	lonidamine	
+BRD-K99451608	lopinavir	
+BRD-K28935038	loracarbef	
+BRD-A43082555	loxoprofen	
+BRD-A71774530	lufenuron	
+BRD-K71058253	luliconazole	
+BRD-K05236810	luteolin	
+BRD-K78055238	ly-2090314	
+BRD-K04993719	ly-2334737	
+BRD-K94534639	ly-2811376	
+BRD-K17203476	ly-2874455	
+BRD-K17953908	ly-2886721	
+BRD-A76229785	lymecycline	
+BRD-K79224779	lynestrenol	
+BRD-A01976766	malathion	
+BRD-A35258977	mannitol	
+BRD-K71926323	marbofloxacin	
+BRD-K59524082	maribavir	
+BRD-K77987382	mebendazole	
+BRD-M45580279	mebhydrolin	
+BRD-K41051431	amdinocillin	
+BRD-A45140972	meclocycline	
+BRD-K10314788	meclofenoxate	
+BRD-K40645748	mefloquine	
+BRD-A89585551	mefloquine	
+BRD-K28595280	meglumine	
+BRD-K99338088	melengestrol	
+BRD-K87827419	melphalan	
+BRD-A08200164	melphalan	
+BRD-K78126613	menadione	
+BRD-A62421304	mepenzolate	
+BRD-A55469827	mephenesin	
+BRD-K18194590	mephentermine	
+BRD-M61872305	mephentermine	
+BRD-A03216249	mepivacaine	
+BRD-A02710418	meptazinol	
+BRD-A21072306	merbromin	
+BRD-K91601245	mercaptopurine	
+BRD-K69726595	mericitabine	
+BRD-K01612348	meropenem	
+BRD-K74615293	meropenem	
+BRD-K96253961	metaraminol	
+BRD-A94709349	metaxalone	
+BRD-K79602928	metformin	
+BRD-K09859624	methantheline	
+BRD-K30114692	methenamine	
+BRD-M98379218	methylatropine	
+BRD-K78321730	methylparaben	
+BRD-K58265391	meticrane	
+BRD-A45543382	metrizamide	
+BRD-A82396632	miconazole	
+BRD-K00532621	midazolam	
+BRD-A31811760	miltefosine	
+BRD-A41020680	minocycline	
+BRD-A69651145	minocycline	
+BRD-K18850819	mk-0752	
+BRD-K55375480	monensin	
+BRD-K11590034	morin	
+BRD-K57291914	moroxydine	
+BRD-K61988078	moxidectin	
+BRD-K66615216	moxifloxacin	
+BRD-K81144366	moxisylyte	
+BRD-K15262564	mupirocin	
+BRD-A11132253	nadide	
+BRD-A24397426	nadifloxacin	
+BRD-K06674495	nafamostat	
+BRD-K30682080	nafcillin	
+BRD-A67862938	naftidrofuryl	
+BRD-K74141488	naftifine	
+BRD-K43813806	naftifine	
+BRD-A01787639	naftopidil	
+BRD-K77641333	naphazoline	
+BRD-K02953697	naringin	
+BRD-K38287497	narlaprevir	
+BRD-A78877355	nefopam	
+BRD-K84466663	nelarabine	
+BRD-K71013094	neomycin	
+BRD-K79989959	nesbuvir	
+BRD-K12102668	nialamide	
+BRD-A86871940	nicaraven	
+BRD-K97752965	nicorandil	
+BRD-K32311154	nifekalant	
+BRD-K47407372	nifenazone	
+BRD-K68188368	nifuroxazide	
+BRD-K26104851	nifuroxazide	
+BRD-A00100033	nifurtimox	
+BRD-K91544578	nikethamide	
+BRD-K53123955	niridazole	
+BRD-K96471533	nitazoxanide	
+BRD-K53815609	nitrofural	
+BRD-K76927775	nitrofurantoin	
+BRD-K84011460	nizofenone	
+BRD-K12539581	nocodazole	
+BRD-K11196887	norfloxacin	
+BRD-K74741811	norgestrel	
+BRD-A14886633	norgestrel	
+BRD-A50928468	norgestrel	
+BRD-K85307935	novobiocin	
+BRD-K74371986	nsi-189	
+BRD-A56702968	nystatin	
+BRD-A14240607	octopamine	
+BRD-A24228527	ofloxacin	
+BRD-K92303087	oglemilast	
+BRD-K83144676	olmesartan	
+BRD-K86972824	oltipraz	
+BRD-K43786866	opipramol	
+BRD-A36331462	oprozomib	
+BRD-K67068943	ore-1001	
+BRD-A42759514	ornidazole	
+BRD-A53576514	orphenadrine	
+BRD-K96786677	oxacillin	
+BRD-K66019333	oxantel	
+BRD-M41106164	oxantel	
+BRD-A33447119	oxfendazole	
+BRD-K56104152	oxiconazole	
+BRD-K23369905	oxiconazole	
+BRD-K88538023	oxiconazole	
+BRD-K42596464	oxolamine	
+BRD-K59037100	oxybenzone	
+BRD-K04185004	oxybuprocaine	
+BRD-A33749298	oxyphenbutazone	
+BRD-K66808046	oxyquinoline	
+BRD-A22740840	oxytetracycline	
+BRD-K87210992	pancuronium	
+BRD-A84134924	pancuronium	
+BRD-K40992116	parachlorophenol	
+BRD-A99314711	paromomycin	
+BRD-A66395008	parthenolide	
+BRD-K98548675	parthenolide	
+BRD-K81651477	parthenolide	
+BRD-K04949373	parthenolide	
+BRD-K66412701	pazufloxacin	
+BRD-K17702546	pd-168393	
+BRD-K77133231	pd-169316	
+BRD-K55034111	pefloxacin	
+BRD-K31731454	pemirolast	
+BRD-A80793822	pemoline	
+BRD-K47780086	penciclovir	
+BRD-K15409150	penfluridol	
+BRD-K13183738	pentamidine	
+BRD-K44942604	pentolinium	
+BRD-K57718010	pentetrazol	
+BRD-A57089740	peruvoside	
+BRD-K68747584	pf-03814735	
+BRD-K50000283	pha-767491	
+BRD-K46937689	antipyrine	
+BRD-K76304753	phenazopyridine	
+BRD-K11399644	phenformin	
+BRD-K19227686	phenolphthalein	
+BRD-K59597909	phenothiazine	
+BRD-K01160827	phenothiazine	
+BRD-A22106989	phenothrin	
+BRD-K22009844	phenprobamate	
+BRD-A18043272	phensuximide	
+BRD-K70592483	phenylacetylglutamine	
+BRD-K67102207	phenylbutyric acid	
+BRD-K15563106	phloretin	
+BRD-K64659768	phthalylsulfathiazole	
+BRD-A55815733	phylloquinone	
+BRD-K26241953	piceatannol	
+BRD-K91509126	piceatannol	
+BRD-K44442813	pidotimod	
+BRD-K49456274	pilaralisib	
+BRD-K88090157	pimethixene	
+BRD-A69275535	methylinositol	
+BRD-K39397585	piperacillin	
+BRD-K86873305	piperacillin	
+BRD-K13249881	piperazine	
+BRD-K19456237	piracetam	
+BRD-K65992024	pirenoxine	
+BRD-K69260336	pivampicillin	
+BRD-K54978501	pivmecillinam	
+BRD-K67100011	pivmecillinam	
+BRD-K36137799	plumbagin	
+BRD-A64610707	pranoprofen	
+BRD-A21858158	praziquantel	
+BRD-K70504303	prednisolone	
+BRD-A27887842	prednisolone	
+BRD-K82481048	prednisolone	
+BRD-K52183142	pregnenolone	
+BRD-K39356024	pregnenolone	
+BRD-K43880410	pregnenolone	
+BRD-K35862502	pregnenolone	
+BRD-A35054627	pregnenolone	
+BRD-A10662413	prenylamine	
+BRD-K17565903	pridinol	
+BRD-A55913614	primaquine	
+BRD-K25204779	pritelivir	
+BRD-K13032584	procarbazine	
+BRD-A31800922	procyclidine	
+BRD-K28183345	proguanil	
+BRD-K14821965	propidium	
+BRD-K18250272	propoxycaine	
+BRD-K97863768	protionamide	
+BRD-K79116891	proparacaine	
+BRD-A28887267	proxyphylline	
+BRD-K84175871	pseudoephedrine	
+BRD-A28970875	puromycin	
+BRD-K36007650	puromycin	
+BRD-K63072637	pyrantel	
+BRD-K14349461	pyridoxine	
+BRD-K88429204	pyrimethamine	
+BRD-K36116267	pyrithyldione	
+BRD-K11663430	pyroxamide	
+BRD-M08470251	pyrvinium	
+BRD-A86414188	ractopamine	
+BRD-K84683831	radezolid	
+BRD-K33551950	radicicol	
+BRD-A39996500	radicicol	
+BRD-K93123848	raf-265	
+BRD-K05658747	raltegravir	
+BRD-A15909516	rebamipide	
+BRD-K85603128	resorcinol	
+BRD-K74190368	resorcinol	
+BRD-K17930269	retapamulin	
+BRD-K02389548	rg-2833	
+BRD-K22024824	rg-4733	
+BRD-K27335680	rhein	
+BRD-K70246307	riboflavin	
+BRD-K92760278	riboflavin	
+BRD-A58837096	ribostamycin	
+BRD-A23801136	rifabutin	
+BRD-K30563334	rifabutin	
+BRD-K31484631	rifabutin	
+BRD-K06240250	rilpivirine	
+BRD-A84282119	rimantadine	
+BRD-A75479906	rimantadine	
+BRD-A27489425	rolitetracycline	
+BRD-K50938786	ropivacaine	
+BRD-K03384561	roquinimex	
+BRD-K22685337	roxarsone	
+BRD-K38684403	roxithromycin	
+BRD-K14036801	roxithromycin	
+BRD-K58211978	roxithromycin	
+BRD-K62374253	rufloxacin	
+BRD-K53972329	ruxolitinib	
+BRD-K46493214	saccharin	
+BRD-K93944989	safingol	
+BRD-K09963420	saquinavir	
+BRD-K70158168	saquinavir	
+BRD-A26690767	saquinavir	
+BRD-K08525451	sarafloxacin	
+BRD-A70083328	secnidazole	
+BRD-A58564983	selamectin	
+BRD-K81957469	semagacestat	
+BRD-A95939040	sertaconazole	
+BRD-K80353138	silibinin	
+BRD-A83815268	silibinin	
+BRD-K51333959	siramesine	
+BRD-A39903068	sisomicin	
+BRD-K71281111	snx-2112	
+BRD-K07612980	sparfloxacin	
+BRD-A26423207	sparfloxacin	
+BRD-K11905747	spectinomycin	
+BRD-K40438880	spermidine	
+BRD-K62959606	sphingosine	
+BRD-K79199004	stanozolol	
+BRD-K46791647	stanozolol	
+BRD-K93880783	stavudine	
+BRD-K34411947	streptozocin	
+BRD-A25576662	streptozocin	
+BRD-A12832192	streptozocin	
+BRD-K44133266	sulbactam	
+BRD-K85679373	sulbactam	
+BRD-K12539416	sulbutiamine	
+BRD-A70649075	sulconazole	
+BRD-K59983611	sulfabenzamide	
+BRD-K21520694	sulfacetamide	
+BRD-K32021043	sulfachlorpyridazine	
+BRD-K32273377	sulfadiazine	
+BRD-K55250441	sulfadoxine	
+BRD-K50859149	sulfisoxazole	
+BRD-K45086103	sulfaguanidine	
+BRD-K93524252	sulfamerazine	
+BRD-K31682896	sulfamethizole	
+BRD-K28494619	sulfamethoxazole	
+BRD-K00938507	sulfamethoxypyridazine	
+BRD-K17205817	sulfametopyrazine	
+BRD-K76845197	sulfanitran	
+BRD-K41406082	sulfapyridine	
+BRD-K71133585	sulfaquinoxaline	
+BRD-K14705039	sulfathiazole	
+BRD-K42635745	suloctidil	
+BRD-A34205397	suloctidil	
+BRD-K78815826	suxibuzone	
+BRD-K52313696	tacedinaline	
+BRD-A10303790	talampicillin	
+BRD-A10606614	talampicillin	
+BRD-K22227508	tilarginine	
+BRD-K59506194	tilarginine	
+BRD-K42495768	tasisulam	
+BRD-K14312455	tazobactam	
+BRD-A18611368	tazobactam	
+BRD-K59436580	tedizolid	
+BRD-K26701552	tegobuvir	
+BRD-U97083655	teicoplanin	
+BRD-K15976406	telbivudine	
+BRD-K51805276	temefos	
+BRD-K63712959	temoporfin	
+BRD-A87479750	tenidap	
+BRD-K15891719	tenofovir	
+BRD-K68132782	terbinafine	
+BRD-K86204871	terconazole	
+BRD-K36452089	t-butylhydroquinone	
+BRD-K84036904	testosterone	
+BRD-A55393291	testosterone	
+BRD-A79479878	testosterone	
+BRD-K90553655	testosterone	
+BRD-A15493168	tetracycline	
+BRD-A52997285	tetracycline	
+BRD-A34788695	tetracycline	
+BRD-A88208128	tetracycline	
+BRD-A43940795	tetrahydropalmatine	
+BRD-A46393198	tetramisole	
+BRD-K08078237	tetrandrine	
+BRD-K34888156	theobromine	
+BRD-K79711234	thiamphenicol	
+BRD-K69600043	thiethylperazine	
+BRD-K61443650	thimerosal	
+BRD-K08619574	thioproperazine	
+BRD-K29254801	thiram	
+BRD-K13387373	thonzonium	
+BRD-K77695569	thiabendazole	
+BRD-A80869209	ticarcillin	
+BRD-A34462049	tigecycline	
+BRD-A30582499	tiletamine	
+BRD-K26634012	tilmicosin	
+BRD-K10845183	tiludronic acid	
+BRD-A38592941	timonacic	
+BRD-K89125793	tinidazole	
+BRD-A33084557	tioconazole	
+BRD-K75649340	tioguanine	
+BRD-K63195589	tipifarnib	
+BRD-A10039652	tipranavir	
+BRD-K92968657	tirapazamine	
+BRD-K51087630	tirasemtiv	
+BRD-K06335600	tizanidine	
+BRD-K96342952	tobramycin	
+BRD-K05619559	tobramycin	
+BRD-K32164935	tolazamide	
+BRD-K44273375	tolnaftate	
+BRD-K36970462	tonabersat	
+BRD-A41450521	tosufloxacin	
+BRD-K17849083	tranilast	
+BRD-K19533706	tranilast	
+BRD-A51233382	tribenoside	
+BRD-A60294240	tribenoside	
+BRD-K88145757	tributyltin	
+BRD-K46435528	trichloroethylene	
+BRD-A22152765	tridihexethyl	
+BRD-K37111771	triethylenetetramine	
+BRD-K07208025	trimethoprim	
+BRD-K54790157	trioxsalen	
+BRD-K81258678	triptolide	
+BRD-K39484304	triptolide	
+BRD-A13122391	triptolide	
+BRD-K00494077	trovafloxacin	
+BRD-A74160776	troxerutin	
+BRD-A68589262	troxipide	
+BRD-K83776863	tryptophan	
+BRD-A07106394	tryptophan	
+BRD-K19107160	tylosin	
+BRD-K46156294	tyloxapol	
+BRD-K49808142	tyramine	
+BRD-K88052444	urea	
+BRD-K24297741	urethane	
+BRD-K45245728	tauroursodeoxycholic acid	
+BRD-K87300616	ursodeoxycholic acid	
+BRD-K46435977	valaciclovir	
+BRD-A20794617	vancomycin	
+BRD-M45964048	verteporfin	
+BRD-A35782587	verteporfin	
+BRD-K40227168	vinburnine	
+BRD-K40902647	vincamine	
+BRD-K89704198	vincamine	
+BRD-K59753975	vindesine	
+BRD-K88365400	viomycin	
+BRD-A41941932	vitexin	
+BRD-K09877029	vs-4718	
+BRD-A01826957	xanthinol	
+BRD-A03506276	xl-888	
+BRD-K21565985	xylazine	
+BRD-K85925969	zalcitabine	
+BRD-A00578795	zaltoprofen	
+BRD-A24381660	zeranol	
+BRD-K72903603	zidovudine	
+BRD-A33692381	zidovudine	
+BRD-K40624912	zm-39923	
+BRD-K11792081	abt-639	
+BRD-K64034691	acalabrutinib	
+BRD-K37151368	dapta	
+BRD-K47492008	alclofenac	
+BRD-K89490285	bentazepam	
+BRD-K12906202	carbendazim	
+BRD-K92129045	caroxazone	
+BRD-K02733959	cefuroxime	
+BRD-K13769342	danirixin	
+BRD-K06455935	daprodustat	
+BRD-K54863166	darusentan	
+BRD-K22525962	stanolone	
+BRD-K29812331	dimemorfan	
+BRD-K70601687	enasidenib	
+BRD-K21152241	enoximone	
+BRD-K84971356	etafenone	
+BRD-K37708699	exisulind	
+BRD-A23418262	floctafenine	
+BRD-K17610631	indisulam	
+BRD-K93073858	ivosidenib	
+BRD-K10958118	l-778123	
+BRD-A54393207	levomenthol	
+BRD-A54393207	menthol	
+BRD-K59391348	lixivaptan	
+BRD-K94948151	macelignan	
+BRD-K07790550	mavoglurant	
+BRD-A16035238	sar-405838	
+BRD-K75864342	menatetrenone	
+BRD-K01291782	molidustat	
+BRD-K12742203	moxaverine	
+BRD-K25143390	msx-122	
+BRD-K14171291	omarigliptin	
+BRD-K04643877	perzinfotel	
+BRD-K76549667	phenol	
+BRD-K54339150	proquazone	
+BRD-K20850787	pt-2385	
+BRD-K50489389	ranirestat	
+BRD-K89413285	remimazolam	
+BRD-K91100918	sinefungin	
+BRD-K80359953	talampanel	
+BRD-A78253580	tetracycline	
+BRD-K94830213	tofisopam	
+BRD-K96344439	tofogliflozin	
+BRD-A67182178	toloxatone	
+BRD-K47929404	vercirnon	
+BRD-K56565215	vipadenant	
+BRD-K60663764	azlocillin	
+BRD-K54634444	artesunate	
+BRD-K41256143	prasterone	
+BRD-K22477529	stf-31	
+BRD-M43490210	oxaliplatin	
+BRD-A62505706	edoxudine	
+BRD-K11626735	carboplatin	
+BRD-K08970894	dimethyl sulfoxide	
+BRD-K59304176	go-6976	
+BRD-K17516382	alsterpaullone	
+BRD-K26875402	cinnamaldehyde	
+BRD-K76289201	cyclohexanone	
+BRD-K98162554	iodoform	
+BRD-K32052120	isopropyl alcohol	
+BRD-K38544018	furfural	
+BRD-K47119147	mannitol	
+BRD-K78578876	n,n-dimethylformamide	
+BRD-A24186493	norethynodrel	
+BRD-K18472523	beta-naphthoflavone	
+BRD-K44218819	tryptamine	
+BRD-K63682780	cadmium	
+BRD-K55260056	lg-100268	
+BRD-A72085271	oxiracetam	
+BRD-A54493496	ketamine	
+BRD-K27677357	ruboxistaurin	
+BRD-K43357457	org-25935	
+SAHA	vorinostat	
+BRD-A21478517	mitomycin	
+BRD-K54563688	p-aminophenol	
+BRD-K18271114	furafylline	
+BRD-A22698335	plicamycin	
+LIVF001-010	pimasertib	
+LIVF001-020	ci-1040	
+LIVF001-014	pralidoxime	
+BRD-K30874624	k-252a	
+BRD-U19872303	spiramycin	
+CMAP-C110765	potassium chloride	
+BRD-K45535217	atrazine	
+BRD-K73756878	phlorizin	
+BRD-K88682005	chlorothiazide	Diuretic
+BRD-K78010432	furosemide	Diuretic
+BRD-K60369935	ribavirin	Antiviral
+BRD-K94397152	ribavirin	Antiviral
+BRD-A96255180	ribavirin	Antiviral
+BRD-K72093121	vidarabine	Antiviral
+BRD-A97502381	cyanocobalamin	Vitamin B
+BRD-A31836915	cyanocobalamin	Vitamin B
+BRD-K60237333	niacin	Vitamin B
+BRD-K61993165	niacin	Vitamin B
+BRD-K95785345	thiamine	Vitamin B
+BRD-K02571615	benfotiamine	Antioxidant
+BRD-K20482099	rutin	Antioxidant
+BRD-A76747559	rutin	Antioxidant
+BRD-A34907681	rutin	Antioxidant
+BRD-K24656285	farnesol	FXR agonist
+BRD-K34170797	fexaramine	FXR agonist
+BRD-K33818169	gw-3965	LXR agonist
+BRD-K26657438	imiquimod	TLR agonist
+BRD-K06902185	minoxidil	Vasodilator
+BRD-K14888893	minoxidil	Vasodilator
+BRD-K36927236	glyburide	Sulfonylurea
+BRD-K12219985	glipizide	Sulfonylurea
+BRD-K80396088	gliquidone	Sulfonylurea
+BRD-K16336526	capsaicin	TRPV agonist
+BRD-K50590187	capsaicin	TRPV agonist
+BRD-K32744045	disulfiram	TRPV agonist
+BRD-K11267252	alectinib	ALK inhibitor
+BRD-K72827473	cep-37440	ALK inhibitor
+BRD-K22149900	ceritinib	ALK inhibitor
+BRD-K78431006	crizotinib	ALK inhibitor
+BRD-K25325018	gsk-690693	Akt inhibitor
+BRD-A87137733	gsk-690693	Akt inhibitor
+BRD-K68065987	mk-2206	Akt inhibitor
+BRD-K80431395	triciribine	Akt inhibitor
+BRD-A11706664	triciribine	Akt inhibitor
+BRD-A42649439	triciribine	Akt inhibitor
+BRD-K99300445	antazoline	Antihistamine
+BRD-A22769835	homochlorcyclizine	Antihistamine
+BRD-A62428732	hydroxyzine	Antihistamine
+BRD-K56301217	abt-737	BCL inhibitor
+BRD-K19295594	gossypol	BCL inhibitor
+BRD-K82746043	navitoclax	BCL inhibitor
+BRD-K15600710	obatoclax	BCL inhibitor
+BRD-K28360340	tw-37	BCL inhibitor
+BRD-A35869383	ibrutinib	BTK inhibitor
+BRD-K03109492	nsc-663284	CDC inhibitor
+BRD-K87909389	alvocidib	CDK inhibitor
+BRD-K13390322	at-7519	CDK inhibitor
+BRD-K13662825	dinaciclib	CDK inhibitor
+BRD-K17894950	indirubin	CDK inhibitor
+BRD-K53959060	indirubin	CDK inhibitor
+BRD-K82731415	olomoucine	CDK inhibitor
+BRD-K51313569	palbociclib	CDK inhibitor
+BRD-K64800655	pha-793887	CDK inhibitor
+BRD-U86686840	azd-7762	CHK inhibitor
+BRD-K46056750	azd-7762	CHK inhibitor
+BRD-K86525559	azd-7762	CHK inhibitor
+BRD-K02241333	chir-124	CHK inhibitor
+BRD-K03063480	pf-477736	CHK inhibitor
+BRD-A06352508	sb-218078	CHK inhibitor
+BRD-K36234266	carmustine	DNA inhibitor
+BRD-K52020312	metronidazole	DNA inhibitor
+BRD-K72951360	valrubicin	DNA inhibitor
+BRD-A68493689	simeprevir	HCV inhibitor
+BRD-K23499943	alvespimycin	HSP inhibitor
+BRD-K83988098	alvespimycin	HSP inhibitor
+BRD-A06304526	alvespimycin	HSP inhibitor
+BRD-K38852836	ganetespib	HSP inhibitor
+BRD-K11528507	geldanamycin	HSP inhibitor
+BRD-A19500257	geldanamycin	HSP inhibitor
+BRD-K81473043	tanespimycin	HSP inhibitor
+BRD-A61304759	tanespimycin	HSP inhibitor
+BRD-K51575138	tpca-1	IKK inhibitor
+BRD-K65928735	azd-1480	JAK inhibitor
+BRD-A29009894	azd-1480	JAK inhibitor
+BRD-K53581288	baricitinib	JAK inhibitor
+BRD-K16803204	filgotinib	JAK inhibitor
+BRD-K23192422	lestaurtinib	JAK inhibitor
+BRD-A27376179	lestaurtinib	JAK inhibitor
+BRD-K19034817	pacritinib	JAK inhibitor
+BRD-K31283835	tofacitinib	JAK inhibitor
+BRD-K36280065	tofacitinib	JAK inhibitor
+BRD-K01567962	pyrazolanthrone	JNK inhibitor
+BRD-K66538826	amuvatinib	KIT inhibitor
+BRD-K86930074	cediranib	KIT inhibitor
+BRD-K49328571	dasatinib	KIT inhibitor
+BRD-K92723993	imatinib	KIT inhibitor
+BRD-K39974922	lenvatinib	KIT inhibitor
+BRD-K71035033	masitinib	KIT inhibitor
+BRD-K13646352	midostaurin	KIT inhibitor
+BRD-K99616396	motesanib	KIT inhibitor
+BRD-K25340465	osi-930	KIT inhibitor
+BRD-K74514084	pazopanib	KIT inhibitor
+BRD-K16730910	regorafenib	KIT inhibitor
+BRD-K23984367	sorafenib	KIT inhibitor
+BRD-K49810818	sorafenib	KIT inhibitor
+BRD-M64432851	sunitinib	KIT inhibitor
+BRD-K89162000	tandutinib	KIT inhibitor
+BRD-K84564571	telatinib	KIT inhibitor
+BRD-K70163715	vatalanib	KIT inhibitor
+BRD-K65924316	serdemetan	MDM inhibitor
+BRD-K60219430	serdemetan	MDM inhibitor
+BRD-K73255294	nutlin-3	MDM inhibitor
+BRD-K53523901	arctigenin	MEK inhibitor
+BRD-K49865102	mirdametinib	MEK inhibitor
+BRD-A50454580	mirdametinib	MEK inhibitor
+BRD-K62810658	pd-98059	MEK inhibitor
+BRD-K85751432	refametinib	MEK inhibitor
+BRD-K57080016	selumetinib	MEK inhibitor
+BRD-K26667523	tak-733	MEK inhibitor
+BRD-K12343256	trametinib	MEK inhibitor
+BRD-K91701654	u-0126	MEK inhibitor
+BRD-K18787491	u-0126	MEK inhibitor
+BRD-K46419649	u-0126	MEK inhibitor
+BRD-A14941520	dofequidar	MRP inhibitor
+BRD-K27737647	h-89	PKA inhibitor
+BRD-K79404599	enzastaurin	PKC inhibitor
+BRD-K13646352	midostaurin	PKC inhibitor
+BRD-K16761703	sotrastaurin	PKC inhibitor
+BRD-K70549064	staurosporine	PKC inhibitor
+BRD-K17953061	staurosporine	PKC inhibitor
+BRD-K27305650	ly-294002	PLK inhibitor
+BRD-K55187425	rigosertib	PLK inhibitor
+BRD-K69776681	volasertib	PLK inhibitor
+BRD-K09951645	dabrafenib	RAF inhibitor
+BRD-K16478699	plx-4720	RAF inhibitor
+BRD-K16730910	regorafenib	RAF inhibitor
+BRD-K23984367	sorafenib	RAF inhibitor
+BRD-K49810818	sorafenib	RAF inhibitor
+BRD-K56343971	vemurafenib	RAF inhibitor
+BRD-K41772907	tolimidone	Src activator
+BRD-K99964838	bosutinib	Src inhibitor
+BRD-K49328571	dasatinib	Src inhibitor
+BRD-K71035033	masitinib	Src inhibitor
+BRD-U07805514	saracatinib	Src inhibitor
+BRD-K19540840	saracatinib	Src inhibitor
+BRD-K12735121	tg-100801	Src inhibitor
+BRD-K20285085	fostamatinib	Syk inhibitor
+BRD-K54233340	dorsomorphin	AMPK inhibitor
+BRD-A26334849	propafenone	Antiarrhythmic
+BRD-A94624445	bucladesine	CAMP stimulant
+BRD-A14652656	bucladesine	CAMP stimulant
+BRD-A15070535	bucladesine	CAMP stimulant
+BRD-A15931911	bucladesine	CAMP stimulant
+BRD-A04706586	bucladesine	CAMP stimulant
+BRD-K30984264	harmine	DYRK inhibitor
+BRD-K66175015	afatinib	EGFR inhibitor
+BRD-A58767537	afatinib	EGFR inhibitor
+BRD-K81209512	tyrphostin b48	EGFR inhibitor
+BRD-K07106112	bms-599626	EGFR inhibitor
+BRD-K50168500	canertinib	EGFR inhibitor
+BRD-K76908866	cp-724714	EGFR inhibitor
+BRD-K57169635	dacomitinib	EGFR inhibitor
+BRD-K85402309	dovitinib	EGFR inhibitor
+BRD-K70401845	erlotinib	EGFR inhibitor
+BRD-K64052750	gefitinib	EGFR inhibitor
+BRD-M07438658	lapatinib	EGFR inhibitor
+BRD-K19687926	lapatinib	EGFR inhibitor
+BRD-K85606544	neratinib	EGFR inhibitor
+BRD-K08799216	pelitinib	EGFR inhibitor
+BRD-K33610132	rociletinib	EGFR inhibitor
+BRD-K77625799	vandetanib	EGFR inhibitor
+BRD-K37865504	ly-2183240	FAAH inhibitor
+BRD-K86816506	pf-04457845	FAAH inhibitor
+BRD-K28428262	brivanib	FGFR inhibitor
+BRD-A21584801	brivanib	FGFR inhibitor
+BRD-K85402309	dovitinib	FGFR inhibitor
+BRD-K39974922	lenvatinib	FGFR inhibitor
+BRD-K31309378	lucitanib	FGFR inhibitor
+BRD-K49075727	nintedanib	FGFR inhibitor
+BRD-K55966568	orantinib	FGFR inhibitor
+BRD-K91696562	orantinib	FGFR inhibitor
+BRD-K16730910	regorafenib	FGFR inhibitor
+BRD-K20285085	fostamatinib	FLT3 inhibitor
+BRD-K66538826	amuvatinib	FLT3 inhibitor
+BRD-K40738845	bms-777607	FLT3 inhibitor
+BRD-K85402309	dovitinib	FLT3 inhibitor
+BRD-K23192422	lestaurtinib	FLT3 inhibitor
+BRD-A27376179	lestaurtinib	FLT3 inhibitor
+BRD-K13646352	midostaurin	FLT3 inhibitor
+BRD-K19034817	pacritinib	FLT3 inhibitor
+BRD-K44227013	ponatinib	FLT3 inhibitor
+BRD-K93918653	quizartinib	FLT3 inhibitor
+BRD-K23984367	sorafenib	FLT3 inhibitor
+BRD-K49810818	sorafenib	FLT3 inhibitor
+BRD-M64432851	sunitinib	FLT3 inhibitor
+BRD-K89162000	tandutinib	FLT3 inhibitor
+BRD-K17743125	belinostat	HDAC inhibitor
+BRD-K56957086	dacinostat	HDAC inhibitor
+BRD-K77908580	entinostat	HDAC inhibitor
+BRD-K13810148	givinostat	HDAC inhibitor
+BRD-K16485616	mocetinostat	HDAC inhibitor
+BRD-K02130563	panobinostat	HDAC inhibitor
+BRD-K28822270	resminostat	HDAC inhibitor
+BRD-K61397605	romidepsin	HDAC inhibitor
+BRD-K22503835	scriptaid	HDAC inhibitor
+BRD-K81418486	vorinostat	HDAC inhibitor
+BRD-K06902185	minoxidil	KATP activator
+BRD-K14888893	minoxidil	KATP activator
+BRD-K19295594	gossypol	MCL1 inhibitor
+BRD-K69932463	azd-8055	MTOR inhibitor
+BRD-K29733039	ridaforolimus	MTOR inhibitor
+BRD-K09078998	ridaforolimus	MTOR inhibitor
+BRD-A25736793	everolimus	MTOR inhibitor
+BRD-K13514097	everolimus	MTOR inhibitor
+BRD-K13154216	everolimus	MTOR inhibitor
+BRD-K27305650	ly-294002	MTOR inhibitor
+BRD-K94012289	osi-027	MTOR inhibitor
+BRD-K94294671	osi-027	MTOR inhibitor
+BRD-K87124298	osi-027	MTOR inhibitor
+BRD-K07310275	pf-04691502	MTOR inhibitor
+BRD-K67868012	pi-103	MTOR inhibitor
+BRD-A28467416	pki-179	MTOR inhibitor
+BRD-K98453471	salirasib	MTOR inhibitor
+BRD-K99369265	sirolimus	MTOR inhibitor
+BRD-K89626439	sirolimus	MTOR inhibitor
+BRD-K84937637	sirolimus	MTOR inhibitor
+BRD-A50287119	sirolimus	MTOR inhibitor
+BRD-A23770159	sirolimus	MTOR inhibitor
+BRD-A79768653	sirolimus	MTOR inhibitor
+BRD-K42898655	temsirolimus	MTOR inhibitor
+BRD-A62025033	temsirolimus	MTOR inhibitor
+BRD-K56291712	voxtalisib	MTOR inhibitor
+BRD-K03739921	hypoxanthine	PARP inhibitor
+BRD-K11153516	iniparib	PARP inhibitor
+BRD-K02113016	olaparib	PARP inhibitor
+BRD-K88560311	rucaparib	PARP inhibitor
+BRD-K95142244	talazoparib	PARP inhibitor
+BRD-K12737986	veliparib	PARP inhibitor
+BRD-K87142802	veliparib	PARP inhibitor
+BRD-A50364343	veliparib	PARP inhibitor
+BRD-K54997624	alpelisib	PI3K inhibitor
+BRD-K58772419	azd-6482	PI3K inhibitor
+BRD-K42191735	buparlisib	PI3K inhibitor
+BRD-K24666289	copanlisib	PI3K inhibitor
+BRD-K60866521	idelalisib	PI3K inhibitor
+BRD-K07310275	pf-04691502	PI3K inhibitor
+BRD-K67868012	pi-103	PI3K inhibitor
+BRD-M16762496	pik-75	PI3K inhibitor
+BRD-K49371609	pik-75	PI3K inhibitor
+BRD-A28467416	pki-179	PI3K inhibitor
+BRD-K44844162	taselisib	PI3K inhibitor
+BRD-K56291712	voxtalisib	PI3K inhibitor
+BRD-A11678676	wortmannin	PI3K inhibitor
+BRD-K87343924	wortmannin	PI3K inhibitor
+BRD-A75409952	wortmannin	PI3K inhibitor
+BRD-K63068307	zstk-474	PI3K inhibitor
+BRD-A59001851	ginkgolide-b	Reducing agent
+BRD-A82395837	ginkgolide-b	Reducing agent
+BRD-A68942014	amitifadine	SERT inhibitor
+BRD-K52989797	clomipramine	SERT inhibitor
+BRD-K53855319	srt-1720	SIRT activator
+BRD-K25591257	resveratrol	SIRT activator
+BRD-K80738081	resveratrol	SIRT activator
+BRD-K33336844	cryptotanshinone	STAT inhibitor
+BRD-K35960502	niclosamide	STAT inhibitor
+BRD-A45889380	quinacrine	TP53 activator
+BRD-K71221037	birinapant	XIAP inhibitor
+BRD-K40738845	bms-777607	C-Met inhibitor
+BRD-K73319509	pf-04217903	C-Met inhibitor
+BRD-K97010173	deferasirox	Chelating agent
+BRD-K06878038	deferiprone	Chelating agent
+BRD-K00959089	thenoyltrifluoroacetone	Chelating agent
+BRD-M07438658	lapatinib	ErbB2 inhibitor
+BRD-K19687926	lapatinib	ErbB2 inhibitor
+BRD-A52627843	thiostrepton	FOXM1 inhibitor
+BRD-A20697603	thiostrepton	FOXM1 inhibitor
+BRD-K17894950	indirubin	GSK-3 inhibitor
+BRD-K53959060	indirubin	GSK-3 inhibitor
+BRD-K69726342	atorvastatin	HMGCR inhibitor
+BRD-U88459701	atorvastatin	HMGCR inhibitor
+BRD-A82307304	atorvastatin	HMGCR inhibitor
+BRD-K81169441	cerivastatin	HMGCR inhibitor
+BRD-K66296774	fluvastatin	HMGCR inhibitor
+BRD-K39716612	fluvastatin	HMGCR inhibitor
+BRD-K09416995	lovastatin	HMGCR inhibitor
+BRD-K17113870	lovastatin	HMGCR inhibitor
+BRD-A70155556	lovastatin	HMGCR inhibitor
+BRD-K94441233	mevastatin	HMGCR inhibitor
+BRD-K32403583	mevastatin	HMGCR inhibitor
+BRD-K08229828	mevastatin	HMGCR inhibitor
+BRD-K30097969	pitavastatin	HMGCR inhibitor
+BRD-K75958547	pitavastatin	HMGCR inhibitor
+BRD-K31447894	pravastatin	HMGCR inhibitor
+BRD-K60511616	pravastatin	HMGCR inhibitor
+BRD-K25841245	pravastatin	HMGCR inhibitor
+BRD-A71816415	pravastatin	HMGCR inhibitor
+BRD-A11170096	pravastatin	HMGCR inhibitor
+BRD-K24616672	procaine	HMGCR inhibitor
+BRD-K82941592	rosuvastatin	HMGCR inhibitor
+BRD-K28026280	simvastatin	HMGCR inhibitor
+BRD-K22134346	simvastatin	HMGCR inhibitor
+BRD-A81772229	simvastatin	HMGCR inhibitor
+BRD-K13049116	bms-754807	IGF-1 inhibitor
+BRD-K86118762	linsitinib	IGF-1 inhibitor
+BRD-K07667918	linsitinib	IGF-1 inhibitor
+BRD-K08589866	linsitinib	IGF-1 inhibitor
+BRD-K62196610	avn-944	IMPDH inhibitor
+BRD-K09372874	merimepodib	IMPDH inhibitor
+BRD-A31521121	methocarbamol	Muscle relaxant
+BRD-K82236179	dicoumarol	NADPH inhibitor
+BRD-K66538826	amuvatinib	PDGFR inhibitor
+BRD-K29905972	axitinib	PDGFR inhibitor
+BRD-K22127577	crenolanib	PDGFR inhibitor
+BRD-K49328571	dasatinib	PDGFR inhibitor
+BRD-K85402309	dovitinib	PDGFR inhibitor
+BRD-K92723993	imatinib	PDGFR inhibitor
+BRD-K78692225	leflunomide	PDGFR inhibitor
+BRD-K39974922	lenvatinib	PDGFR inhibitor
+BRD-K99749624	linifanib	PDGFR inhibitor
+BRD-K71035033	masitinib	PDGFR inhibitor
+BRD-K99616396	motesanib	PDGFR inhibitor
+BRD-K49075727	nintedanib	PDGFR inhibitor
+BRD-K55966568	orantinib	PDGFR inhibitor
+BRD-K91696562	orantinib	PDGFR inhibitor
+BRD-K74514084	pazopanib	PDGFR inhibitor
+BRD-K44227013	ponatinib	PDGFR inhibitor
+BRD-K16730910	regorafenib	PDGFR inhibitor
+BRD-K23984367	sorafenib	PDGFR inhibitor
+BRD-K49810818	sorafenib	PDGFR inhibitor
+BRD-M64432851	sunitinib	PDGFR inhibitor
+BRD-K89162000	tandutinib	PDGFR inhibitor
+BRD-K84564571	telatinib	PDGFR inhibitor
+BRD-K95763993	trapidil	PDGFR inhibitor
+BRD-K70163715	vatalanib	PDGFR inhibitor
+BRD-K66538826	amuvatinib	RAD51 inhibitor
+BRD-K30020243	aliskiren	Renin inhibitor
+BRD-K81694556	vtp-27999	Renin inhibitor
+BRD-K08832567	naringenin	TRPV antagonist
+BRD-A94669766	naringenin	TRPV antagonist
+BRD-K65991129	sb-705498	TRPV antagonist
+BRD-K29905972	axitinib	VEGFR inhibitor
+BRD-K28428262	brivanib	VEGFR inhibitor
+BRD-A21584801	brivanib	VEGFR inhibitor
+BRD-K51544265	cabozantinib	VEGFR inhibitor
+BRD-K86930074	cediranib	VEGFR inhibitor
+BRD-K85402309	dovitinib	VEGFR inhibitor
+BRD-K03449891	foretinib	VEGFR inhibitor
+BRD-K69001009	golvatinib	VEGFR inhibitor
+BRD-K39974922	lenvatinib	VEGFR inhibitor
+BRD-K99749624	linifanib	VEGFR inhibitor
+BRD-K31309378	lucitanib	VEGFR inhibitor
+BRD-K99616396	motesanib	VEGFR inhibitor
+BRD-K49075727	nintedanib	VEGFR inhibitor
+BRD-K55966568	orantinib	VEGFR inhibitor
+BRD-K91696562	orantinib	VEGFR inhibitor
+BRD-K25340465	osi-930	VEGFR inhibitor
+BRD-K74514084	pazopanib	VEGFR inhibitor
+BRD-K76694128	rebastinib	VEGFR inhibitor
+BRD-K16730910	regorafenib	VEGFR inhibitor
+BRD-K63504947	semaxanib	VEGFR inhibitor
+BRD-K23984367	sorafenib	VEGFR inhibitor
+BRD-K49810818	sorafenib	VEGFR inhibitor
+BRD-M64432851	sunitinib	VEGFR inhibitor
+BRD-K84564571	telatinib	VEGFR inhibitor
+BRD-K12735121	tg-100801	VEGFR inhibitor
+BRD-K53414658	tivozanib	VEGFR inhibitor
+BRD-K77625799	vandetanib	VEGFR inhibitor
+BRD-K70163715	vatalanib	VEGFR inhibitor
+BRD-A56892734	esomeprazole	ATPase inhibitor
+BRD-K08486545	cymarin	ATPase inhibitor
+BRD-A71459254	cymarin	ATPase inhibitor
+BRD-K59873006	digitoxin	ATPase inhibitor
+BRD-A93236127	digitoxin	ATPase inhibitor
+BRD-K23478508	digoxin	ATPase inhibitor
+BRD-K40476324	digoxin	ATPase inhibitor
+BRD-A75144621	digoxin	ATPase inhibitor
+BRD-A94756469	digoxin	ATPase inhibitor
+BRD-A55962179	omeprazole	ATPase inhibitor
+BRD-K95412502	istaroxime	ATPase inhibitor
+BRD-A49172652	lansoprazole	ATPase inhibitor
+BRD-K33277808	ouabain	ATPase inhibitor
+BRD-K35708212	ouabain	ATPase inhibitor
+BRD-A68930007	ouabain	ATPase inhibitor
+BRD-A46747628	ouabain	ATPase inhibitor
+BRD-A22380646	pantoprazole	ATPase inhibitor
+BRD-A34806832	proscillaridin	ATPase inhibitor
+BRD-A39390670	rabeprazole	ATPase inhibitor
+BRD-K77390737	xanthohumol	ATPase inhibitor
+BRD-K49328571	dasatinib	Ephrin inhibitor
+BRD-K63343048	orlistat	Lipase inhibitor
+BRD-K91699951	benzonatate	Local anesthetic
+BRD-A53952395	prilocaine	Local anesthetic
+BRD-K63126190	epinephrine	Neurotransmitter
+BRD-K14653796	tasquinimod	S100A9 inhibitor
+BRD-K05926469	lenalidomide	Anti-cancer agent
+BRD-A17883755	lenalidomide	Anti-cancer agent
+BRD-A58955223	sulforaphane	Anti-cancer agent
+BRD-K92991072	pac-1	Caspase activator
+BRD-K50841342	pac-1	Caspase activator
+BRD-K26712974	vx-765	Caspase inhibitor
+BRD-K87718015	dynasore	Dynamin inhibitor
+BRD-A39390670	rabeprazole	Gastrin inhibitor
+BRD-K88025533	fingolimod	Immunosuppressant
+BRD-A59001851	ginkgolide-b	Immunosuppressant
+BRD-A82395837	ginkgolide-b	Immunosuppressant
+BRD-K37379014	filanesib	Kinesin inhibitor
+BRD-K64881305	ispinesib	Kinesin inhibitor
+BRD-A78377521	monastrol	Kinesin inhibitor
+BRD-K08037784	arbutin	Melanin inhibitor
+BRD-K54262262	monobenzone	Melanin inhibitor
+BRD-K30634073	levallorphan	Opioid antagonist
+BRD-K49350383	tioguanine	Purine antagonist
+BRD-K13078532	hydrochlorothiazide	Thiazide diuretic
+BRD-A95869247	indapamide	Thiazide diuretic
+BRD-A59303141	quinethazone	Thiazide diuretic
+BRD-K42125900	docetaxel	Tubulin inhibitor
+BRD-K63265447	docetaxel	Tubulin inhibitor
+BRD-A05821830	docetaxel	Tubulin inhibitor
+BRD-K30618791	docetaxel	Tubulin inhibitor
+BRD-K51318897	fenbendazole	Tubulin inhibitor
+BRD-K86003836	flubendazole	Tubulin inhibitor
+BRD-K91301684	noscapine	Tubulin inhibitor
+BRD-K66043364	noscapine	Tubulin inhibitor
+BRD-K89237706	noscapine	Tubulin inhibitor
+BRD-A51393488	noscapine	Tubulin inhibitor
+BRD-K52075715	oxibendazole	Tubulin inhibitor
+BRD-K86858124	paclitaxel	Tubulin inhibitor
+BRD-A63610676	paclitaxel	Tubulin inhibitor
+BRD-A28746609	paclitaxel	Tubulin inhibitor
+BRD-A23723433	paclitaxel	Tubulin inhibitor
+BRD-K01188359	vinblastine	Tubulin inhibitor
+BRD-K12515392	vinblastine	Tubulin inhibitor
+BRD-A55594068	vinblastine	Tubulin inhibitor
+BRD-A85648045	vinblastine	Tubulin inhibitor
+BRD-A22783572	vinblastine	Tubulin inhibitor
+BRD-K82109576	vincristine	Tubulin inhibitor
+BRD-K74793820	vincristine	Tubulin inhibitor
+BRD-K49229349	vincristine	Tubulin inhibitor
+BRD-A60414806	vincristine	Tubulin inhibitor
+BRD-A76528577	vincristine	Tubulin inhibitor
+BRD-M30523314	vinorelbine	Tubulin inhibitor
+BRD-K10916986	vinorelbine	Tubulin inhibitor
+BRD-K69280563	vinorelbine	Tubulin inhibitor
+BRD-K97514127	vinorelbine	Tubulin inhibitor
+BRD-K62008436	paclitaxel	Tubulin inhibitor
+BRD-K87156652	carbimazole	Anti-thyroid agent
+BRD-K54416256	methimazole	Anti-thyroid agent
+BRD-K03095347	levosimendan	Calcium sensitizer
+BRD-A84575140	pimobendan	Calcium sensitizer
+BRD-K34730807	levodopa	Dopamine precursor
+BRD-K15916496	clotrimazole	Imidazoline ligand
+BRD-A00147595	balaglitazone	Insulin sensitizer
+BRD-K52618540	inositol	Insulin sensitizer
+BRD-A48430263	pioglitazone	Insulin sensitizer
+BRD-A97437073	rosiglitazone	Insulin sensitizer
+BRD-K15507868	tesaglitazar	Insulin sensitizer
+BRD-A13084692	troglitazone	Insulin sensitizer
+BRD-K00521308	atn-161	Integrin inhibitor
+BRD-K57252450	cilengitide	Integrin inhibitor
+BRD-K17513304	firategrast	Integrin inhibitor
+BRD-K26657438	imiquimod	Interferon inducer
+BRD-K74065929	doramapimod	P38 MAPK inhibitor
+BRD-K56195681	losmapimod	P38 MAPK inhibitor
+BRD-K95880107	ph-797804	P38 MAPK inhibitor
+BRD-K52751261	tak-715	P38 MAPK inhibitor
+BRD-K17555800	talmapimod	P38 MAPK inhibitor
+BRD-K07736136	vx-702	P38 MAPK inhibitor
+BRD-K30020243	aliskiren	Protease inhibitor
+BRD-A59001851	ginkgolide-b	Protease inhibitor
+BRD-A82395837	ginkgolide-b	Protease inhibitor
+BRD-A10012892	argatroban	Thrombin inhibitor
+BRD-A48261811	argatroban	Thrombin inhibitor
+BRD-K38168441	dabigatran	Thrombin inhibitor
+BRD-K73504359	bivalirudin	Thrombin inhibitor
+BRD-K75024268	lesinurad	Uric acid diuretic
+BRD-K95237249	probenecid	Uricosuric blocker
+BRD-A36217750	sulfinpyrazone	Uricosuric blocker
+BRD-K97746869	chlorpropamide	ATP channel blocker
+BRD-K36927236	glyburide	ATP channel blocker
+BRD-A61154809	gliclazide	ATP channel blocker
+BRD-K85119730	tolbutamide	ATP channel blocker
+BRD-A99117172	hydroxychloroquine	Anti-malarial agent
+BRD-K10670311	sulfasalazine	Anti-rheumatic drug
+BRD-K89085489	fenretinide	Apoptosis stimulant
+BRD-K28168037	fenretinide	Apoptosis stimulant
+BRD-K52172416	anastrozole	Aromatase inhibitor
+BRD-K93923542	exemestane	Aromatase inhibitor
+BRD-A73741725	exemestane	Aromatase inhibitor
+BRD-K33425534	exemestane	Aromatase inhibitor
+BRD-A25619068	fadrozole	Aromatase inhibitor
+BRD-A42153648	formestane	Aromatase inhibitor
+BRD-A26503646	formestane	Aromatase inhibitor
+BRD-A31801025	formestane	Aromatase inhibitor
+BRD-K88789588	letrozole	Aromatase inhibitor
+BRD-K08832567	naringenin	Aromatase inhibitor
+BRD-A94669766	naringenin	Aromatase inhibitor
+BRD-K27204852	balicatib	Cathepsin inhibitor
+BRD-K22822991	odanacatib	Cathepsin inhibitor
+BRD-K21283037	riluzole	Glutamate inhibitor
+BRD-K84639753	safinamide	Glutamate inhibitor
+BRD-K92613113	safinamide	Glutamate inhibitor
+BRD-K30020243	aliskiren	Peptidase inhibitor
+BRD-A59001851	ginkgolide-b	Peptidase inhibitor
+BRD-A82395837	ginkgolide-b	Peptidase inhibitor
+BRD-K92241597	tosedostat	Peptidase inhibitor
+BRD-A09349126	norethisterone	Progestogen hormone
+BRD-K14619660	altrenogest	Progestogen hormone
+BRD-A27554692	altrenogest	Progestogen hormone
+BRD-K24559712	norethisterone	Progestogen hormone
+BRD-K96037667	norethisterone	Progestogen hormone
+BRD-K83229621	norethynodrel	Progestogen hormone
+BRD-A00758722	norethynodrel	Progestogen hormone
+BRD-K80334323	norethynodrel	Progestogen hormone
+BRD-K81672972	dinoprost	Prostacyclin analog
+BRD-M90449146	dinoprost	Prostacyclin analog
+BRD-A67438293	treprostinil	Prostacyclin analog
+BRD-K14177560	etynodiol	Steroidal progestin
+BRD-K40738845	bms-777607	AXL kinase inhibitor
+BRD-K99964838	bosutinib	Abl kinase inhibitor
+BRD-K49328571	dasatinib	Abl kinase inhibitor
+BRD-K68870568	flumatinib	Abl kinase inhibitor
+BRD-K92723993	imatinib	Abl kinase inhibitor
+BRD-K81528515	nilotinib	Abl kinase inhibitor
+BRD-K44227013	ponatinib	Abl kinase inhibitor
+BRD-K76694128	rebastinib	Abl kinase inhibitor
+BRD-A14262390	guanadrel	Adrenergic inhibitor
+BRD-M34926192	guanadrel	Adrenergic inhibitor
+BRD-K90789829	nefazodone	Adrenergic inhibitor
+BRD-A51714012	venlafaxine	Adrenergic inhibitor
+BRD-K62363391	dapsone	Bacterial antifolate
+BRD-K94830329	ataluren	CFTR channel agonist
+BRD-K53597484	tnp-470	Cell cycle inhibitor
+BRD-K13390322	at-7519	Cell cycle inhibitor
+BRD-K55187425	rigosertib	Cell cycle inhibitor
+BRD-K36234266	carmustine	DNA alkylating agent
+BRD-K01228321	cisplatin	DNA alkylating agent
+BRD-A09722536	cyclophosphamide	DNA alkylating agent
+BRD-A67097164	ifosfamide	DNA alkylating agent
+BRD-K32107296	temozolomide	DNA alkylating agent
+BRD-K94830329	ataluren	Dystrophin stimulant
+BRD-K36927236	glyburide	Insulin secretagogue
+BRD-A61154809	gliclazide	Insulin secretagogue
+BRD-K34776109	glimepiride	Insulin secretagogue
+BRD-K42693031	glimepiride	Insulin secretagogue
+BRD-K52959329	mitiglinide	Insulin secretagogue
+BRD-K84658672	nateglinide	Insulin secretagogue
+BRD-K44353683	nateglinide	Insulin secretagogue
+BRD-K82846253	repaglinide	Insulin secretagogue
+BRD-K49865102	mirdametinib	MAP kinase inhibitor
+BRD-A50454580	mirdametinib	MAP kinase inhibitor
+BRD-K62810658	pd-98059	MAP kinase inhibitor
+BRD-K40738845	bms-777607	Macrophage inhibitor
+BRD-K91456750	sacubitril	Neprilysin inhibitor
+BRD-K05185389	risedronic acid	Osteoclast inhibitor
+BRD-K43187018	gdc-0349	Pim kinase inhibitor
+BRD-K80700417	sgi-1776	Pim kinase inhibitor
+BRD-K50691590	bortezomib	Proteasome inhibitor
+BRD-K88510285	bortezomib	Proteasome inhibitor
+BRD-K15179879	carfilzomib	Proteasome inhibitor
+BRD-A65051990	acenocoumarol	Vitamin K antagonist
+BRD-K70592963	phenindione	Vitamin K antagonist
+BRD-A49838158	phenprocoumon	Vitamin K antagonist
+BRD-K25991148	warfarin	Vitamin K antagonist
+BRD-A24514565	warfarin	Vitamin K antagonist
+BRD-A22897758	pinacidil	ATP channel activator
+BRD-A43882281	pinacidil	ATP channel activator
+BRD-A58207013	pinacidil	ATP channel activator
+BRD-A31204924	mitotane	Anti-neoplastic agent
+BRD-K97729603	pimecrolimus	Calcineurin inhibitor
+BRD-K44094599	tacrolimus	Calcineurin inhibitor
+BRD-K69608737	tacrolimus	Calcineurin inhibitor
+BRD-K08845546	tacrolimus	Calcineurin inhibitor
+BRD-K65261396	tacrolimus	Calcineurin inhibitor
+BRD-A96754982	tacrolimus	Calcineurin inhibitor
+BRD-K66911501	mk-3207	Calcitonin antagonist
+BRD-K91159026	telcagepant	Calcitonin antagonist
+BRD-K14993104	bemegride	Chemoreceptor agonist
+BRD-K42260897	ezetimibe	Cholesterol inhibitor
+BRD-A41519720	ezetimibe	Cholesterol inhibitor
+BRD-K45275534	betrixaban	Coagulation inhibitor
+BRD-K41445866	alfaxalone	GABA receptor agonist
+BRD-K37439386	alfaxalone	GABA receptor agonist
+BRD-A84174873	baclofen	GABA receptor agonist
+BRD-K29220403	eszopiclone	GABA receptor agonist
+BRD-K89104321	gaboxadol	GABA receptor agonist
+BRD-K90948141	indiplon	GABA receptor agonist
+BRD-K65678996	nefiracetam	GABA receptor agonist
+BRD-K82255054	propofol	GABA receptor agonist
+BRD-A93093700	temazepam	GABA receptor agonist
+BRD-A34309505	zopiclone	GABA receptor agonist
+BRD-A72441487	stiripentol	GABA uptake inhibitor
+BRD-K60160658	tiagabine	GABA uptake inhibitor
+BRD-K01621533	acarbose	Glucosidase inhibitor
+BRD-K44276885	acarbose	Glucosidase inhibitor
+BRD-A16444946	acarbose	Glucosidase inhibitor
+BRD-K20897876	castanospermine	Glucosidase inhibitor
+BRD-A63310107	miglitol	Glucosidase inhibitor
+BRD-K44779798	miglitol	Glucosidase inhibitor
+BRD-K14536225	polydatin	Glucosidase inhibitor
+BRD-K59331299	voglibose	Glucosidase inhibitor
+BRD-K69122748	diacerein	Interleukin inhibitor
+BRD-K59574735	ubenimex	Leukotriene inhibitor
+BRD-A56359832	zileuton	Leukotriene inhibitor
+BRD-K00259736	colchicine	Microtubule inhibitor
+BRD-A46684810	colchicine	Microtubule inhibitor
+BRD-K81916719	triclabendazole	Microtubule inhibitor
+BRD-K01188359	vinblastine	Microtubule inhibitor
+BRD-K12515392	vinblastine	Microtubule inhibitor
+BRD-A55594068	vinblastine	Microtubule inhibitor
+BRD-A85648045	vinblastine	Microtubule inhibitor
+BRD-A22783572	vinblastine	Microtubule inhibitor
+BRD-K46018455	bezafibrate	PPAR receptor agonist
+BRD-A93000692	ciglitazone	PPAR receptor agonist
+BRD-A49358627	ciprofibrate	PPAR receptor agonist
+BRD-K45252063	clofibrate	PPAR receptor agonist
+BRD-A24560335	efatutazone	PPAR receptor agonist
+BRD-K24656285	farnesol	PPAR receptor agonist
+BRD-K50388907	fenofibrate	PPAR receptor agonist
+BRD-K66956375	oleic monoethanolamide	PPAR receptor agonist
+BRD-A48430263	pioglitazone	PPAR receptor agonist
+BRD-A97437073	rosiglitazone	PPAR receptor agonist
+BRD-K15507868	tesaglitazar	PPAR receptor agonist
+BRD-A13084692	troglitazone	PPAR receptor agonist
+BRD-K17306061	aprepitant	Tachykinin antagonist
+BRD-K52827117	aprepitant	Tachykinin antagonist
+BRD-K65170927	aprepitant	Tachykinin antagonist
+BRD-K97428065	netupitant	Tachykinin antagonist
+BRD-K47095176	talnetant	Tachykinin antagonist
+BRD-A56592690	px-12	Thioredoxin inhibitor
+BRD-K54256913	mk-1775	WEE1 kinase inhibitor
+BRD-K21955335	carbenoxolone	11-beta-HSD1 inhibitor
+BRD-K12765235	carbenoxolone	11-beta-HSD1 inhibitor
+BRD-A25216804	carbenoxolone	11-beta-HSD1 inhibitor
+BRD-A98702003	carbenoxolone	11-beta-HSD1 inhibitor
+BRD-K43723251	chenodeoxycholic acid	11-beta-HSD1 inhibitor
+BRD-K58685305	emodin	11-beta-HSD1 inhibitor
+BRD-A12994259	pomalidomide	Angiogenesis inhibitor
+BRD-K14653796	tasquinimod	Angiogenesis inhibitor
+BRD-K46580984	phenserine	Beta amyloid inhibitor
+BRD-K82234479	tramiprosate	Beta amyloid inhibitor
+BRD-K80535353	enoxolone	Gap junction modulator
+BRD-K31385749	ivabradine	HCN channel antagonist
+BRD-K84986517	darunavir	HIV protease inhibitor
+BRD-K40758068	efavirenz	HIV protease inhibitor
+BRD-K33226500	indinavir	HIV protease inhibitor
+BRD-K60460488	nelfinavir	HIV protease inhibitor
+BRD-K74117820	nelfinavir	HIV protease inhibitor
+BRD-K51485625	ritonavir	HIV protease inhibitor
+BRD-A03323675	ritonavir	HIV protease inhibitor
+BRD-K14796088	berberine	LDL receptor activator
+BRD-K07572174	curcumin	Lipoxygenase inhibitor
+BRD-K74148702	curcumin	Lipoxygenase inhibitor
+BRD-K69690935	curcumin	Lipoxygenase inhibitor
+BRD-K45542189	diethylcarbamazine	Lipoxygenase inhibitor
+BRD-A80775386	hyperforin	Lipoxygenase inhibitor
+BRD-A87130939	masoprocol	Lipoxygenase inhibitor
+BRD-K28849549	mesalazine	Lipoxygenase inhibitor
+BRD-A56359832	zileuton	Lipoxygenase inhibitor
+BRD-K01039503	sofalcone	Mucus protecting agent
+BRD-K36467523	bindarit	NFKB pathway inhibitor
+BRD-K50691590	bortezomib	NFKB pathway inhibitor
+BRD-K88510285	bortezomib	NFKB pathway inhibitor
+BRD-K07572174	curcumin	NFKB pathway inhibitor
+BRD-K74148702	curcumin	NFKB pathway inhibitor
+BRD-K69690935	curcumin	NFKB pathway inhibitor
+BRD-K63550407	erythromycin	NFKB pathway inhibitor
+BRD-A44827100	erythromycin	NFKB pathway inhibitor
+BRD-K15426076	iguratimod	NFKB pathway inhibitor
+BRD-A45889380	quinacrine	NFKB pathway inhibitor
+BRD-K48892307	salsalate	NFKB pathway inhibitor
+BRD-K10670311	sulfasalazine	NFKB pathway inhibitor
+BRD-K24656285	farnesol	NFkB pathway activator
+BRD-K20482099	rutin	Nitric oxide scavenger
+BRD-A76747559	rutin	Nitric oxide scavenger
+BRD-A34907681	rutin	Nitric oxide scavenger
+BRD-A67605442	sapropterin	Nitric oxide stimulant
+BRD-M61246020	fenoprofen	Prostagladin inhibitor
+BRD-A81129465	fenoprofen	Prostagladin inhibitor
+BRD-K90777969	cutamesine	Sigma receptor agonist
+BRD-K56558538	ambroxol	Sodium channel blocker
+BRD-K97181089	amiloride	Sodium channel blocker
+BRD-K72723676	benzethonium	Sodium channel blocker
+BRD-K99121711	cinchocaine	Sodium channel blocker
+BRD-A29734509	disopyramide	Sodium channel blocker
+BRD-A09472452	flecainide	Sodium channel blocker
+BRD-A97730597	hexylcaine	Sodium channel blocker
+BRD-K31385749	ivabradine	Sodium channel blocker
+BRD-K68232650	lacosamide	Sodium channel blocker
+BRD-K93460210	lamotrigine	Sodium channel blocker
+BRD-A64092382	mexiletine	Sodium channel blocker
+BRD-K21548250	moricizine	Sodium channel blocker
+BRD-K04196797	oxcarbazepine	Sodium channel blocker
+BRD-K40905133	phenacemide	Sodium channel blocker
+BRD-K75089421	procainamide	Sodium channel blocker
+BRD-K59632282	quinidine	Sodium channel blocker
+BRD-K70799801	quinidine	Sodium channel blocker
+BRD-A64479082	quinidine	Sodium channel blocker
+BRD-A97674275	ranolazine	Sodium channel blocker
+BRD-A92670106	tocainide	Sodium channel blocker
+BRD-K92049597	triamterene	Sodium channel blocker
+BRD-K07390541	vinpocetine	Sodium channel blocker
+BRD-K53318339	vinpocetine	Sodium channel blocker
+BRD-A19374631	vinpocetine	Sodium channel blocker
+BRD-A28095882	zonisamide	Sodium channel blocker
+BRD-K48300629	zonisamide	Sodium channel blocker
+BRD-K30020243	aliskiren	Anti-hypertensive agent
+BRD-K72029282	probucol	Atherogenesis inhibitor
+BRD-K75295174	alisertib	Aurora kinase inhibitor
+BRD-K31928526	barasertib	Aurora kinase inhibitor
+BRD-K07881437	danusertib	Aurora kinase inhibitor
+BRD-K31836715	fisetin	Aurora kinase inhibitor
+BRD-K53665955	mk-5108	Aurora kinase inhibitor
+BRD-K77286328	reversine	Aurora kinase inhibitor
+BRD-K71512533	sns-314	Aurora kinase inhibitor
+BRD-K07609981	dexloxiglumide	CCK receptor antagonist
+BRD-A04352665	maraviroc	CCK receptor antagonist
+BRD-K14175878	mk-0812	CCK receptor antagonist
+BRD-K82850175	navarixin	CCK receptor antagonist
+BRD-K33240821	plerixafor	CCK receptor antagonist
+BRD-A44863528	proglumide	CCK receptor antagonist
+BRD-K58486055	reparixin	CCK receptor antagonist
+BRD-M72442222	vicriviroc	CCK receptor antagonist
+BRD-K84748119	vicriviroc	CCK receptor antagonist
+BRD-K07220430	cinnarizine	Calcium channel blocker
+BRD-A64297288	amlodipine	Calcium channel blocker
+BRD-A22032524	amlodipine	Calcium channel blocker
+BRD-A35519318	benidipine	Calcium channel blocker
+BRD-K19462402	buflomedil	Calcium channel blocker
+BRD-A07875874	cilnidipine	Calcium channel blocker
+BRD-A02743701	cilnidipine	Calcium channel blocker
+BRD-K74927006	cinnarizine	Calcium channel blocker
+BRD-K81272440	dantrolene	Calcium channel blocker
+BRD-K31333309	dantrolene	Calcium channel blocker
+BRD-K24023109	diltiazem	Calcium channel blocker
+BRD-K81029756	diltiazem	Calcium channel blocker
+BRD-A69636825	diltiazem	Calcium channel blocker
+BRD-A30815329	felodipine	Calcium channel blocker
+BRD-K29582677	flunarizine	Calcium channel blocker
+BRD-K12184470	flunarizine	Calcium channel blocker
+BRD-K62737565	gabapentin	Calcium channel blocker
+BRD-A90799790	isradipine	Calcium channel blocker
+BRD-A69927616	isradipine	Calcium channel blocker
+BRD-K43586850	lacidipine	Calcium channel blocker
+BRD-K05851096	lacidipine	Calcium channel blocker
+BRD-A52282606	lacidipine	Calcium channel blocker
+BRD-K49404994	levetiracetam	Calcium channel blocker
+BRD-A90695733	manidipine	Calcium channel blocker
+BRD-A63445921	nicardipine	Calcium channel blocker
+BRD-A26711594	nicardipine	Calcium channel blocker
+BRD-K96354014	nifedipine	Calcium channel blocker
+BRD-A30977374	nifedipine	Calcium channel blocker
+BRD-A43331270	niguldipine	Calcium channel blocker
+BRD-A62336480	niguldipine	Calcium channel blocker
+BRD-A84687895	nilvadipine	Calcium channel blocker
+BRD-A58048407	nimodipine	Calcium channel blocker
+BRD-A24891640	nimodipine	Calcium channel blocker
+BRD-A84465106	nisoldipine	Calcium channel blocker
+BRD-A96107863	nisoldipine	Calcium channel blocker
+BRD-A02006392	nitrendipine	Calcium channel blocker
+BRD-A12560204	nitrendipine	Calcium channel blocker
+BRD-A09533288	verapamil	Calcium channel blocker
+BRD-K32256916	cinnarizine	Calcium channel blocker
+BRD-K45770447	artemisinin	DNA synthesis inhibitor
+BRD-K13112821	artemisinin	DNA synthesis inhibitor
+BRD-K15574380	capecitabine	DNA synthesis inhibitor
+BRD-K61192372	capecitabine	DNA synthesis inhibitor
+BRD-A91877226	capecitabine	DNA synthesis inhibitor
+BRD-K01228321	cisplatin	DNA synthesis inhibitor
+BRD-K66788707	fludarabine	DNA synthesis inhibitor
+BRD-A31374339	fludarabine	DNA synthesis inhibitor
+BRD-K72238567	fludarabine	DNA synthesis inhibitor
+BRD-K63430059	methoxsalen	DNA synthesis inhibitor
+BRD-K70327167	suramin	DNA synthesis inhibitor
+BRD-K32821942	azathioprine	Dehydrogenase inhibitor
+BRD-A08187463	racecadotril	Enkephalinase inhibitor
+BRD-K37865504	ly-2183240	FAAH reuptake inhibitor
+BRD-K55055802	etomidate	GABA receptor modulator
+BRD-A20348246	chlormezanone	GABA receptor modulator
+BRD-K50422030	clomethiazole	GABA receptor modulator
+BRD-A54880345	etomidate	GABA receptor modulator
+BRD-K88143662	metharbital	GABA receptor modulator
+BRD-A44448661	pentobarbital	GABA receptor modulator
+BRD-K36386086	dolutegravir	HIV integrase inhibitor
+BRD-A30205217	ethotoin	Hydantoin antiepileptic
+BRD-A83937277	mephenytoin	Hydantoin antiepileptic
+BRD-K55930204	phenytoin	Hydantoin antiepileptic
+BRD-K64990520	apocynin	NADPH oxidase inhibitor
+BRD-K48141473	cebranopadol	Opioid receptor agonist
+BRD-K41903098	diphenoxylate	Opioid receptor agonist
+BRD-K61250553	loperamide	Opioid receptor agonist
+BRD-K76812510	metamizole	Opioid receptor agonist
+BRD-K66404838	nalbuphine	Opioid receptor agonist
+BRD-A92651262	nalbuphine	Opioid receptor agonist
+BRD-A16934955	nalbuphine	Opioid receptor agonist
+BRD-K28192623	spiradoline	Opioid receptor agonist
+BRD-K25699529	tapentadol	Opioid receptor agonist
+BRD-K51033547	tramadol	Opioid receptor agonist
+BRD-K04412738	tramadol	Opioid receptor agonist
+BRD-A92630576	trimebutine	Opioid receptor agonist
+BRD-K95391106	prednicarbate	Phospholipase activator
+BRD-K46137903	prednicarbate	Phospholipase activator
+BRD-K19085898	darapladib	Phospholipase inhibitor
+BRD-K39983086	loteprednol	Phospholipase inhibitor
+BRD-A73556557	tagatose	Phosphorylase inhibitor
+BRD-K24844714	fluorouracil	RNA synthesis inhibitor
+BRD-K91966436	daunorubicin	RNA synthesis inhibitor
+BRD-K17210248	daunorubicin	RNA synthesis inhibitor
+BRD-K43389675	daunorubicin	RNA synthesis inhibitor
+BRD-A68009927	daunorubicin	RNA synthesis inhibitor
+BRD-A37630846	daunorubicin	RNA synthesis inhibitor
+BRD-A62879835	rifaximin	RNA synthesis inhibitor
+BRD-K89708791	rifaximin	RNA synthesis inhibitor
+BRD-K56334280	amonafide	Topoisomerase inhibitor
+BRD-K98490050	amsacrine	Topoisomerase inhibitor
+BRD-K68346641	amsacrine	Topoisomerase inhibitor
+BRD-K37890730	camptothecin	Topoisomerase inhibitor
+BRD-A30437061	camptothecin	Topoisomerase inhibitor
+BRD-K91966436	daunorubicin	Topoisomerase inhibitor
+BRD-K17210248	daunorubicin	Topoisomerase inhibitor
+BRD-K43389675	daunorubicin	Topoisomerase inhibitor
+BRD-A68009927	daunorubicin	Topoisomerase inhibitor
+BRD-A37630846	daunorubicin	Topoisomerase inhibitor
+BRD-K61468417	doxorubicin	Topoisomerase inhibitor
+BRD-K92093830	doxorubicin	Topoisomerase inhibitor
+BRD-A52530684	doxorubicin	Topoisomerase inhibitor
+BRD-A76941896	doxorubicin	Topoisomerase inhibitor
+BRD-K85985071	ellipticine	Topoisomerase inhibitor
+BRD-K56844688	epirubicin	Topoisomerase inhibitor
+BRD-A56518012	epirubicin	Topoisomerase inhibitor
+BRD-K37798499	etoposide	Topoisomerase inhibitor
+BRD-A33280134	etoposide	Topoisomerase inhibitor
+BRD-K46503544	etoposide	Topoisomerase inhibitor
+BRD-A79067928	etoposide	Topoisomerase inhibitor
+BRD-A18419789	etoposide	Topoisomerase inhibitor
+BRD-A02579693	etoposide	Topoisomerase inhibitor
+BRD-K69650333	idarubicin	Topoisomerase inhibitor
+BRD-A71390734	idarubicin	Topoisomerase inhibitor
+BRD-K08547377	irinotecan	Topoisomerase inhibitor
+BRD-K21680192	mitoxantrone	Topoisomerase inhibitor
+BRD-K83794624	pirarubicin	Topoisomerase inhibitor
+BRD-A35588707	teniposide	Topoisomerase inhibitor
+BRD-K55696337	topotecan	Topoisomerase inhibitor
+BRD-A59985574	topotecan	Topoisomerase inhibitor
+BRD-K72951360	valrubicin	Topoisomerase inhibitor
+BRD-K23677682	vosaroxin	Topoisomerase inhibitor
+BRD-K31965398	aclarubicin	Topoisomerase inhibitor
+BRD-K52818472	ivacaftor	CFTR channel potentiator
+BRD-K41445866	alfaxalone	Chloride channel agonist
+BRD-K37439386	alfaxalone	Chloride channel agonist
+BRD-K11292736	ambenonium	Cholinesterase inhibitor
+BRD-K25650355	physostigmine	Cholinesterase inhibitor
+BRD-A37052580	physostigmine	Cholinesterase inhibitor
+BRD-K57222227	indomethacin	Cyclooxygenase inhibitor
+BRD-K67563174	acemetacin	Cyclooxygenase inhibitor
+BRD-A39172021	ampiroxicam	Cyclooxygenase inhibitor
+BRD-K11433652	acetylsalicylic acid	Cyclooxygenase inhibitor
+BRD-A70182876	azapropazone	Cyclooxygenase inhibitor
+BRD-K41410256	balsalazide	Cyclooxygenase inhibitor
+BRD-K47679368	bromfenac	Cyclooxygenase inhibitor
+BRD-A17411484	carprofen	Cyclooxygenase inhibitor
+BRD-K02637541	celecoxib	Cyclooxygenase inhibitor
+BRD-K07572174	curcumin	Cyclooxygenase inhibitor
+BRD-K74148702	curcumin	Cyclooxygenase inhibitor
+BRD-K69690935	curcumin	Cyclooxygenase inhibitor
+BRD-K68558722	deracoxib	Cyclooxygenase inhibitor
+BRD-K43764301	dexketoprofen	Cyclooxygenase inhibitor
+BRD-K08252256	diclofenac	Cyclooxygenase inhibitor
+BRD-K39339537	epirizole	Cyclooxygenase inhibitor
+BRD-A16998493	etodolac	Cyclooxygenase inhibitor
+BRD-K99260425	etodolac	Cyclooxygenase inhibitor
+BRD-A74667430	etodolac	Cyclooxygenase inhibitor
+BRD-K73541271	etofenamate	Cyclooxygenase inhibitor
+BRD-K54770957	etoricoxib	Cyclooxygenase inhibitor
+BRD-K12513978	fenbufen	Cyclooxygenase inhibitor
+BRD-K16077845	fentiazac	Cyclooxygenase inhibitor
+BRD-A80775386	hyperforin	Cyclooxygenase inhibitor
+BRD-A17655518	ibuprofen	Cyclooxygenase inhibitor
+BRD-K15426076	iguratimod	Cyclooxygenase inhibitor
+BRD-A16296925	indobufen	Cyclooxygenase inhibitor
+BRD-A44090213	indoprofen	Cyclooxygenase inhibitor
+BRD-K87202646	isoniazid	Cyclooxygenase inhibitor
+BRD-A75552914	isoxicam	Cyclooxygenase inhibitor
+BRD-A97739905	ketoprofen	Cyclooxygenase inhibitor
+BRD-A40639672	ketorolac	Cyclooxygenase inhibitor
+BRD-A90551241	lornoxicam	Cyclooxygenase inhibitor
+BRD-K26901728	lumiracoxib	Cyclooxygenase inhibitor
+BRD-A84174393	meloxicam	Cyclooxygenase inhibitor
+BRD-K28849549	mesalazine	Cyclooxygenase inhibitor
+BRD-K76812510	metamizole	Cyclooxygenase inhibitor
+BRD-K65146499	nabumetone	Cyclooxygenase inhibitor
+BRD-K33299843	naproxen	Cyclooxygenase inhibitor
+BRD-K59197931	naproxen	Cyclooxygenase inhibitor
+BRD-A87719232	naproxen	Cyclooxygenase inhibitor
+BRD-K04112579	nepafenac	Cyclooxygenase inhibitor
+BRD-K76775527	nimesulide	Cyclooxygenase inhibitor
+BRD-K25394294	oxaprozin	Cyclooxygenase inhibitor
+BRD-K41524689	acetaminophen	Cyclooxygenase inhibitor
+BRD-K13800121	parecoxib	Cyclooxygenase inhibitor
+BRD-K38323065	phenacetin	Cyclooxygenase inhibitor
+BRD-K10843433	phenylbutazone	Cyclooxygenase inhibitor
+BRD-A57382968	piroxicam	Cyclooxygenase inhibitor
+BRD-K21733600	rofecoxib	Cyclooxygenase inhibitor
+BRD-A03427350	sulindac	Cyclooxygenase inhibitor
+BRD-A13946108	sulindac	Cyclooxygenase inhibitor
+BRD-K76525302	sulindac	Cyclooxygenase inhibitor
+BRD-A34006693	suprofen	Cyclooxygenase inhibitor
+BRD-A98378129	talniflumate	Cyclooxygenase inhibitor
+BRD-A22844106	tenoxicam	Cyclooxygenase inhibitor
+BRD-K82562631	tolmetin	Cyclooxygenase inhibitor
+BRD-K71696703	triflusal	Cyclooxygenase inhibitor
+BRD-K12994359	valdecoxib	Cyclooxygenase inhibitor
+BRD-A38076815	glafenine	DeltaF508-CFTR Corrector
+BRD-K71350836	butalbital	GABA receptor antagonist
+BRD-K50422030	clomethiazole	GABA receptor antagonist
+BRD-A59001851	ginkgolide-b	GABA receptor antagonist
+BRD-A82395837	ginkgolide-b	GABA receptor antagonist
+BRD-M47793593	picrotoxin	GABA receptor antagonist
+BRD-A15597386	picrotoxin	GABA receptor antagonist
+BRD-A37817666	picrotoxin	GABA receptor antagonist
+BRD-K32247306	primidone	GABA receptor antagonist
+BRD-K23248433	camicinal	Motilin receptor agonist
+BRD-K82677201	almitrine	Neurotransmitter agonist
+BRD-K53737926	amitriptyline	Norepinephrine inhibitor
+BRD-K20372197	droxidopa	Norepinephrine precursor
+BRD-K21547160	sufentanil	Opiod receptor modulator
+BRD-K82135108	elesclomol	Oxidative stress inducer
+BRD-A14941520	dofequidar	P-glycoprotein inhibitor
+BRD-K88807631	elacridar	P-glycoprotein inhibitor
+BRD-K09353376	tariquidar	P-glycoprotein inhibitor
+BRD-K19412342	valspodar	P-glycoprotein inhibitor
+BRD-K70557564	zosuquidar	P-glycoprotein inhibitor
+BRD-K49865102	mirdametinib	Protein kinase inhibitor
+BRD-A50454580	mirdametinib	Protein kinase inhibitor
+BRD-K01507359	rifampicin	RNA polymerase inhibitor
+BRD-K70578146	dactinomycin	RNA polymerase inhibitor
+BRD-A73909368	dactinomycin	RNA polymerase inhibitor
+BRD-A83892713	rifampicin	RNA polymerase inhibitor
+BRD-K99912150	rifampicin	RNA polymerase inhibitor
+BRD-K28346421	rifapentine	RNA polymerase inhibitor
+BRD-K55889443	rifapentine	RNA polymerase inhibitor
+BRD-K81601344	rifapentine	RNA polymerase inhibitor
+BRD-K22429181	vitamin a	Retinoid receptor ligand
+BRD-K13927029	vitamin a	Retinoid receptor ligand
+BRD-K71879491	tretinoin	Retinoid receptor ligand
+BRD-K06926592	tretinoin	Retinoid receptor ligand
+BRD-K64634304	tretinoin	Retinoid receptor ligand
+BRD-A93255169	thalidomide	TNF production inhibitor
+BRD-K60762818	desipramine	Tricyclic antidepressant
+BRD-K54759182	dosulepin	Tricyclic antidepressant
+BRD-K03319035	maprotiline	Tricyclic antidepressant
+BRD-K25433859	maprotiline	Tricyclic antidepressant
+BRD-K91263825	nortriptyline	Tricyclic antidepressant
+BRD-K42098891	protriptyline	Tricyclic antidepressant
+BRD-A19195498	trimipramine	Tricyclic antidepressant
+BRD-K43149758	myricetin	Androgen receptor agonist
+BRD-K43544024	oxandrolone	Androgen receptor agonist
+BRD-K92467929	oxandrolone	Androgen receptor agonist
+BRD-A23637604	oxymetholone	Androgen receptor agonist
+BRD-A93291428	oxymetholone	Androgen receptor agonist
+BRD-A82522119	tibolone	Androgen receptor agonist
+BRD-K10467831	tibolone	Androgen receptor agonist
+BRD-A44448661	pentobarbital	Barbiturate antiepileptic
+BRD-K58513245	pamidronic acid	Bone resorption inhibitor
+BRD-K73838513	cinacalcet	Calcium channel activator
+BRD-K71799949	carbamazepine	Carboxamide antiepileptic
+BRD-K32610195	androstenedione	Cytochrome P450 inhibitor
+BRD-K15916496	clotrimazole	Cytochrome P450 inhibitor
+BRD-K51040301	cobicistat	Cytochrome P450 inhibitor
+BRD-K19761926	eplerenone	Cytochrome P450 inhibitor
+BRD-A39969961	eplerenone	Cytochrome P450 inhibitor
+BRD-K49577446	flunisolide	Cytochrome P450 inhibitor
+BRD-K18674849	flunisolide	Cytochrome P450 inhibitor
+BRD-A65449987	flunisolide	Cytochrome P450 inhibitor
+BRD-K46862739	metyrapone	Cytochrome P450 inhibitor
+BRD-K43149758	myricetin	Cytochrome P450 inhibitor
+BRD-K00674894	orteronel	Cytochrome P450 inhibitor
+BRD-A12409803	orteronel	Cytochrome P450 inhibitor
+BRD-K25591257	resveratrol	Cytochrome P450 inhibitor
+BRD-K80738081	resveratrol	Cytochrome P450 inhibitor
+BRD-K09631521	thiotepa	Cytochrome P450 inhibitor
+BRD-K06557128	voriconazole	Cytochrome P450 inhibitor
+BRD-K46212057	voriconazole	Cytochrome P450 inhibitor
+BRD-K35960502	niclosamide	DNA replication inhibitor
+BRD-K24219278	amineptine	Dopamine receptor agonist
+BRD-M73371355	apomorphine	Dopamine receptor agonist
+BRD-K14496212	bromocriptine	Dopamine receptor agonist
+BRD-K72853990	bromocriptine	Dopamine receptor agonist
+BRD-A60274948	bromocriptine	Dopamine receptor agonist
+BRD-A80151636	bromocriptine	Dopamine receptor agonist
+BRD-A69960130	bromocriptine	Dopamine receptor agonist
+BRD-K86882815	cabergoline	Dopamine receptor agonist
+BRD-A63043573	cabergoline	Dopamine receptor agonist
+BRD-K31471398	dihydrexidine	Dopamine receptor agonist
+BRD-A99164655	dihydrexidine	Dopamine receptor agonist
+BRD-K90711641	dopamine	Dopamine receptor agonist
+BRD-K43887077	dopamine	Dopamine receptor agonist
+BRD-K58442346	dopamine	Dopamine receptor agonist
+BRD-A20958854	dopamine	Dopamine receptor agonist
+BRD-K33811357	dopamine	Dopamine receptor agonist
+BRD-A50684349	fenoldopam	Dopamine receptor agonist
+BRD-K88871508	lisuride	Dopamine receptor agonist
+BRD-K56699285	metergoline	Dopamine receptor agonist
+BRD-A72309220	metergoline	Dopamine receptor agonist
+BRD-A30435184	metergoline	Dopamine receptor agonist
+BRD-K60770992	pergolide	Dopamine receptor agonist
+BRD-K47936004	piribedil	Dopamine receptor agonist
+BRD-K06388322	pramipexole	Dopamine receptor agonist
+BRD-K15933101	ropinirole	Dopamine receptor agonist
+BRD-K91111634	rotigotine	Dopamine receptor agonist
+BRD-K05901394	terguride	Dopamine receptor agonist
+BRD-A05186015	bupropion	Dopamine uptake inhibitor
+BRD-K22936972	diphenylpyraline	Dopamine uptake inhibitor
+BRD-A80775386	hyperforin	Dopamine uptake inhibitor
+BRD-A29644307	nomifensine	Dopamine uptake inhibitor
+BRD-K96319534	phentermine	Dopamine uptake inhibitor
+BRD-K84639753	safinamide	Dopamine uptake inhibitor
+BRD-K92613113	safinamide	Dopamine uptake inhibitor
+BRD-K32501161	vanoxerine	Dopamine uptake inhibitor
+BRD-K41494493	bisphenol a	Estrogen receptor agonist
+BRD-K27062708	chlorotrianisene	Estrogen receptor agonist
+BRD-K95309561	dienestrol	Estrogen receptor agonist
+BRD-K55106630	dienestrol	Estrogen receptor agonist
+BRD-K57943804	equilin	Estrogen receptor agonist
+BRD-K04046242	equilin	Estrogen receptor agonist
+BRD-A88080608	equilin	Estrogen receptor agonist
+BRD-K54847683	equol	Estrogen receptor agonist
+BRD-A74907996	equol	Estrogen receptor agonist
+BRD-K80608265	erteberel	Estrogen receptor agonist
+BRD-K60633875	estradiol	Estrogen receptor agonist
+BRD-K18910433	estradiol	Estrogen receptor agonist
+BRD-A18917088	estradiol	Estrogen receptor agonist
+BRD-A23226398	estradiol	Estrogen receptor agonist
+BRD-K17016787	estriol	Estrogen receptor agonist
+BRD-K32793530	estriol	Estrogen receptor agonist
+BRD-A18620900	estriol	Estrogen receptor agonist
+BRD-A88939772	estriol	Estrogen receptor agonist
+BRD-A84205515	estriol	Estrogen receptor agonist
+BRD-K15236393	estrone	Estrogen receptor agonist
+BRD-K81839095	estrone	Estrogen receptor agonist
+BRD-K69743918	estrone	Estrogen receptor agonist
+BRD-A37959677	estrone	Estrogen receptor agonist
+BRD-K69253806	hexestrol	Estrogen receptor agonist
+BRD-A01078468	hexestrol	Estrogen receptor agonist
+BRD-K35189033	levonorgestrel	Estrogen receptor agonist
+BRD-K90543092	levonorgestrel	Estrogen receptor agonist
+BRD-K92042497	mestranol	Estrogen receptor agonist
+BRD-K31920458	mestranol	Estrogen receptor agonist
+BRD-K10481964	mestranol	Estrogen receptor agonist
+BRD-A14798026	mestranol	Estrogen receptor agonist
+BRD-A82522119	tibolone	Estrogen receptor agonist
+BRD-K10467831	tibolone	Estrogen receptor agonist
+BRD-A22305049	benfluorex	Gluconeogenesis inhibitor
+BRD-A49225603	alimemazine	Histamine receptor ligand
+BRD-M58473998	alimemazine	Histamine receptor ligand
+BRD-K28936863	ketotifen	Histamine receptor ligand
+BRD-K16606819	trimethadione	Oxazolidine antiepileptic
+BRD-A32161980	carbetocin	Oxytocin receptor agonist
+BRD-K17561142	amiodarone	Potassium channel blocker
+BRD-K87555556	amiodarone	Potassium channel blocker
+BRD-K38913877	azimilide	Potassium channel blocker
+BRD-K22482860	dalfampridine	Potassium channel blocker
+BRD-K86887724	dofetilide	Potassium channel blocker
+BRD-A46179541	doxapram	Potassium channel blocker
+BRD-A74391928	ibutilide	Potassium channel blocker
+BRD-M56587789	ibutilide	Potassium channel blocker
+BRD-K31385749	ivabradine	Potassium channel blocker
+BRD-K59332007	linopirdine	Potassium channel blocker
+BRD-K66956375	oleic monoethanolamide	Potassium channel blocker
+BRD-K31987754	oleic monoethanolamide	Potassium channel blocker
+BRD-K19741547	vernakalant	Potassium channel blocker
+BRD-K62012036	acitretin	Retinoid receptor agonist
+BRD-K90699611	acitretin	Retinoid receptor agonist
+BRD-K33127281	adapalene	Retinoid receptor agonist
+BRD-K35483542	alitretinoin	Retinoid receptor agonist
+BRD-K92441787	bexarotene	Retinoid receptor agonist
+BRD-K89085489	fenretinide	Retinoid receptor agonist
+BRD-K28168037	fenretinide	Retinoid receptor agonist
+BRD-K76723084	isotretinoin	Retinoid receptor agonist
+BRD-K83794243	palovarotene	Retinoid receptor agonist
+BRD-K36627727	tamibarotene	Retinoid receptor agonist
+BRD-K76841105	tazarotene	Retinoid receptor agonist
+BRD-K71879491	tretinoin	Retinoid receptor agonist
+BRD-K06926592	tretinoin	Retinoid receptor agonist
+BRD-K64634304	tretinoin	Retinoid receptor agonist
+BRD-K49685476	arotinoid acid	Retinoid receptor agonist
+BRD-K68246049	arotinoid acid	Retinoid receptor agonist
+BRD-K59256312	gabexate	Serine protease inhibitor
+BRD-A99633051	ethosuximide	Succinimide antiepileptic
+BRD-K30685142	levothyroxine	Thyroid hormone stimulant
+BRD-K89152108	liothyronine	Thyroid hormone stimulant
+BRD-K61236135	tiratricol	Thyroid hormone stimulant
+BRD-K81209512	tyrphostin b48	Tyrosine kinase inhibitor
+BRD-K32285926	amg-208	Tyrosine kinase inhibitor
+BRD-K40738845	bms-777607	Tyrosine kinase inhibitor
+BRD-K76908866	cp-724714	Tyrosine kinase inhibitor
+BRD-K49328571	dasatinib	Tyrosine kinase inhibitor
+BRD-K43797669	genistein	Tyrosine kinase inhibitor
+BRD-A36151937	genistein	Tyrosine kinase inhibitor
+BRD-K02123250	jnj-38877605	Tyrosine kinase inhibitor
+BRD-K60623809	su-11652	Tyrosine kinase inhibitor
+BRD-K33379087	tivantinib	Tyrosine kinase inhibitor
+BRD-K44004064	acefylline	Adenosine receptor agonist
+BRD-K01577834	adenosine	Adenosine receptor agonist
+BRD-A94624445	bucladesine	Adenosine receptor agonist
+BRD-A14652656	bucladesine	Adenosine receptor agonist
+BRD-A15070535	bucladesine	Adenosine receptor agonist
+BRD-A15931911	bucladesine	Adenosine receptor agonist
+BRD-A04706586	bucladesine	Adenosine receptor agonist
+BRD-A78341343	regadenoson	Adenosine receptor agonist
+BRD-A55416093	colforsin	Adenylyl cyclase activator
+BRD-K77830450	colforsin	Adenylyl cyclase activator
+BRD-K09602097	colforsin	Adenylyl cyclase activator
+BRD-A70449690	colforsin	Adenylyl cyclase activator
+BRD-K03015355	colforsin	Adenylyl cyclase activator
+BRD-K35498378	alrestatin	Aldose reductase inhibitor
+BRD-K98054437	epalrestat	Aldose reductase inhibitor
+BRD-A63752151	fidarestat	Aldose reductase inhibitor
+BRD-K73991644	isoquercetin	Aldose reductase inhibitor
+BRD-K37206356	rhamnetin	Aldose reductase inhibitor
+BRD-A89164055	sorbinil	Aldose reductase inhibitor
+BRD-K85693895	tolrestat	Aldose reductase inhibitor
+BRD-K85518562	cilastatin	Dehydropeptidase inhibitor
+BRD-A90311807	cilastatin	Dehydropeptidase inhibitor
+BRD-K62370608	cilastatin	Dehydropeptidase inhibitor
+BRD-K88611939	aniracetam	Glutamate receptor agonist
+BRD-A20589515	dihydroxyphenylglycine	Glutamate receptor agonist
+BRD-A02508087	ketamine	Glutamate receptor agonist
+BRD-K35531059	molsidomine	Guanylyl cyclase activator
+BRD-K63861289	molsidomine	Guanylyl cyclase activator
+BRD-K44827188	vismodegib	Hedgehog pathway inhibitor
+BRD-A49225603	alimemazine	Histamine receptor agonist
+BRD-M58473998	alimemazine	Histamine receptor agonist
+BRD-K91290917	amodiaquine	Histamine receptor agonist
+BRD-K91315211	betahistine	Histamine receptor agonist
+BRD-K20075662	betazole	Histamine receptor agonist
+BRD-K01674964	histamine	Histamine receptor agonist
+BRD-K28936863	ketotifen	Histamine receptor agonist
+BRD-K52662033	lidocaine	Histamine receptor agonist
+BRD-A29623586	anisodamine	Lipid peroxidase inhibitor
+BRD-K84698278	agomelatine	Melatonin receptor agonist
+BRD-K97530723	melatonin	Melatonin receptor agonist
+BRD-K28761891	ramelteon	Melatonin receptor agonist
+BRD-K07857022	alvimopan	Opioid receptor antagonist
+BRD-K33732501	methylnaltrexone	Opioid receptor antagonist
+BRD-K66404838	nalbuphine	Opioid receptor antagonist
+BRD-A92651262	nalbuphine	Opioid receptor antagonist
+BRD-A16934955	nalbuphine	Opioid receptor antagonist
+BRD-A72767275	nalmefene	Opioid receptor antagonist
+BRD-A70461345	naloxone	Opioid receptor antagonist
+BRD-K67511046	naloxone	Opioid receptor antagonist
+BRD-A23195370	naloxone	Opioid receptor antagonist
+BRD-A41833852	naloxone	Opioid receptor antagonist
+BRD-A37541666	naloxone	Opioid receptor antagonist
+BRD-K88172511	naltrexone	Opioid receptor antagonist
+BRD-A66559694	naltrexone	Opioid receptor antagonist
+BRD-A83855350	naltrexone	Opioid receptor antagonist
+BRD-K94649603	taxifolin	Opioid receptor antagonist
+BRD-K95808480	taxifolin	Opioid receptor antagonist
+BRD-K84810405	almorexant	Orexin receptor antagonist
+BRD-K94293891	suvorexant	Orexin receptor antagonist
+BRD-K67601717	almotriptan	Serotonin receptor agonist
+BRD-K70358946	aripiprazole	Serotonin receptor agonist
+BRD-K93461745	buspirone	Serotonin receptor agonist
+BRD-K59163477	cisapride	Serotonin receptor agonist
+BRD-K06895174	cisapride	Serotonin receptor agonist
+BRD-A12896037	cisapride	Serotonin receptor agonist
+BRD-K42348709	cyclobenzaprine	Serotonin receptor agonist
+BRD-K58626373	dexfenfluramine	Serotonin receptor agonist
+BRD-A73581086	ergometrine	Serotonin receptor agonist
+BRD-K55013654	lorcaserin	Serotonin receptor agonist
+BRD-K19554809	mk-212	Serotonin receptor agonist
+BRD-A39052811	mosapride	Serotonin receptor agonist
+BRD-K75699339	rizatriptan	Serotonin receptor agonist
+BRD-K50938287	sumatriptan	Serotonin receptor agonist
+BRD-K53963539	vortioxetine	Serotonin receptor agonist
+BRD-K88358234	xaliproden	Serotonin receptor agonist
+BRD-K54314721	zolmitriptan	Serotonin receptor agonist
+BRD-K76210423	resiquimod	Toll-like receptor agonist
+BRD-K93433262	alfacalcidol	Vitamin D receptor agonist
+BRD-K92644009	alfacalcidol	Vitamin D receptor agonist
+BRD-K86284654	alfacalcidol	Vitamin D receptor agonist
+BRD-K77175907	calcifediol	Vitamin D receptor agonist
+BRD-A78971512	calcifediol	Vitamin D receptor agonist
+BRD-K56429665	calcipotriol	Vitamin D receptor agonist
+BRD-K96390176	calcipotriol	Vitamin D receptor agonist
+BRD-A31158127	calcipotriol	Vitamin D receptor agonist
+BRD-K28731095	calcitriol	Vitamin D receptor agonist
+BRD-K27316855	calcitriol	Vitamin D receptor agonist
+BRD-A84327315	calcitriol	Vitamin D receptor agonist
+BRD-A66229260	calcitriol	Vitamin D receptor agonist
+BRD-K14550461	doxercalciferol	Vitamin D receptor agonist
+BRD-K81332461	maxacalcitol	Vitamin D receptor agonist
+BRD-K60585088	paricalcitol	Vitamin D receptor agonist
+BRD-K28456624	seocalcitol	Vitamin D receptor agonist
+BRD-K73237276	tacalcitol	Vitamin D receptor agonist
+BRD-K49522529	alfacalcidol	Vitamin D receptor agonist
+BRD-K86307448	allopurinol	Xanthine oxidase inhibitor
+BRD-K48367671	febuxostat	Xanthine oxidase inhibitor
+BRD-K31841515	oxypurinol	Xanthine oxidase inhibitor
+BRD-K77561571	topiroxostat	Xanthine oxidase inhibitor
+BRD-K28984613	dutasteride	5 alpha reductase inhibitor
+BRD-K01095011	finasteride	5 alpha reductase inhibitor
+BRD-K59720958	finasteride	5 alpha reductase inhibitor
+BRD-A83081521	finasteride	5 alpha reductase inhibitor
+BRD-A07780951	orciprenaline	Adrenergic receptor agonist
+BRD-A88254928	salbutamol	Adrenergic receptor agonist
+BRD-A37288617	diethylpropion	Adrenergic receptor agonist
+BRD-A17462676	bambuterol	Adrenergic receptor agonist
+BRD-K68264559	brimonidine	Adrenergic receptor agonist
+BRD-A36267905	nylidrin	Adrenergic receptor agonist
+BRD-K54142781	cirazoline	Adrenergic receptor agonist
+BRD-A75726477	clenbuterol	Adrenergic receptor agonist
+BRD-K98530306	clonidine	Adrenergic receptor agonist
+BRD-K42348709	cyclobenzaprine	Adrenergic receptor agonist
+BRD-A47494775	dipivefrin	Adrenergic receptor agonist
+BRD-A78322124	dobutamine	Adrenergic receptor agonist
+BRD-K63126190	epinephrine	Adrenergic receptor agonist
+BRD-A73581086	ergometrine	Adrenergic receptor agonist
+BRD-A09925278	etilefrine	Adrenergic receptor agonist
+BRD-A97104540	fenoterol	Adrenergic receptor agonist
+BRD-M00539986	formoterol	Adrenergic receptor agonist
+BRD-K54006094	formoterol	Adrenergic receptor agonist
+BRD-K32830106	guanfacine	Adrenergic receptor agonist
+BRD-K89208535	indacaterol	Adrenergic receptor agonist
+BRD-K24473282	isoprenaline	Adrenergic receptor agonist
+BRD-A04322457	isoprenaline	Adrenergic receptor agonist
+BRD-A16700644	isoxsuprine	Adrenergic receptor agonist
+BRD-A74269027	isoxsuprine	Adrenergic receptor agonist
+BRD-K34469523	levosalbutamol	Adrenergic receptor agonist
+BRD-A02990301	lofexidine	Adrenergic receptor agonist
+BRD-A21607826	medetomidine	Adrenergic receptor agonist
+BRD-A66563878	medetomidine	Adrenergic receptor agonist
+BRD-A39189014	methoxamine	Adrenergic receptor agonist
+BRD-K48578705	methyldopa	Adrenergic receptor agonist
+BRD-A79981887	midodrine	Adrenergic receptor agonist
+BRD-A16332958	modafinil	Adrenergic receptor agonist
+BRD-M02190957	orciprenaline	Adrenergic receptor agonist
+BRD-K16195444	oxymetazoline	Adrenergic receptor agonist
+BRD-K73381542	phenylephrine	Adrenergic receptor agonist
+BRD-K78666826	procaterol	Adrenergic receptor agonist
+BRD-A22684332	procaterol	Adrenergic receptor agonist
+BRD-K01638814	rilmenidine	Adrenergic receptor agonist
+BRD-M62162320	rilmenidine	Adrenergic receptor agonist
+BRD-K51465424	ritodrine	Adrenergic receptor agonist
+BRD-A59174698	ritodrine	Adrenergic receptor agonist
+BRD-A01320529	salmeterol	Adrenergic receptor agonist
+BRD-A04327189	synephrine	Adrenergic receptor agonist
+BRD-A50157456	terbutaline	Adrenergic receptor agonist
+BRD-M79902621	terbutaline	Adrenergic receptor agonist
+BRD-A37441042	tulobuterol	Adrenergic receptor agonist
+BRD-A59337442	xamoterol	Adrenergic receptor agonist
+BRD-M39942365	xamoterol	Adrenergic receptor agonist
+BRD-K08356259	xylometazoline	Adrenergic receptor agonist
+BRD-K82164249	andarine	Androgen receptor modulator
+BRD-K16621777	enobosarm	Androgen receptor modulator
+BRD-A07986123	galeterone	Androgen receptor modulator
+BRD-K38868394	mk-0773	Androgen receptor modulator
+BRD-K29735307	enobosarm	Androgen receptor modulator
+BRD-K94436377	diosmin	Capillary stabilizing agent
+BRD-K20482099	rutin	Capillary stabilizing agent
+BRD-A76747559	rutin	Capillary stabilizing agent
+BRD-A34907681	rutin	Capillary stabilizing agent
+BRD-A28940325	trichlormethiazide	Chloride channel antagonist
+BRD-A68464583	mazindol	Dopamine reuptake inhibitor
+BRD-A59001851	ginkgolide-b	Glycine receptor antagonist
+BRD-A82395837	ginkgolide-b	Glycine receptor antagonist
+BRD-K73440166	cinaciguat	Guanylate cyclase activator
+BRD-K84783599	riociguat	Guanylate cyclase stimulant
+BRD-K43236057	polydatin	ICAM-1 expression inhibitor
+BRD-K29653726	topiramate	Kainate receptor antagonist
+BRD-K53508936	cts-1027	Metalloproteinase inhibitor
+BRD-A08545410	doxycycline	Metalloproteinase inhibitor
+BRD-A88774919	doxycycline	Metalloproteinase inhibitor
+BRD-K73251053	clorgiline	Monoamine oxidase inhibitor
+BRD-K46424862	hymecromone	Monoamine oxidase inhibitor
+BRD-K93332168	isocarboxazid	Monoamine oxidase inhibitor
+BRD-K07237224	moclobemide	Monoamine oxidase inhibitor
+BRD-K83597974	pargyline	Monoamine oxidase inhibitor
+BRD-K87024524	phenelzine	Monoamine oxidase inhibitor
+BRD-K59522102	piperine	Monoamine oxidase inhibitor
+BRD-A54490543	pirlindole	Monoamine oxidase inhibitor
+BRD-K58114536	rasagiline	Monoamine oxidase inhibitor
+BRD-K84639753	safinamide	Monoamine oxidase inhibitor
+BRD-K92613113	safinamide	Monoamine oxidase inhibitor
+BRD-K86434416	selegiline	Monoamine oxidase inhibitor
+BRD-A28545468	selegiline	Monoamine oxidase inhibitor
+BRD-K47029922	tranylcypromine	Monoamine oxidase inhibitor
+BRD-K88809146	tranylcypromine	Monoamine oxidase inhibitor
+BRD-A43974575	tranylcypromine	Monoamine oxidase inhibitor
+BRD-K45924332	amrinone	Phosphodiesterase inhibitor
+BRD-K62200014	anagrelide	Phosphodiesterase inhibitor
+BRD-K93208532	apremilast	Phosphodiesterase inhibitor
+BRD-K65781196	avanafil	Phosphodiesterase inhibitor
+BRD-K02404261	caffeine	Phosphodiesterase inhibitor
+BRD-K62982419	cilomilast	Phosphodiesterase inhibitor
+BRD-K38473998	cilomilast	Phosphodiesterase inhibitor
+BRD-K67017579	cilostazol	Phosphodiesterase inhibitor
+BRD-K86301799	dipyridamole	Phosphodiesterase inhibitor
+BRD-A00827783	dyphylline	Phosphodiesterase inhibitor
+BRD-K35007173	enprofylline	Phosphodiesterase inhibitor
+BRD-K16444452	ibudilast	Phosphodiesterase inhibitor
+BRD-K74195153	irsogladine	Phosphodiesterase inhibitor
+BRD-K28936863	ketotifen	Phosphodiesterase inhibitor
+BRD-K27305650	ly-294002	Phosphodiesterase inhibitor
+BRD-K67080878	milrinone	Phosphodiesterase inhibitor
+BRD-K82967685	mirodenafil	Phosphodiesterase inhibitor
+BRD-K20745393	olprinone	Phosphodiesterase inhibitor
+BRD-K15567136	papaverine	Phosphodiesterase inhibitor
+BRD-K57569181	pentoxifylline	Phosphodiesterase inhibitor
+BRD-K50031829	pf-04447943	Phosphodiesterase inhibitor
+BRD-K47642186	piclamilast	Phosphodiesterase inhibitor
+BRD-A84575140	pimobendan	Phosphodiesterase inhibitor
+BRD-K59273480	propentofylline	Phosphodiesterase inhibitor
+BRD-K03194791	roflumilast	Phosphodiesterase inhibitor
+BRD-A34255068	rolipram	Phosphodiesterase inhibitor
+BRD-K50128260	sildenafil	Phosphodiesterase inhibitor
+BRD-K79759585	sildenafil	Phosphodiesterase inhibitor
+BRD-K93645900	tadalafil	Phosphodiesterase inhibitor
+BRD-K13926615	vardenafil	Phosphodiesterase inhibitor
+BRD-K07390541	vinpocetine	Phosphodiesterase inhibitor
+BRD-K53318339	vinpocetine	Phosphodiesterase inhibitor
+BRD-A19374631	vinpocetine	Phosphodiesterase inhibitor
+BRD-K37561857	zardaverine	Phosphodiesterase inhibitor
+BRD-K73109821	diazoxide	Potassium channel activator
+BRD-K06902185	minoxidil	Potassium channel activator
+BRD-K14888893	minoxidil	Potassium channel activator
+BRD-A22897758	pinacidil	Potassium channel activator
+BRD-A43882281	pinacidil	Potassium channel activator
+BRD-A58207013	pinacidil	Potassium channel activator
+BRD-K89917372	ezogabine	Potassium channel activator
+BRD-K73691377	alprostadil	Prostanoid receptor agonist
+BRD-K52459643	alprostadil	Prostanoid receptor agonist
+BRD-A45153512	bimatoprost	Prostanoid receptor agonist
+BRD-A87848830	bimatoprost	Prostanoid receptor agonist
+BRD-K26521938	dinoprostone	Prostanoid receptor agonist
+BRD-K57391913	iloprost	Prostanoid receptor agonist
+BRD-A45664787	iloprost	Prostanoid receptor agonist
+BRD-K10961822	latanoprost	Prostanoid receptor agonist
+BRD-A50310035	misoprostol	Prostanoid receptor agonist
+BRD-K23976833	travoprost	Prostanoid receptor agonist
+BRD-A72351335	misoprostol	Prostanoid receptor agonist
+BRD-K03067624	emetine	Protein synthesis inhibitor
+BRD-A25687296	emetine	Protein synthesis inhibitor
+BRD-K01976263	emetine	Protein synthesis inhibitor
+BRD-K49076555	etretinate	Protein synthesis inhibitor
+BRD-K36248164	etretinate	Protein synthesis inhibitor
+BRD-A52627843	thiostrepton	Protein synthesis inhibitor
+BRD-A20697603	thiostrepton	Protein synthesis inhibitor
+BRD-K28912512	nicotinamide	Protein synthesis stimulant
+BRD-K63178091	telotristat	Serotonin release inhibitor
+BRD-K96862998	pirfenidone	TGF beta receptor inhibitor
+BRD-K48722258	dilazep	Adenosine reuptake inhibitor
+BRD-K59273480	propentofylline	Adenosine reuptake inhibitor
+BRD-A29485665	bicalutamide	Androgen receptor antagonist
+BRD-K56851771	enzalutamide	Androgen receptor antagonist
+BRD-K28307902	flutamide	Androgen receptor antagonist
+BRD-K23566484	nilutamide	Androgen receptor antagonist
+BRD-K00674894	orteronel	Androgen receptor antagonist
+BRD-A12409803	orteronel	Androgen receptor antagonist
+BRD-K66956375	oleic monoethanolamide	Cannabinoid receptor agonist
+BRD-K31987754	oleic monoethanolamide	Cannabinoid receptor agonist
+BRD-K68095457	palmidrol	Cannabinoid receptor agonist
+BRD-K43457670	acetazolamide	Carbonic anhydrase inhibitor
+BRD-K21450440	benzthiazide	Carbonic anhydrase inhibitor
+BRD-K74913225	brinzolamide	Carbonic anhydrase inhibitor
+BRD-K71499074	diclofenamide	Carbonic anhydrase inhibitor
+BRD-K71075609	dorzolamide	Carbonic anhydrase inhibitor
+BRD-K48617017	dorzolamide	Carbonic anhydrase inhibitor
+BRD-K30649484	mafenide	Carbonic anhydrase inhibitor
+BRD-K13356952	methazolamide	Carbonic anhydrase inhibitor
+BRD-A61793559	metolazone	Carbonic anhydrase inhibitor
+BRD-K29653726	topiramate	Carbonic anhydrase inhibitor
+BRD-K67121414	apixaban	Coagulation factor inhibitor
+BRD-K29322660	edoxaban	Coagulation factor inhibitor
+BRD-K80082640	otamixaban	Coagulation factor inhibitor
+BRD-K37130656	rivaroxaban	Coagulation factor inhibitor
+BRD-A50033377	rivaroxaban	Coagulation factor inhibitor
+BRD-A86248581	tetrahydrouridine	Cytidine deaminase inhibitor
+BRD-M16762496	pik-75	DNA protein kinase inhibitor
+BRD-K49371609	pik-75	DNA protein kinase inhibitor
+BRD-A61194565	benserazide	DOPA decarboxylase inhibitor
+BRD-A03061970	alizapride	Dopamine receptor antagonist
+BRD-A60197193	amisulpride	Dopamine receptor antagonist
+BRD-K52397688	amperozide	Dopamine receptor antagonist
+BRD-K57875380	asenapine	Dopamine receptor antagonist
+BRD-K95260951	asenapine	Dopamine receptor antagonist
+BRD-K79425933	benperidol	Dopamine receptor antagonist
+BRD-K25943794	blonanserin	Dopamine receptor antagonist
+BRD-K73642618	bromopride	Dopamine receptor antagonist
+BRD-K78643075	bromperidol	Dopamine receptor antagonist
+BRD-K57764956	cariprazine	Dopamine receptor antagonist
+BRD-K17294426	clebopride	Dopamine receptor antagonist
+BRD-K37289225	clozapine	Dopamine receptor antagonist
+BRD-K38305202	domperidone	Dopamine receptor antagonist
+BRD-K97158071	droperidol	Dopamine receptor antagonist
+BRD-K94270326	ecopipam	Dopamine receptor antagonist
+BRD-K50417881	eticlopride	Dopamine receptor antagonist
+BRD-K70487031	flupentixol	Dopamine receptor antagonist
+BRD-K53987533	fluphenazine	Dopamine receptor antagonist
+BRD-K55127134	fluphenazine	Dopamine receptor antagonist
+BRD-K77947974	fluspirilene	Dopamine receptor antagonist
+BRD-K67783091	haloperidol	Dopamine receptor antagonist
+BRD-K48722833	iloperidone	Dopamine receptor antagonist
+BRD-K96740444	itopride	Dopamine receptor antagonist
+BRD-K35559145	methotrimeprazine	Dopamine receptor antagonist
+BRD-K51671335	levosulpiride	Dopamine receptor antagonist
+BRD-K39915878	loxapine	Dopamine receptor antagonist
+BRD-K51143828	lurasidone	Dopamine receptor antagonist
+BRD-K92984783	melperone	Dopamine receptor antagonist
+BRD-A14395271	mesoridazine	Dopamine receptor antagonist
+BRD-K75641298	metoclopramide	Dopamine receptor antagonist
+BRD-A65280694	molindone	Dopamine receptor antagonist
+BRD-K18895904	olanzapine	Dopamine receptor antagonist
+BRD-K85503079	perospirone	Dopamine receptor antagonist
+BRD-K10995081	perphenazine	Dopamine receptor antagonist
+BRD-K01292756	pimozide	Dopamine receptor antagonist
+BRD-K26801045	pipamperone	Dopamine receptor antagonist
+BRD-K19352500	prochlorperazine	Dopamine receptor antagonist
+BRD-K06980535	promazine	Dopamine receptor antagonist
+BRD-K68867920	quetiapine	Dopamine receptor antagonist
+BRD-K04111260	raclopride	Dopamine receptor antagonist
+BRD-K54094468	remoxipride	Dopamine receptor antagonist
+BRD-K53857191	risperidone	Dopamine receptor antagonist
+BRD-K69116396	sertindole	Dopamine receptor antagonist
+BRD-K55468218	spiperone	Dopamine receptor antagonist
+BRD-A10715913	sulpiride	Dopamine receptor antagonist
+BRD-A55272860	sulpiride	Dopamine receptor antagonist
+BRD-A84481105	thioridazine	Dopamine receptor antagonist
+BRD-K97309399	thiothixene	Dopamine receptor antagonist
+BRD-K55070890	thiothixene	Dopamine receptor antagonist
+BRD-K57432881	tiapride	Dopamine receptor antagonist
+BRD-K89732114	trifluoperazine	Dopamine receptor antagonist
+BRD-K63675182	triflupromazine	Dopamine receptor antagonist
+BRD-K29582115	ziprasidone	Dopamine receptor antagonist
+BRD-K04218075	clomifene	Estrogen receptor antagonist
+BRD-K29950728	clomifene	Estrogen receptor antagonist
+BRD-K91328526	clomifene	Estrogen receptor antagonist
+BRD-K21401044	danazol	Estrogen receptor antagonist
+BRD-A92537424	danazol	Estrogen receptor antagonist
+BRD-K48970916	danazol	Estrogen receptor antagonist
+BRD-A20243730	danazol	Estrogen receptor antagonist
+BRD-A17828570	fulvestrant	Estrogen receptor antagonist
+BRD-A83237092	fulvestrant	Estrogen receptor antagonist
+BRD-A03249105	fulvestrant	Estrogen receptor antagonist
+BRD-A90490067	fulvestrant	Estrogen receptor antagonist
+BRD-K63828191	raloxifene	Estrogen receptor antagonist
+BRD-K04210847	tamoxifen	Estrogen receptor antagonist
+BRD-K93754473	tamoxifen	Estrogen receptor antagonist
+BRD-K43744935	tamoxifen	Estrogen receptor antagonist
+BRD-K51350053	toremifene	Estrogen receptor antagonist
+BRD-K67174588	toremifene	Estrogen receptor antagonist
+BRD-K63460351	toremifene	Estrogen receptor antagonist
+BRD-A85667082	fulvestrant	Estrogen receptor antagonist
+BRD-K16732600	mk-0893	Glucagon receptor antagonist
+BRD-A38675539	cyclothiazide	Glutamate receptor modulator
+BRD-K42981054	mibampator	Glutamate receptor modulator
+BRD-K79501723	cyclizine	Histamine receptor modulator
+BRD-K77771411	moxonidine	Imidazoline receptor agonist
+BRD-K52080565	nandrolone	Imidazoline receptor agonist
+BRD-K01638814	rilmenidine	Imidazoline receptor agonist
+BRD-M62162320	rilmenidine	Imidazoline receptor agonist
+BRD-K11129031	gemfibrozil	Lipoprotein lipase activator
+BRD-K55055802	etomidate	Membrane integrity inhibitor
+BRD-K13044802	ciclopirox	Membrane integrity inhibitor
+BRD-K18172896	eltanolone	Membrane integrity inhibitor
+BRD-A54880345	etomidate	Membrane integrity inhibitor
+BRD-K45071273	tetracaine	Membrane integrity inhibitor
+BRD-K53737926	amitriptyline	Serotonin reuptake inhibitor
+BRD-A47598013	citalopram	Serotonin reuptake inhibitor
+BRD-A98845662	desvenlafaxine	Serotonin reuptake inhibitor
+BRD-K54759182	dosulepin	Serotonin reuptake inhibitor
+BRD-K71103788	duloxetine	Serotonin reuptake inhibitor
+BRD-A80775386	hyperforin	Serotonin reuptake inhibitor
+BRD-K38436528	imipramine	Serotonin reuptake inhibitor
+BRD-K82147103	lofepramine	Serotonin reuptake inhibitor
+BRD-A68464583	mazindol	Serotonin reuptake inhibitor
+BRD-K02227374	milnacipran	Serotonin reuptake inhibitor
+BRD-A15202882	milnacipran	Serotonin reuptake inhibitor
+BRD-K02867583	minaprine	Serotonin reuptake inhibitor
+BRD-K90789829	nefazodone	Serotonin reuptake inhibitor
+BRD-K96319534	phentermine	Serotonin reuptake inhibitor
+BRD-A23359898	sibutramine	Serotonin reuptake inhibitor
+BRD-K51033547	tramadol	Serotonin reuptake inhibitor
+BRD-K04412738	tramadol	Serotonin reuptake inhibitor
+BRD-K70778732	trazodone	Serotonin reuptake inhibitor
+BRD-A51714012	venlafaxine	Serotonin reuptake inhibitor
+BRD-K58010567	vilazodone	Serotonin reuptake inhibitor
+BRD-A59198242	viloxazine	Serotonin reuptake inhibitor
+BRD-K47207162	zimelidine	Serotonin reuptake inhibitor
+BRD-K94173644	zimelidine	Serotonin reuptake inhibitor
+BRD-A70814879	opaganib	Sphingosine kinase inhibitor
+BRD-K05977355	fluconazole	Sterol demethylase inhibitor
+BRD-K29113274	ketoconazole	Sterol demethylase inhibitor
+BRD-A38350138	ketoconazole	Sterol demethylase inhibitor
+BRD-A76019558	ketoconazole	Sterol demethylase inhibitor
+BRD-K48168960	propylthiouracil	Thyroid peroxidase inhibitor
+BRD-K93331255	lypressin	Vasopressin receptor agonist
+BRD-K93034159	cladribine	Adenosine deaminase inhibitor
+BRD-K97799481	theophylline	Adenosine receptor antagonist
+BRD-M53001068	aminophylline	Adenosine receptor antagonist
+BRD-K02404261	caffeine	Adenosine receptor antagonist
+BRD-K70507123	doxofylline	Adenosine receptor antagonist
+BRD-A00827783	dyphylline	Adenosine receptor antagonist
+BRD-K87774949	istradefylline	Adenosine receptor antagonist
+BRD-K46290096	preladenant	Adenosine receptor antagonist
+BRD-K93045741	tozadenant	Adenosine receptor antagonist
+BRD-A45889380	quinacrine	Cytokine production inhibitor
+BRD-K41599323	lonafarnib	Farnesyltransferase inhibitor
+BRD-K52075040	cerulenin	Fatty acid synthase inhibitor
+BRD-K28667793	pyrazinamide	Fatty acid synthase inhibitor
+BRD-K62387885	basimglurant	Glutamate receptor antagonist
+BRD-K18324993	budipine	Glutamate receptor antagonist
+BRD-K88304388	dextrorphan	Glutamate receptor antagonist
+BRD-A61392169	eliprodil	Glutamate receptor antagonist
+BRD-K99107520	felbamate	Glutamate receptor antagonist
+BRD-K41160163	fenobam	Glutamate receptor antagonist
+BRD-K50720187	flupirtine	Glutamate receptor antagonist
+BRD-A47065382	huperzine a	Glutamate receptor antagonist
+BRD-K15402119	huperzine a	Glutamate receptor antagonist
+BRD-K45888792	huperzine a	Glutamate receptor antagonist
+BRD-K97618845	huperzine a	Glutamate receptor antagonist
+BRD-A24191444	ifenprodil	Glutamate receptor antagonist
+BRD-K55703048	latrepirdine	Glutamate receptor antagonist
+BRD-K59753853	mdl-29951	Glutamate receptor antagonist
+BRD-K91938660	memantine	Glutamate receptor antagonist
+BRD-A79803969	memantine	Glutamate receptor antagonist
+BRD-K41438959	perampanel	Glutamate receptor antagonist
+BRD-A36074203	remacemide	Glutamate receptor antagonist
+BRD-A23970436	thiamylal	Glutamate receptor antagonist
+BRD-K29653726	topiramate	Glutamate receptor antagonist
+BRD-K62240499	huperzine a	Glutamate receptor antagonist
+BRD-K13756951	bitopertin	Glycine transporter inhibitor
+BRD-K51263939	sarcosine	Glycine transporter inhibitor
+BRD-K50163129	acrivastine	Histamine receptor antagonist
+BRD-K37249724	astemizole	Histamine receptor antagonist
+BRD-A68888262	azelastine	Histamine receptor antagonist
+BRD-K79595931	bavisant	Histamine receptor antagonist
+BRD-K98624455	bepotastine	Histamine receptor antagonist
+BRD-K91315211	betahistine	Histamine receptor antagonist
+BRD-A68723818	brompheniramine	Histamine receptor antagonist
+BRD-A29426959	carbinoxamine	Histamine receptor antagonist
+BRD-A42571354	cetirizine	Histamine receptor antagonist
+BRD-A57133233	chlorcyclizine	Histamine receptor antagonist
+BRD-K83257731	chloropyramine	Histamine receptor antagonist
+BRD-K34157611	cimetidine	Histamine receptor antagonist
+BRD-K18618618	cimetidine	Histamine receptor antagonist
+BRD-K30240666	clemastine	Histamine receptor antagonist
+BRD-K28143534	cyproheptadine	Histamine receptor antagonist
+BRD-A65797496	deptropine	Histamine receptor antagonist
+BRD-K82357231	desloratadine	Histamine receptor antagonist
+BRD-K22947005	dexbrompheniramine	Histamine receptor antagonist
+BRD-M98649031	dimenhydrinate	Histamine receptor antagonist
+BRD-K47278471	diphenhydramine	Histamine receptor antagonist
+BRD-K54462405	doxepin	Histamine receptor antagonist
+BRD-K37694030	doxepin	Histamine receptor antagonist
+BRD-K36616567	doxepin	Histamine receptor antagonist
+BRD-A44008656	doxylamine	Histamine receptor antagonist
+BRD-K15010214	emedastine	Histamine receptor antagonist
+BRD-A98990573	epinastine	Histamine receptor antagonist
+BRD-K00673382	famotidine	Histamine receptor antagonist
+BRD-A73368467	fexofenadine	Histamine receptor antagonist
+BRD-A67516570	lafutidine	Histamine receptor antagonist
+BRD-K33453211	levocabastine	Histamine receptor antagonist
+BRD-K27184429	levocetirizine	Histamine receptor antagonist
+BRD-K82795137	loratadine	Histamine receptor antagonist
+BRD-K97564742	mepyramine	Histamine receptor antagonist
+BRD-K47323024	methapyrilene	Histamine receptor antagonist
+BRD-K21884483	mizolastine	Histamine receptor antagonist
+BRD-K73589491	nizatidine	Histamine receptor antagonist
+BRD-K46652470	nizatidine	Histamine receptor antagonist
+BRD-K92193792	nizatidine	Histamine receptor antagonist
+BRD-K67637637	olopatadine	Histamine receptor antagonist
+BRD-K37130586	olopatadine	Histamine receptor antagonist
+BRD-K02079473	oxatomide	Histamine receptor antagonist
+BRD-A23072235	pheniramine	Histamine receptor antagonist
+BRD-A46335897	promethazine	Histamine receptor antagonist
+BRD-K70505054	ranitidine	Histamine receptor antagonist
+BRD-K14204120	ranitidine	Histamine receptor antagonist
+BRD-K30816563	ranitidine	Histamine receptor antagonist
+BRD-K98004573	rupatadine	Histamine receptor antagonist
+BRD-K48195801	tecastemizole	Histamine receptor antagonist
+BRD-A06352418	terfenadine	Histamine receptor antagonist
+BRD-K34415467	trimethobenzamide	Histamine receptor antagonist
+BRD-K57033106	tripelennamine	Histamine receptor antagonist
+BRD-K11742128	triprolidine	Histamine receptor antagonist
+BRD-K56231354	triprolidine	Histamine receptor antagonist
+BRD-K03601870	ixabepilone	Microtubule stabilizing agent
+BRD-K24656285	farnesol	Monoamine oxidase B inhibitor
+BRD-A00147595	balaglitazone	PPAR receptor partial agonist
+BRD-A09349126	norethisterone	Progesterone receptor agonist
+BRD-K21401044	danazol	Progesterone receptor agonist
+BRD-A92537424	danazol	Progesterone receptor agonist
+BRD-K48970916	danazol	Progesterone receptor agonist
+BRD-A20243730	danazol	Progesterone receptor agonist
+BRD-K64504314	dienogest	Progesterone receptor agonist
+BRD-K11439261	dydrogesterone	Progesterone receptor agonist
+BRD-K68620903	dydrogesterone	Progesterone receptor agonist
+BRD-K39391626	ethylestrenol	Progesterone receptor agonist
+BRD-A39791822	hydroxyprogesterone	Progesterone receptor agonist
+BRD-K35189033	levonorgestrel	Progesterone receptor agonist
+BRD-K90543092	levonorgestrel	Progesterone receptor agonist
+BRD-K71552035	nomegestrol	Progesterone receptor agonist
+BRD-K24559712	norethisterone	Progesterone receptor agonist
+BRD-K96037667	norethisterone	Progesterone receptor agonist
+BRD-K22901619	norgestimate	Progesterone receptor agonist
+BRD-A04756508	norgestimate	Progesterone receptor agonist
+BRD-K64994968	progesterone	Progesterone receptor agonist
+BRD-K47244735	progesterone	Progesterone receptor agonist
+BRD-A67479912	progesterone	Progesterone receptor agonist
+BRD-K99604664	tanaproget	Progesterone receptor agonist
+BRD-A82522119	tibolone	Progesterone receptor agonist
+BRD-K10467831	tibolone	Progesterone receptor agonist
+BRD-K66538826	amuvatinib	RET tyrosine kinase inhibitor
+BRD-K51544265	cabozantinib	RET tyrosine kinase inhibitor
+BRD-K16730910	regorafenib	RET tyrosine kinase inhibitor
+BRD-K23984367	sorafenib	RET tyrosine kinase inhibitor
+BRD-K49810818	sorafenib	RET tyrosine kinase inhibitor
+BRD-M64432851	sunitinib	RET tyrosine kinase inhibitor
+BRD-K77625799	vandetanib	RET tyrosine kinase inhibitor
+BRD-K37792492	dolasetron	Serotonin receptor antagonist
+BRD-K84698278	agomelatine	Serotonin receptor antagonist
+BRD-A14966924	alaproclate	Serotonin receptor antagonist
+BRD-K46742498	alosetron	Serotonin receptor antagonist
+BRD-K53737926	amitriptyline	Serotonin receptor antagonist
+BRD-K70358946	aripiprazole	Serotonin receptor antagonist
+BRD-K57875380	asenapine	Serotonin receptor antagonist
+BRD-K95260951	asenapine	Serotonin receptor antagonist
+BRD-A44133049	azasetron	Serotonin receptor antagonist
+BRD-K25943794	blonanserin	Serotonin receptor antagonist
+BRD-K37289225	clozapine	Serotonin receptor antagonist
+BRD-K34008116	dolasetron	Serotonin receptor antagonist
+BRD-K28029915	dolasetron	Serotonin receptor antagonist
+BRD-K10860596	granisetron	Serotonin receptor antagonist
+BRD-K05510762	granisetron	Serotonin receptor antagonist
+BRD-A10967948	granisetron	Serotonin receptor antagonist
+BRD-K79102359	idalopirdine	Serotonin receptor antagonist
+BRD-K48722833	iloperidone	Serotonin receptor antagonist
+BRD-K49671696	ketanserin	Serotonin receptor antagonist
+BRD-K93460210	lamotrigine	Serotonin receptor antagonist
+BRD-K62398570	lerisetron	Serotonin receptor antagonist
+BRD-K39915878	loxapine	Serotonin receptor antagonist
+BRD-K51143828	lurasidone	Serotonin receptor antagonist
+BRD-K92984783	melperone	Serotonin receptor antagonist
+BRD-K56699285	metergoline	Serotonin receptor antagonist
+BRD-A72309220	metergoline	Serotonin receptor antagonist
+BRD-A30435184	metergoline	Serotonin receptor antagonist
+BRD-K35941380	methysergide	Serotonin receptor antagonist
+BRD-A98725278	methysergide	Serotonin receptor antagonist
+BRD-K75641298	metoclopramide	Serotonin receptor antagonist
+BRD-A19661776	mianserin	Serotonin receptor antagonist
+BRD-K83153774	mirtazapine	Serotonin receptor antagonist
+BRD-A64977602	mirtazapine	Serotonin receptor antagonist
+BRD-K90789829	nefazodone	Serotonin receptor antagonist
+BRD-K18895904	olanzapine	Serotonin receptor antagonist
+BRD-A19736161	ondansetron	Serotonin receptor antagonist
+BRD-K08924299	palonosetron	Serotonin receptor antagonist
+BRD-K85503079	perospirone	Serotonin receptor antagonist
+BRD-K75958195	pizotifen	Serotonin receptor antagonist
+BRD-K16757695	prx-08066	Serotonin receptor antagonist
+BRD-K68867920	quetiapine	Serotonin receptor antagonist
+BRD-K53857191	risperidone	Serotonin receptor antagonist
+BRD-K40887525	ritanserin	Serotonin receptor antagonist
+BRD-K20742498	rs-39604	Serotonin receptor antagonist
+BRD-K24201553	sb-269970	Serotonin receptor antagonist
+BRD-K69116396	sertindole	Serotonin receptor antagonist
+BRD-K70464547	sertraline	Serotonin receptor antagonist
+BRD-K82036761	sertraline	Serotonin receptor antagonist
+BRD-K57174586	sertraline	Serotonin receptor antagonist
+BRD-K63178091	telotristat	Serotonin receptor antagonist
+BRD-K05901394	terguride	Serotonin receptor antagonist
+BRD-K70778732	trazodone	Serotonin receptor antagonist
+BRD-K50866992	tropisetron	Serotonin receptor antagonist
+BRD-A79226577	tropisetron	Serotonin receptor antagonist
+BRD-A83859836	tropisetron	Serotonin receptor antagonist
+BRD-K53963539	vortioxetine	Serotonin receptor antagonist
+BRD-K29582115	ziprasidone	Serotonin receptor antagonist
+BRD-K59715032	pasireotide	Somatostatin receptor agonist
+BRD-K14681867	somatostatin	Somatostatin receptor agonist
+BRD-K79042054	octreotide	Somatostatin receptor agonist
+BRD-K76694128	rebastinib	TIE tyrosine kinase inhibitor
+BRD-K61567297	resatorvid	Toll-like receptor antagonist
+BRD-A80567352	aceclidine	Acetylcholine receptor agonist
+BRD-A32673558	aceclidine	Acetylcholine receptor agonist
+BRD-A99833829	bethanechol	Acetylcholine receptor agonist
+BRD-M98279124	cevimeline	Acetylcholine receptor agonist
+BRD-K74186897	cytisine	Acetylcholine receptor agonist
+BRD-A55579717	cytisine	Acetylcholine receptor agonist
+BRD-K49783248	decamethonium	Acetylcholine receptor agonist
+BRD-K10042277	norclozapine	Acetylcholine receptor agonist
+BRD-K01663662	diphenidol	Acetylcholine receptor agonist
+BRD-K65678996	nefiracetam	Acetylcholine receptor agonist
+BRD-K05395900	nicotine	Acetylcholine receptor agonist
+BRD-K85090592	pilocarpine	Acetylcholine receptor agonist
+BRD-K18855837	varenicline	Acetylcholine receptor agonist
+BRD-A86216746	varenicline	Acetylcholine receptor agonist
+BRD-K33336844	cryptotanshinone	Acetylcholinesterase inhibitor
+BRD-K51471001	demecarium	Acetylcholinesterase inhibitor
+BRD-A49160188	donepezil	Acetylcholinesterase inhibitor
+BRD-K81128206	edrophonium	Acetylcholinesterase inhibitor
+BRD-K49481516	galantamine	Acetylcholinesterase inhibitor
+BRD-A49148672	galantamine	Acetylcholinesterase inhibitor
+BRD-A47065382	huperzine a	Acetylcholinesterase inhibitor
+BRD-K15402119	huperzine a	Acetylcholinesterase inhibitor
+BRD-K45888792	huperzine a	Acetylcholinesterase inhibitor
+BRD-K97618845	huperzine a	Acetylcholinesterase inhibitor
+BRD-K66896231	ipidacrine	Acetylcholinesterase inhibitor
+BRD-A22101059	metrifonate	Acetylcholinesterase inhibitor
+BRD-K18922609	neostigmine	Acetylcholinesterase inhibitor
+BRD-K46580984	phenserine	Acetylcholinesterase inhibitor
+BRD-K25650355	physostigmine	Acetylcholinesterase inhibitor
+BRD-A37052580	physostigmine	Acetylcholinesterase inhibitor
+BRD-K84281997	pralidoxime	Acetylcholinesterase inhibitor
+BRD-K61327230	pralidoxime	Acetylcholinesterase inhibitor
+BRD-K10706131	rivastigmine	Acetylcholinesterase inhibitor
+BRD-K81473089	tacrine	Acetylcholinesterase inhibitor
+BRD-K62240499	huperzine a	Acetylcholinesterase inhibitor
+BRD-K44993696	atenolol	Adrenergic receptor antagonist
+BRD-K73323637	levobunolol	Adrenergic receptor antagonist
+BRD-K77474816	yohimbine	Adrenergic receptor antagonist
+BRD-A29260609	acebutolol	Adrenergic receptor antagonist
+BRD-A09056319	alfuzosin	Adrenergic receptor antagonist
+BRD-A00993607	alprenolol	Adrenergic receptor antagonist
+BRD-A02759312	betaxolol	Adrenergic receptor antagonist
+BRD-A89175223	bisoprolol	Adrenergic receptor antagonist
+BRD-A07563059	bopindolol	Adrenergic receptor antagonist
+BRD-K19462402	buflomedil	Adrenergic receptor antagonist
+BRD-A42167015	carteolol	Adrenergic receptor antagonist
+BRD-A10977446	carvedilol	Adrenergic receptor antagonist
+BRD-A95602221	celiprolol	Adrenergic receptor antagonist
+BRD-A13188892	doxazosin	Adrenergic receptor antagonist
+BRD-A07395371	esmolol	Adrenergic receptor antagonist
+BRD-A18696154	idazoxan	Adrenergic receptor antagonist
+BRD-A24191444	ifenprodil	Adrenergic receptor antagonist
+BRD-K76953762	indoramin	Adrenergic receptor antagonist
+BRD-K04389336	labetalol	Adrenergic receptor antagonist
+BRD-A07440155	labetalol	Adrenergic receptor antagonist
+BRD-K31812033	levobunolol	Adrenergic receptor antagonist
+BRD-A03623303	metoprolol	Adrenergic receptor antagonist
+BRD-M45038741	metoprolol	Adrenergic receptor antagonist
+BRD-K83153774	mirtazapine	Adrenergic receptor antagonist
+BRD-A64977602	mirtazapine	Adrenergic receptor antagonist
+BRD-A87606379	nadolol	Adrenergic receptor antagonist
+BRD-A97454584	nadolol	Adrenergic receptor antagonist
+BRD-K04956647	nebivolol	Adrenergic receptor antagonist
+BRD-K76810206	nicergoline	Adrenergic receptor antagonist
+BRD-K79062806	nicergoline	Adrenergic receptor antagonist
+BRD-A43331270	niguldipine	Adrenergic receptor antagonist
+BRD-A62336480	niguldipine	Adrenergic receptor antagonist
+BRD-A43671941	oxprenolol	Adrenergic receptor antagonist
+BRD-M30251550	penbutolol	Adrenergic receptor antagonist
+BRD-A67799922	phenoxybenzamine	Adrenergic receptor antagonist
+BRD-K21317336	phentolamine	Adrenergic receptor antagonist
+BRD-K90333595	phentolamine	Adrenergic receptor antagonist
+BRD-A97701745	pindolol	Adrenergic receptor antagonist
+BRD-A41304429	practolol	Adrenergic receptor antagonist
+BRD-K49111258	prazosin	Adrenergic receptor antagonist
+BRD-A10070317	propranolol	Adrenergic receptor antagonist
+BRD-M39350793	reboxetine	Adrenergic receptor antagonist
+BRD-K32814891	reboxetine	Adrenergic receptor antagonist
+BRD-K32480324	reboxetine	Adrenergic receptor antagonist
+BRD-A43974499	reboxetine	Adrenergic receptor antagonist
+BRD-K36732695	setiptiline	Adrenergic receptor antagonist
+BRD-A33168282	sotalol	Adrenergic receptor antagonist
+BRD-A94276798	talinolol	Adrenergic receptor antagonist
+BRD-K74339692	tamsulosin	Adrenergic receptor antagonist
+BRD-A22256192	terazosin	Adrenergic receptor antagonist
+BRD-K08806317	timolol	Adrenergic receptor antagonist
+BRD-K46211610	tolazoline	Adrenergic receptor antagonist
+BRD-K70778732	trazodone	Adrenergic receptor antagonist
+BRD-K73196317	urapidil	Adrenergic receptor antagonist
+BRD-K35586044	yohimbine	Adrenergic receptor antagonist
+BRD-K99712306	yohimbine	Adrenergic receptor antagonist
+BRD-A87445400	yohimbine	Adrenergic receptor antagonist
+BRD-A51410489	yohimbine	Adrenergic receptor antagonist
+BRD-K91301684	noscapine	Bradykinin receptor antagonist
+BRD-K66043364	noscapine	Bradykinin receptor antagonist
+BRD-K89237706	noscapine	Bradykinin receptor antagonist
+BRD-A51393488	noscapine	Bradykinin receptor antagonist
+BRD-K83003151	alogliptin	Dipeptidyl peptidase inhibitor
+BRD-K96550715	linagliptin	Dipeptidyl peptidase inhibitor
+BRD-A82156122	saxagliptin	Dipeptidyl peptidase inhibitor
+BRD-K19416115	sitagliptin	Dipeptidyl peptidase inhibitor
+BRD-K48068743	teneligliptin	Dipeptidyl peptidase inhibitor
+BRD-A88369366	trelagliptin	Dipeptidyl peptidase inhibitor
+BRD-A94993966	vildagliptin	Dipeptidyl peptidase inhibitor
+BRD-A81513827	saxagliptin	Dipeptidyl peptidase inhibitor
+BRD-K41185545	ambrisentan	Endothelin receptor antagonist
+BRD-A34578416	ambrisentan	Endothelin receptor antagonist
+BRD-K16295392	atrasentan	Endothelin receptor antagonist
+BRD-K74763371	bosentan	Endothelin receptor antagonist
+BRD-K48812570	macitentan	Endothelin receptor antagonist
+BRD-K63806092	sitaxentan	Endothelin receptor antagonist
+BRD-K31553034	zibotentan	Endothelin receptor antagonist
+BRD-K33251802	miglustat	Glycosyl transferase inhibitor
+BRD-A29426959	carbinoxamine	L-type calcium channel blocker
+BRD-A29644307	nomifensine	Noradrenaline uptake inhibitor
+BRD-K37764012	pf-03758309	P21 activated kinase inhibitor
+BRD-A90547603	eptifibatide	Platelet aggregation inhibitor
+BRD-K47192521	icosapent	Platelet aggregation inhibitor
+BRD-K57391913	iloprost	Platelet aggregation inhibitor
+BRD-A45664787	iloprost	Platelet aggregation inhibitor
+BRD-A16296925	indobufen	Platelet aggregation inhibitor
+BRD-K37872686	tirofiban	Platelet aggregation inhibitor
+BRD-K71696703	triflusal	Platelet aggregation inhibitor
+BRD-K68538666	aceclofenac	Prostanoid receptor antagonist
+BRD-K22031190	diflunisal	Prostanoid receptor antagonist
+BRD-A44090213	indoprofen	Prostanoid receptor antagonist
+BRD-K48894757	laropiprant	Prostanoid receptor antagonist
+BRD-K28849549	mesalazine	Prostanoid receptor antagonist
+BRD-K10843433	phenylbutazone	Prostanoid receptor antagonist
+BRD-K08586861	ramatroban	Prostanoid receptor antagonist
+BRD-K27721098	clopidogrel	Purinergic receptor antagonist
+BRD-A93269281	clopidogrel	Purinergic receptor antagonist
+BRD-A83029242	prasugrel	Purinergic receptor antagonist
+BRD-K44974079	ticagrelor	Purinergic receptor antagonist
+BRD-K00603606	ticlopidine	Purinergic receptor antagonist
+BRD-K50498985	taladegib	Smoothened receptor antagonist
+BRD-K44827188	vismodegib	Smoothened receptor antagonist
+BRD-K09549677	mibefradil	T-type calcium channel blocker
+BRD-A48631911	mibefradil	T-type calcium channel blocker
+BRD-A70998768	pinaverium	T-type calcium channel blocker
+BRD-A28095882	zonisamide	T-type calcium channel blocker
+BRD-K48300629	zonisamide	T-type calcium channel blocker
+BRD-K82767007	dazoxiben	Thromboxane synthase inhibitor
+BRD-K53061490	ozagrel	Thromboxane synthase inhibitor
+BRD-K19525698	ozagrel	Thromboxane synthase inhibitor
+BRD-K67277431	picotamide	Thromboxane synthase inhibitor
+BRD-K71696703	triflusal	Thromboxane synthase inhibitor
+BRD-K24844714	fluorouracil	Thymidylate synthase inhibitor
+BRD-K15574380	capecitabine	Thymidylate synthase inhibitor
+BRD-K61192372	capecitabine	Thymidylate synthase inhibitor
+BRD-A91877226	capecitabine	Thymidylate synthase inhibitor
+BRD-K11630072	carmofur	Thymidylate synthase inhibitor
+BRD-K83057217	doxifluridine	Thymidylate synthase inhibitor
+BRD-A68537732	doxifluridine	Thymidylate synthase inhibitor
+BRD-K32842773	pemetrexed	Thymidylate synthase inhibitor
+BRD-K55395145	pemetrexed	Thymidylate synthase inhibitor
+BRD-K89839824	raltitrexed	Thymidylate synthase inhibitor
+BRD-A79903587	tegafur	Thymidylate synthase inhibitor
+BRD-K03243820	trifluridine	Thymidylate synthase inhibitor
+BRD-A64485570	trifluridine	Thymidylate synthase inhibitor
+BRD-K58262659	doxifluridine	Thymidylate synthase inhibitor
+BRD-K18779551	bifemelane	Acetylcholine release stimulant
+BRD-K56810756	fomepizole	Alcohol dehydrogenase inhibitor
+BRD-K55567017	formononetin	Alcohol dehydrogenase inhibitor
+BRD-K55301415	abiraterone	Androgen biosynthesis inhibitor
+BRD-K00674894	orteronel	Androgen biosynthesis inhibitor
+BRD-A12409803	orteronel	Androgen biosynthesis inhibitor
+BRD-K50071428	abiraterone	Androgen biosynthesis inhibitor
+BRD-K81074237	azilsartan medoxomil	Angiotensin receptor antagonist
+BRD-K84091759	candesartan	Angiotensin receptor antagonist
+BRD-K67977190	eprosartan	Angiotensin receptor antagonist
+BRD-K60038276	irbesartan	Angiotensin receptor antagonist
+BRD-K76205745	losartan	Angiotensin receptor antagonist
+BRD-K66198023	losartan	Angiotensin receptor antagonist
+BRD-K73999723	telmisartan	Angiotensin receptor antagonist
+BRD-K45158365	valsartan	Angiotensin receptor antagonist
+BRD-A14792000	valsartan	Angiotensin receptor antagonist
+BRD-K32398298	alprazolam	Benzodiazepine receptor agonist
+BRD-K86595100	chlordiazepoxide	Benzodiazepine receptor agonist
+BRD-K16508793	diazepam	Benzodiazepine receptor agonist
+BRD-K68232413	etizolam	Benzodiazepine receptor agonist
+BRD-K90948141	indiplon	Benzodiazepine receptor agonist
+BRD-A11990600	lorazepam	Benzodiazepine receptor agonist
+BRD-K57930253	nitrazepam	Benzodiazepine receptor agonist
+BRD-K92657060	zaleplon	Benzodiazepine receptor agonist
+BRD-K33882852	zk-93423	Benzodiazepine receptor agonist
+BRD-K44876623	zolpidem	Benzodiazepine receptor agonist
+BRD-A16311756	profenamine	Butyrylcholinesterase inhibitor
+BRD-K13296708	rimonabant	Cannabinoid receptor antagonist
+BRD-A14208071	oxyphenonium	Cholinergic receptor antagonist
+BRD-A53561827	pipenzolate	Cholinergic receptor antagonist
+BRD-A16311756	profenamine	Cholinergic receptor antagonist
+BRD-K55026842	azacitidine	DNA methyltransferase inhibitor
+BRD-K03406345	azacitidine	DNA methyltransferase inhibitor
+BRD-A11263757	azacitidine	DNA methyltransferase inhibitor
+BRD-K79254416	decitabine	DNA methyltransferase inhibitor
+BRD-K32744045	disulfiram	DNA methyltransferase inhibitor
+BRD-K87714311	zebularine	DNA methyltransferase inhibitor
+BRD-A01145011	zebularine	DNA methyltransferase inhibitor
+BRD-K43578482	defactinib	Focal adhesion kinase inhibitor
+BRD-A07893380	vigabatrin	GABA aminotransferase inhibitor
+BRD-K47635719	dexamethasone	Glucocorticoid receptor agonist
+BRD-K60640630	mometasone	Glucocorticoid receptor agonist
+BRD-K61496577	flumethasone	Glucocorticoid receptor agonist
+BRD-A90131694	alclometasone	Glucocorticoid receptor agonist
+BRD-A63934767	alclometasone	Glucocorticoid receptor agonist
+BRD-K45149020	amcinonide	Glucocorticoid receptor agonist
+BRD-A36010170	amcinonide	Glucocorticoid receptor agonist
+BRD-A16478930	amcinonide	Glucocorticoid receptor agonist
+BRD-K39188321	betamethasone	Glucocorticoid receptor agonist
+BRD-A02180903	betamethasone	Glucocorticoid receptor agonist
+BRD-A34299591	budesonide	Glucocorticoid receptor agonist
+BRD-A58753560	budesonide	Glucocorticoid receptor agonist
+BRD-A60571864	budesonide	Glucocorticoid receptor agonist
+BRD-A82238138	budesonide	Glucocorticoid receptor agonist
+BRD-K35245662	ciclesonide	Glucocorticoid receptor agonist
+BRD-K10799896	clobetasol	Glucocorticoid receptor agonist
+BRD-K84443303	clobetasol	Glucocorticoid receptor agonist
+BRD-A26095496	clobetasol	Glucocorticoid receptor agonist
+BRD-A63894585	clobetasol	Glucocorticoid receptor agonist
+BRD-K81925854	clocortolone	Glucocorticoid receptor agonist
+BRD-K53342282	hydrocortisone	Glucocorticoid receptor agonist
+BRD-K96006502	deflazacort	Glucocorticoid receptor agonist
+BRD-K45192137	dexamethasone	Glucocorticoid receptor agonist
+BRD-K38775274	dexamethasone	Glucocorticoid receptor agonist
+BRD-K30207000	dexamethasone	Glucocorticoid receptor agonist
+BRD-A10188456	dexamethasone	Glucocorticoid receptor agonist
+BRD-A69951442	dexamethasone	Glucocorticoid receptor agonist
+BRD-K00835182	dexamethasone	Glucocorticoid receptor agonist
+BRD-A35108200	dexamethasone	Glucocorticoid receptor agonist
+BRD-K17041687	diflorasone	Glucocorticoid receptor agonist
+BRD-K17674993	diflorasone	Glucocorticoid receptor agonist
+BRD-A01346607	flumethasone	Glucocorticoid receptor agonist
+BRD-A59943784	fluticasone	Glucocorticoid receptor agonist
+BRD-K14791739	fluticasone	Glucocorticoid receptor agonist
+BRD-K11469942	fluticasone	Glucocorticoid receptor agonist
+BRD-K81709173	halcinonide	Glucocorticoid receptor agonist
+BRD-K71451869	halcinonide	Glucocorticoid receptor agonist
+BRD-A88138582	halcinonide	Glucocorticoid receptor agonist
+BRD-K33312228	halometasone	Glucocorticoid receptor agonist
+BRD-A75172220	hydrocortisone	Glucocorticoid receptor agonist
+BRD-K93568044	hydrocortisone	Glucocorticoid receptor agonist
+BRD-K73978287	hydrocortisone	Glucocorticoid receptor agonist
+BRD-A73635141	hydrocortisone	Glucocorticoid receptor agonist
+BRD-K01014769	isoflupredone	Glucocorticoid receptor agonist
+BRD-K39983086	loteprednol	Glucocorticoid receptor agonist
+BRD-K56515112	medrysone	Glucocorticoid receptor agonist
+BRD-K13688115	medrysone	Glucocorticoid receptor agonist
+BRD-A20126139	medrysone	Glucocorticoid receptor agonist
+BRD-K35240538	methylprednisolone	Glucocorticoid receptor agonist
+BRD-A53176877	methylprednisolone	Glucocorticoid receptor agonist
+BRD-K92310201	mometasone	Glucocorticoid receptor agonist
+BRD-K87990216	piretanide	Glucocorticoid receptor agonist
+BRD-K82624463	prednisone	Glucocorticoid receptor agonist
+BRD-K85883481	prednisone	Glucocorticoid receptor agonist
+BRD-A62525898	prednisone	Glucocorticoid receptor agonist
+BRD-K27218697	rimexolone	Glucocorticoid receptor agonist
+BRD-K31627533	rimexolone	Glucocorticoid receptor agonist
+BRD-K77554836	triamcinolone	Glucocorticoid receptor agonist
+BRD-K23714869	triamcinolone	Glucocorticoid receptor agonist
+BRD-A37780065	triamcinolone	Glucocorticoid receptor agonist
+BRD-A30717181	triamcinolone	Glucocorticoid receptor agonist
+BRD-K53790871	triamcinolone	Glucocorticoid receptor agonist
+BRD-A80775386	hyperforin	Interleukin receptor antagonist
+BRD-K72816382	cinalukast	Leukotriene receptor antagonist
+BRD-K16444452	ibudilast	Leukotriene receptor antagonist
+BRD-K28936863	ketotifen	Leukotriene receptor antagonist
+BRD-K69470111	montelukast	Leukotriene receptor antagonist
+BRD-K99673372	montelukast	Leukotriene receptor antagonist
+BRD-A31312900	montelukast	Leukotriene receptor antagonist
+BRD-K97045029	pranlukast	Leukotriene receptor antagonist
+BRD-K71289571	zafirlukast	Leukotriene receptor antagonist
+BRD-K55055802	etomidate	Membrane permeability inhibitor
+BRD-A51831848	enflurane	Membrane permeability inhibitor
+BRD-A54880345	etomidate	Membrane permeability inhibitor
+BRD-K06152156	methoxyflurane	Membrane permeability inhibitor
+BRD-K25114078	pimagedine	Nitric oxide synthase inhibitor
+BRD-K65814004	diphenyleneiodonium	Nitric oxide synthase inhibitor
+BRD-K97530723	melatonin	Nitric oxide synthase inhibitor
+BRD-A67605442	sapropterin	Nitric oxide synthase stimulant
+BRD-K97399794	quercetin	Polar auxin transport inhibitor
+BRD-K15502390	nevirapine	Reverse transcriptase inhibitor
+BRD-K76617868	fasudil	Rho associated kinase inhibitor
+BRD-K77793136	hydroxyfasudil	Rho associated kinase inhibitor
+BRD-K53814070	ripasudil	Rho associated kinase inhibitor
+BRD-K44084986	y-27632	Rho associated kinase inhibitor
+BRD-A58280226	y-27632	Rho associated kinase inhibitor
+BRD-K40496271	eltrombopag	Thrombopoietin receptor agonist
+BRD-K67277431	picotamide	Thromboxane receptor antagonist
+BRD-K30480208	torasemide	Thromboxane receptor antagonist
+BRD-K37385792	conivaptan	Vasopressin receptor antagonist
+BRD-K96720755	relcovaptan	Vasopressin receptor antagonist
+BRD-A82035391	tolvaptan	Vasopressin receptor antagonist
+BRD-K32744045	disulfiram	Aldehyde dehydrogenase inhibitor
+BRD-K56060837	serotonin	Growth factor receptor activator
+BRD-K63124331	serotonin	Growth factor receptor activator
+BRD-K38580127	serotonin	Growth factor receptor activator
+BRD-A12881497	serotonin	Growth factor receptor activator
+BRD-K07881437	danusertib	Growth factor receptor inhibitor
+BRD-K23192422	lestaurtinib	Growth factor receptor inhibitor
+BRD-A27376179	lestaurtinib	Growth factor receptor inhibitor
+BRD-A90625545	clinofibrate	Lipase clearing factor inhibitor
+BRD-K21396683	marimastat	Matrix metalloprotease inhibitor
+BRD-A94793051	gestrinone	Progesterone receptor antagonist
+BRD-K97472745	gestrinone	Progesterone receptor antagonist
+BRD-K59850506	gestrinone	Progesterone receptor antagonist
+BRD-K35189033	levonorgestrel	Progesterone receptor antagonist
+BRD-K90543092	levonorgestrel	Progesterone receptor antagonist
+BRD-K44094313	mifepristone	Progesterone receptor antagonist
+BRD-K37270826	mifepristone	Progesterone receptor antagonist
+BRD-A44780397	mifepristone	Progesterone receptor antagonist
+BRD-K76197012	ulipristal	Progesterone receptor antagonist
+BRD-K85406984	sobetirome	Thyroid hormone receptor agonist
+BRD-K88366685	trimetazidine	3-ketoacyl CoA thiolase inhibitor
+BRD-K74363950	aclidinium	Acetylcholine receptor antagonist
+BRD-K60907894	adiphenine	Acetylcholine receptor antagonist
+BRD-A69917777	aminopentamide	Acetylcholine receptor antagonist
+BRD-M35773784	atropine	Acetylcholine receptor antagonist
+BRD-A27290375	atropine	Acetylcholine receptor antagonist
+BRD-A93739713	atropine	Acetylcholine receptor antagonist
+BRD-K68804560	benzatropine	Acetylcholine receptor antagonist
+BRD-A25067867	benzatropine	Acetylcholine receptor antagonist
+BRD-A00546892	biperiden	Acetylcholine receptor antagonist
+BRD-A36471396	biperiden	Acetylcholine receptor antagonist
+BRD-A99939097	carisoprodol	Acetylcholine receptor antagonist
+BRD-A46066006	clidinium	Acetylcholine receptor antagonist
+BRD-K95773607	darifenacin	Acetylcholine receptor antagonist
+BRD-K68507560	dicyclomine	Acetylcholine receptor antagonist
+BRD-K93441486	diphemanil	Acetylcholine receptor antagonist
+BRD-A74975734	homatropine	Acetylcholine receptor antagonist
+BRD-A39671870	homatropine	Acetylcholine receptor antagonist
+BRD-A09539288	homatropine	Acetylcholine receptor antagonist
+BRD-A37432947	ipratropium	Acetylcholine receptor antagonist
+BRD-A07029265	ipratropium	Acetylcholine receptor antagonist
+BRD-A96060515	ipratropium	Acetylcholine receptor antagonist
+BRD-A05352148	ipratropium	Acetylcholine receptor antagonist
+BRD-K66206289	lobeline	Acetylcholine receptor antagonist
+BRD-A09467419	mebeverine	Acetylcholine receptor antagonist
+BRD-A20119038	mecamylamine	Acetylcholine receptor antagonist
+BRD-A03932035	methscopolamine	Acetylcholine receptor antagonist
+BRD-A33711280	metixene	Acetylcholine receptor antagonist
+BRD-K85337334	otilonium	Acetylcholine receptor antagonist
+BRD-A65013509	oxybutynin	Acetylcholine receptor antagonist
+BRD-A97479839	piperidolate	Acetylcholine receptor antagonist
+BRD-K89375097	pirenzepine	Acetylcholine receptor antagonist
+BRD-K90885812	propantheline	Acetylcholine receptor antagonist
+BRD-K58951486	rocuronium	Acetylcholine receptor antagonist
+BRD-A33973768	scopolamine	Acetylcholine receptor antagonist
+BRD-K89923877	scopolamine	Acetylcholine receptor antagonist
+BRD-A62035778	scopolamine	Acetylcholine receptor antagonist
+BRD-A14566392	scopolamine	Acetylcholine receptor antagonist
+BRD-A54596827	solifenacin	Acetylcholine receptor antagonist
+BRD-A09094913	strychnine	Acetylcholine receptor antagonist
+BRD-K62782754	tiotropium	Acetylcholine receptor antagonist
+BRD-K54316499	tolterodine	Acetylcholine receptor antagonist
+BRD-A48180038	trihexyphenidyl	Acetylcholine receptor antagonist
+BRD-A79672927	tropicamide	Acetylcholine receptor antagonist
+BRD-K02607075	tubocurarine	Acetylcholine receptor antagonist
+BRD-K99621550	tubocurarine	Acetylcholine receptor antagonist
+BRD-K46692793	umeclidinium	Acetylcholine receptor antagonist
+BRD-K61341215	vecuronium	Acetylcholine receptor antagonist
+BRD-K20168442	vecuronium	Acetylcholine receptor antagonist
+BRD-K31374463	vecuronium	Acetylcholine receptor antagonist
+BRD-K94436377	diosmin	Aryl hydrocarbon receptor agonist
+BRD-K59456551	methotrexate	Dihydrofolate reductase inhibitor
+BRD-K32842773	pemetrexed	Dihydrofolate reductase inhibitor
+BRD-K55395145	pemetrexed	Dihydrofolate reductase inhibitor
+BRD-A74914197	pralatrexate	Dihydrofolate reductase inhibitor
+BRD-K01950558	succinylsulfathiazole	Dihydrofolate reductase inhibitor
+BRD-K00911143	brexpiprazole	Dopamine receptor partial agonist
+BRD-K08316444	rotenone	Mitochondrial complex I inhibitor
+BRD-K02265150	amoxapine	Norepinephrine reputake inhibitor
+BRD-K38436528	imipramine	Norepinephrine reputake inhibitor
+BRD-K03319035	maprotiline	Norepinephrine reputake inhibitor
+BRD-K25433859	maprotiline	Norepinephrine reputake inhibitor
+BRD-K51033547	tramadol	Norepinephrine reputake inhibitor
+BRD-K04412738	tramadol	Norepinephrine reputake inhibitor
+BRD-A19195498	trimipramine	Norepinephrine reputake inhibitor
+BRD-K53737926	amitriptyline	Norepinephrine reuptake inhibitor
+BRD-K54759182	dosulepin	Norepinephrine reuptake inhibitor
+BRD-K71103788	duloxetine	Norepinephrine reuptake inhibitor
+BRD-K82147103	lofepramine	Norepinephrine reuptake inhibitor
+BRD-K90789829	nefazodone	Norepinephrine reuptake inhibitor
+BRD-A95696066	nisoxetine	Norepinephrine reuptake inhibitor
+BRD-A51714012	venlafaxine	Norepinephrine reuptake inhibitor
+BRD-A96292436	eflornithine	Ornithine decarboxylase inhibitor
+BRD-K09711437	varespladib	Secretory phospholipase inhibitor
+BRD-K29656036	mk-8245	Stearoyl-CoA desaturase inhibitor
+BRD-K11973162	tipiracil	Thymidine phosphorylase inhibitor
+BRD-K98769987	flumazenil	Benzodiazepine receptor antagonist
+BRD-K30480208	torasemide	Electrolyte reabsorption inhibitor
+BRD-A25234499	aminoglutethimide	Glucocorticoid receptor antagonist
+BRD-K35189033	levonorgestrel	Glucocorticoid receptor antagonist
+BRD-K90543092	levonorgestrel	Glucocorticoid receptor antagonist
+BRD-K44094313	mifepristone	Glucocorticoid receptor antagonist
+BRD-K37270826	mifepristone	Glucocorticoid receptor antagonist
+BRD-A44780397	mifepristone	Glucocorticoid receptor antagonist
+BRD-A97502381	cyanocobalamin	Methylmalonyl CoA mutase stimulant
+BRD-A31836915	cyanocobalamin	Methylmalonyl CoA mutase stimulant
+BRD-K91511962	desoxycortone	Mineralocorticoid receptor agonist
+BRD-K98521173	desoxycortone	Mineralocorticoid receptor agonist
+BRD-K93034159	cladribine	Ribonucleoside reductase inhibitor
+BRD-K34022604	clofarabine	Ribonucleoside reductase inhibitor
+BRD-A82371568	clofarabine	Ribonucleoside reductase inhibitor
+BRD-K51747290	hydroxyurea	Ribonucleoside reductase inhibitor
+BRD-K33106058	cytarabine	Ribonucleotide reductase inhibitor
+BRD-K71847383	cytarabine	Ribonucleotide reductase inhibitor
+BRD-A18929998	cytarabine	Ribonucleotide reductase inhibitor
+BRD-K15108141	gemcitabine	Ribonucleotide reductase inhibitor
+BRD-K83405785	pimavanserin	Serotonin receptor inverse agonist
+BRD-K21806131	tegaserod	Serotonin receptor partial agonist
+BRD-K37872686	tirofiban	Structural glycoprotein antagonist
+BRD-K33818169	gw-3965	ABC transporter expression enhancer
+BRD-A72024019	tunicamycin	GLCNAC phosphotransferase inhibitor
+BRD-K10573841	tunicamycin	GLCNAC phosphotransferase inhibitor
+BRD-K07572174	curcumin	Histone acetyltransferase inhibitor
+BRD-K74148702	curcumin	Histone acetyltransferase inhibitor
+BRD-K69690935	curcumin	Histone acetyltransferase inhibitor
+BRD-K53597484	tnp-470	Methionine aminopeptidase inhibitor
+BRD-A99367815	fumagillin	Methionine aminopeptidase inhibitor
+BRD-A58955223	sulforaphane	Aryl hydrocarbon receptor antagonist
+BRD-K35169477	taranabant	Cannabinoid receptor inverse agonist
+BRD-K10671814	sulfaphenazole	Dihydropteroate synthetase inhibitor
+BRD-K20141153	atomoxetine	Norepinephrine transporter inhibitor
+BRD-K01649396	indatraline	Norepinephrine transporter inhibitor
+BRD-K55044200	amoxicillin	Penicillin binding protein inhibitor
+BRD-K20079257	rufinamide	Voltage-gated sodium channel blocker
+BRD-A27732521	tolperisone	Voltage-gated sodium channel blocker
+BRD-K03243820	trifluridine	DNA directed DNA polymerase inhibitor
+BRD-A64485570	trifluridine	DNA directed DNA polymerase inhibitor
+BRD-U94846492	quinine	Hemozoin biocrystallization inhibitor
+BRD-K99257182	quinine	Hemozoin biocrystallization inhibitor
+BRD-K07940445	quinine	Hemozoin biocrystallization inhibitor
+BRD-K93255255	indoximod	Indoleamine 2,3-dioxygenase inhibitor
+BRD-K00885784	canrenone	Mineralocorticoid receptor antagonist
+BRD-A20644369	canrenone	Mineralocorticoid receptor antagonist
+BRD-K04394237	drospirenone	Mineralocorticoid receptor antagonist
+BRD-A00938334	drospirenone	Mineralocorticoid receptor antagonist
+BRD-K67919934	spironolactone	Mineralocorticoid receptor antagonist
+BRD-K90027355	spironolactone	Mineralocorticoid receptor antagonist
+BRD-A97808748	spironolactone	Mineralocorticoid receptor antagonist
+BRD-K36859431	sapropterin	Phenylalanine 4-hydroxylase stimulant
+BRD-A67605442	sapropterin	Phenylalanine 4-hydroxylase stimulant
+BRD-K90195324	bazedoxifene	Selective estrogen receptor modulator
+BRD-K63828191	raloxifene	Selective estrogen receptor modulator
+BRD-K04210847	tamoxifen	Selective estrogen receptor modulator
+BRD-K93754473	tamoxifen	Selective estrogen receptor modulator
+BRD-K43744935	tamoxifen	Selective estrogen receptor modulator
+BRD-K51350053	toremifene	Selective estrogen receptor modulator
+BRD-K67174588	toremifene	Selective estrogen receptor modulator
+BRD-K63460351	toremifene	Selective estrogen receptor modulator
+BRD-A53077924	tianeptine	Selective serotonin reuptake enhancer
+BRD-K83636919	entacapone	Catechol O methyltransferase inhibitor
+BRD-K92977333	entacapone	Catechol O methyltransferase inhibitor
+BRD-K10852020	tolcapone	Catechol O methyltransferase inhibitor
+BRD-K27305650	ly-294002	DNA dependent protein kinase inhibitor
+BRD-K96123349	brequinar	Dihydroorotate dehydrogenase inhibitor
+BRD-K78692225	leflunomide	Dihydroorotate dehydrogenase inhibitor
+BRD-A42699921	teriflunomide	Dihydroorotate dehydrogenase inhibitor
+BRD-K68532323	sb-743921	Kinesin-like spindle protein inhibitor
+BRD-K70301876	escitalopram	Selective serotonin reuptake inhibitor
+BRD-A31159102	fluoxetine	Selective serotonin reuptake inhibitor
+BRD-K53517854	fluvoxamine	Selective serotonin reuptake inhibitor
+BRD-K31534764	fluvoxamine	Selective serotonin reuptake inhibitor
+BRD-K72676686	fluvoxamine	Selective serotonin reuptake inhibitor
+BRD-K19277754	paroxetine	Selective serotonin reuptake inhibitor
+BRD-K37991163	paroxetine	Selective serotonin reuptake inhibitor
+BRD-A62326914	paroxetine	Selective serotonin reuptake inhibitor
+BRD-K90868879	canagliflozin	Sodium/glucose cotransporter inhibitor
+BRD-K46604138	dapagliflozin	Sodium/glucose cotransporter inhibitor
+BRD-K53765467	empagliflozin	Sodium/glucose cotransporter inhibitor
+BRD-K10071630	ertugliflozin	Sodium/glucose cotransporter inhibitor
+BRD-K24601397	phlorizin	Sodium/glucose cotransporter inhibitor
+BRD-K05850076	sotagliflozin	Sodium/glucose cotransporter inhibitor
+BRD-K38197229	bumetanide	Solute carrier family member inhibitor
+BRD-K49807096	benazepril	Angiotensin converting enzyme inhibitor
+BRD-A15131297	benazepril	Angiotensin converting enzyme inhibitor
+BRD-K54529596	captopril	Angiotensin converting enzyme inhibitor
+BRD-K65518078	cilazapril	Angiotensin converting enzyme inhibitor
+BRD-K00573984	delapril	Angiotensin converting enzyme inhibitor
+BRD-K29462201	deserpidine	Angiotensin converting enzyme inhibitor
+BRD-K44497846	enalapril	Angiotensin converting enzyme inhibitor
+BRD-K57545991	enalapril	Angiotensin converting enzyme inhibitor
+BRD-K99447003	enalaprilat	Angiotensin converting enzyme inhibitor
+BRD-A51382177	fosinopril	Angiotensin converting enzyme inhibitor
+BRD-K34332569	imidapril	Angiotensin converting enzyme inhibitor
+BRD-K67966701	lisinopril	Angiotensin converting enzyme inhibitor
+BRD-K34441861	moexipril	Angiotensin converting enzyme inhibitor
+BRD-K86940322	perindopril	Angiotensin converting enzyme inhibitor
+BRD-K92731339	perindopril	Angiotensin converting enzyme inhibitor
+BRD-K72222507	quinapril	Angiotensin converting enzyme inhibitor
+BRD-K05111602	ramipril	Angiotensin converting enzyme inhibitor
+BRD-K89348303	ramipril	Angiotensin converting enzyme inhibitor
+BRD-A65739223	ramipril	Angiotensin converting enzyme inhibitor
+BRD-K52930707	rescinnamine	Angiotensin converting enzyme inhibitor
+BRD-K10784860	temocapril	Angiotensin converting enzyme inhibitor
+BRD-A32505112	trandolapril	Angiotensin converting enzyme inhibitor
+BRD-A23712469	bacitracin	Bacterial cell wall synthesis inhibitor
+BRD-K63242551	cefadroxil	Bacterial cell wall synthesis inhibitor
+BRD-A56858165	cefadroxil	Bacterial cell wall synthesis inhibitor
+BRD-K18574842	nafcillin	Bacterial cell wall synthesis inhibitor
+BRD-K49776472	skf-91488	Histamine N-methyltransferase inhibitor
+BRD-A56012032	thiorphan	Membrane metalloendopeptidase inhibitor
+BRD-A80871782	hydroxyamphetamine	Trace amine associated receptor agonist
+BRD-A19633847	perhexiline	Carnitine palmitoyltransferase inhibitor
+BRD-K88025533	fingolimod	Sphingosine 1 phosphate receptor agonist
+BRD-K98174813	chlorzoxazone	Bacterial 30S ribosomal subunit inhibitor
+BRD-K66876909	linezolid	Bacterial 50S ribosomal subunit inhibitor
+BRD-K35687421	gimeracil	Dihydropyrimidine dehydrogenase inhibitor
+BRD-K38183498	clonazepam	GABA benzodiazepine site receptor agonist
+BRD-K60237333	niacin	NAD precursor with lipid lowering effects
+BRD-K61993165	niacin	NAD precursor with lipid lowering effects
+BRD-K42260897	ezetimibe	Niemann-Pick C1-like 1 protein antagonist
+BRD-A41519720	ezetimibe	Niemann-Pick C1-like 1 protein antagonist
+BRD-K44495371	reserpine	Vesicular monoamine transporter inhibitor
+BRD-K95921201	reserpine	Vesicular monoamine transporter inhibitor
+BRD-K24125544	tetrabenazine	Vesicular monoamine transporter inhibitor
+BRD-K95739795	tetrabenazine	Vesicular monoamine transporter inhibitor
+BRD-A47564106	tetrabenazine	Vesicular monoamine transporter inhibitor
+BRD-K30550578	pf-04620110	Diacylglycerol O acyltransferase inhibitor
+BRD-A19585813	methylphenidate	Dopamine-norepinephrine reuptake inhibitor
+BRD-K99063460	didanosine	Nucleoside reverse transcriptase inhibitor
+BRD-K23190681	av-412	Receptor tyrosine protein kinase inhibitor
+BRD-K07106112	bms-599626	Receptor tyrosine protein kinase inhibitor
+BRD-K19061412	mubritinib	Receptor tyrosine protein kinase inhibitor
+BRD-A12994259	pomalidomide	Tumor necrosis factor production inhibitor
+BRD-K18849474	dalcetrapib	Cholesterylester transfer protein inhibitor
+BRD-K40738845	bms-777607	Hepatocyte growth factor receptor inhibitor
+BRD-K01109406	nitisinone	Hydroxyphenylpyruvate dioxygenase inhibitor
+BRD-K44366189	anacetrapib	Cholesteryl ester transfer protein inhibitor
+BRD-K64622987	torcetrapib	Cholesteryl ester transfer protein inhibitor
+BRD-K01174345	anamorelin	Growth hormone secretagogue receptor agonist
+BRD-K78712176	carbidopa	Aromatic L-amino acid decarboxylase inhibitor
+BRD-A69512159	carbidopa	Aromatic L-amino acid decarboxylase inhibitor
+BRD-K68232650	lacosamide	Collapsin response mediator protein inhibitor
+BRD-K68232650	lacosamide	Collapsin response mediator protein stimulant
+BRD-A62434282	goserelin	Luteinizing hormone releasing hormone agonist
+BRD-K87202646	isoniazid	Enoyl-acyl-carrier protein reductase inhibitor
+BRD-K41731458	triclosan	Enoyl-acyl-carrier protein reductase inhibitor
+BRD-K12885236	dapivirine	Non-nucleoside reverse transcriptase inhibitor
+BRD-K34068325	delavirdine	Non-nucleoside reverse transcriptase inhibitor
+BRD-K74717603	etravirine	Non-nucleoside reverse transcriptase inhibitor
+BRD-A59001851	ginkgolide-b	Platelet activating factor receptor antagonist
+BRD-A82395837	ginkgolide-b	Platelet activating factor receptor antagonist
+BRD-K98004573	rupatadine	Platelet activating factor receptor antagonist
+BRD-A16997652	protirelin	Thyrotropin releasing hormone receptor agonist
+BRD-A80017228	bendroflumethiazide	Sodium/potassium/chloride transporter inhibitor
+BRD-K36862742	hydroflumethiazide	Sodium/potassium/chloride transporter inhibitor
+BRD-K64838454	dipraglurant	Glutamate receptor negative allosteric modulator
+BRD-K32218650	mbx-2982	Glucose dependent insulinotropic receptor agonist
+BRD-K66956375	oleic monoethanolamide	Glucose dependent insulinotropic receptor agonist
+BRD-K31987754	oleic monoethanolamide	Glucose dependent insulinotropic receptor agonist
+BRD-K21295289	senicapoc	Intermediate conductance potassium channel blocker
+BRD-K92213669	lomitapide	Microsomal trigylceride transfer protein inhibitor
+BRD-A66155091	trilostane	3beta-hydroxy-delta5-steroid dehydrogenase inhibitor
+BRD-K62685538	triptorelin	Gonadotropin releasing factor hormone receptor agonist

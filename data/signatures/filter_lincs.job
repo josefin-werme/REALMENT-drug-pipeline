@@ -1,0 +1,6 @@
+#!/bin/sh
+#SBATCH -t 1:00:00
+
+if [[ -f lincs2_mapped.h5 ]]; then rm lincs2_mapped.h5; fi
+
+Rscript filter_lincs_exemplar_matched.R
