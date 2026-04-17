@@ -15,6 +15,7 @@
 -- but if so I should probably make a not in scripts
 - explain what defaultSubjectExclusions.txt and defaultVariantExclusions_rsids.txt are 
 - include directory tree overview
+- make sure output dirs are automatically created if not already in pred_drugs.sh and validate.sh
 
 # signatures
 - see todo in signatures dir

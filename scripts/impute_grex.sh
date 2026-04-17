@@ -70,6 +70,10 @@ if [[ $debug == TRUE ]]; then
 	echo "*** WARNING: DEBUG MODE, only $n_genes will be imputed ***"
 fi
 
+# create output dirs if not already present
+if [[ ! -d $grex ]]; then mkdir $grex; fi
+if [[ ! -d $grex/all_ind ]]; then mkdir $grex/all_ind; fi
+
 #for n_retry in 5; do
 	#for npar in 3; do
 		prefix=impute-${tissue}-${eqtls}-npar${npar}-retry${n_retry}
