@@ -2,8 +2,12 @@
 
 .claude/
 
-data/lava_gtex/gencode.v26.annotation.gtf
 
+README.draft.md
+TODO.md
+data/signatures/TODO.md
+
+data/lava_gtex/gencode.v26.annotation.gtf
 data/lava_gtex/all_snps/adrenal_gland.tar.zst
 data/lava_gtex/all_snps/brain_amygdala.tar.zst
 data/lava_gtex/all_snps/brain_anterior_cingulate.tar.zst
