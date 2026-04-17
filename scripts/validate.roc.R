@@ -2,10 +2,6 @@ arg = commandArgs(T); input.dir = arg[1]; in.prefix = arg[2]; code = arg[3]; cas
 debug=F
 # code="N05BB"; tissue="brain_cortex"; input.dir="drugs"; in.prefix=paste0("maf005-z165-",tissue,"-spearman"); case_iids = paste0("../classN_cases/",code,".cases"); all_iids = "../IIDs.txt"; n.cores = 15; iids_to_process = "1-50000"; outname = paste0("ROC/test",".",iids_to_process); # debug=T
 
-# source('/gpfs/work5/0/vusr0748/realment/scripts/validate.roc.R')
-
-# COMPUTES ROC FOR 'PURE' CASES (i.e. only people that take that particular drug)
-
 library(data.table); library(bettermc)
 # - for either cases or controls, extract the p-values for all relevant drugs
 # - those from cases will be TPs/FNs, and those from controls are FPs/FNs
@@ -32,7 +28,6 @@ if (cell.subtype) {
 	#length(cell.subtype.sigs)
 }
 
-
 ### Get target drugs for current ATC class
 atc = fread("../atc_processed.txt", data.table=F)
 #code.level = paste0("code",nchar(code)-1)
@@ -43,29 +38,29 @@ atc = fread("../atc_processed.txt", data.table=F)
 #### OBTAIN PURE CASES AND OVERLAP BETWEEN CLASSES ####
 if (F) {
     for (level in 2:4) {
-#	level = 4 # current level
-	all.codes = read.table("../classN_phenos.txt") # all code levels
-	codes = all.codes[sapply(all.codes, nchar) == level+1] # codes for current level
-
-	cases = list() # read in cases 
-	for (i in codes) { cases[[i]] = read.table(paste0("../classN_cases/",i,".cases"))$V1 }
-	dupl = table(unlist(cases)) # get duplicate ids (i.e. cases for multiple classes/codes)
-	dupl = names(dupl[dupl > 1])
-
-	# prop of dupl cases per code 
-	t(t(sort(sapply(codes, function(code) round(sum(cases[[code]] %in% dupl)/length(cases[[code]]),2)))))
-
-	# pure cases
-	pure.cases = sapply(codes, function(c) cases[[c]][!cases[[c]] %in% dupl])
-
-	# compare N
-	n = data.frame(n.orig = sapply(cases, length), n.pure = sapply(pure.cases, length))
-	n$percentage = round(n$n.pure / n$n.orig, 2); n
-
-	# remove classes with 0 cases and save
-	pure.cases = pure.cases[sapply(pure.cases, function(x) length(x) > 0)]
-	sort(sapply(pure.cases, length))
-	for (i in names(pure.cases)) { write.table(pure.cases[[i]], paste0("../classN_cases/",i,".pure"), col.names=F, row.names=F, quote=F) }
+	#	level = 4 # current level
+		all.codes = read.table("../classN_phenos.txt") # all code levels
+		codes = all.codes[sapply(all.codes, nchar) == level+1] # codes for current level
+	
+		cases = list() # read in cases 
+		for (i in codes) { cases[[i]] = read.table(paste0("../classN_cases/",i,".cases"))$V1 }
+		dupl = table(unlist(cases)) # get duplicate ids (i.e. cases for multiple classes/codes)
+		dupl = names(dupl[dupl > 1])
+	
+		# prop of dupl cases per code 
+		t(t(sort(sapply(codes, function(code) round(sum(cases[[code]] %in% dupl)/length(cases[[code]]),2)))))
+	
+		# pure cases
+		pure.cases = sapply(codes, function(c) cases[[c]][!cases[[c]] %in% dupl])
+	
+		# compare N
+		n = data.frame(n.orig = sapply(cases, length), n.pure = sapply(pure.cases, length))
+		n$percentage = round(n$n.pure / n$n.orig, 2); n
+	
+		# remove classes with 0 cases and save
+		pure.cases = pure.cases[sapply(pure.cases, function(x) length(x) > 0)]
+		sort(sapply(pure.cases, length))
+		for (i in names(pure.cases)) { write.table(pure.cases[[i]], paste0("../classN_cases/",i,".pure"), col.names=F, row.names=F, quote=F) }
     }
 }
 #### END PURE ####
@@ -73,7 +68,6 @@ if (F) {
 
 
 #### COMPUTE AUC / ENRICHMENT ON INDIVIDUAL LEVEL ####
-# i.e. consider true positives as any drug that individual is taking (dont split into cases/controls based on codes)
 # need $ukb_phenos/classN_meds_processed_onlycases.dat & $sigs/cellinfo_beta.txt
 # tissue="brain_cortex"; input.dir="drugs"; in.prefix=paste0("maf005-z165-",tissue,"-spearman")
 
@@ -189,45 +183,44 @@ get_aucs = function(iid.list, MOA, level) {
 
 # tissue="brain_substantia_nigra"; input.dir="drugs"; in.prefix=paste0("maf005-z165-",tissue,"-spearman"); case_iids = paste0("../classN_cases/",code,".cases"); all_iids = "../IIDs.txt"; n.cores = 15; iids_to_process = "1-50000"; outname = paste0("ROC/test",".",iids_to_process); # debug=Ti
 #tissue="whole_blood"; input.dir="drugs"; in.prefix=paste0("maf005-z165-",tissue,"-spearman"); case_iids = paste0("../classN_cases/",code,".cases"); all_iids = "../IIDs.txt"; n.cores = 15; iids_to_process = "1-50000"; outname = paste0("ROC/test",".",iids_to_process); # debug=T
-# source('/gpfs/work5/0/vusr0748/realment/scripts/validate.roc.R')
 setwd(paste0("../",in.prefix))
 debug=F
 clndrugs = read.table("../drugs.subset.txt")$V1
-cln = read.table("/gpfs/work5/0/vusr0748/realment/scripts/classN_ROC.txt")$V1
+cln = read.table("/project_rootdir/scripts/classN_ROC.txt")$V1     # NOTE: this was not copied to temp as it should have, so read from orig location 
 cln = cln[cln %in% unique(subset(atc, drug %in% clndrugs)$code4)]
 read.table("../classN_ROC.sub.txt")$V1
 
 for (code in cln) {
-print(code)
-
-# code = "N06DA"
-level = nchar(code)-1 # for not pure, code can be multidrug_level2 multidrug_level3 multidrug_level4
-
-# drug info for classN cases
-drugs.by.iid = fread("../classN_meds_processed_onlycases.dat",header=T)
-colnames(drugs.by.iid)[colnames(drugs.by.iid)=="cases"] = "n.drugs"
-
-# extract IIDs for pure cases or people with multiple drugs
-if (level < 10) {
-	iid.list = read.table(paste0("../classN_cases/",code,".pure"), header=F)$V1
-} else {
-	level = gsub("notpure_code","",code)
-	iid.list = drugs.by.iid[n.drugs > 1]$IID
-}
-iid=iid.list[2]; i="no_moa" # for running interactively
-
-if (cell.subtype) { moas = "no_moa" } else { moas = c("no_moa", "moa","broad","cat","cat_mono","cat_mono_exin") }
-mean.aucs = data.frame(moa = moas, median = NA)
-
-if (!debug) {
-	for (i in moas) {
-		aucs = get_aucs(iid.list, MOA=i, level); mean(aucs)
-		if (cell.subtype) { outname = paste0("ROC/",code,".",i,".aucs_sub") } else { outname = paste0("ROC/",code,".",i,".aucs") }
-		fwrite(data.table(IID = iid.list, AUC = signif(aucs, 4)), outname, sep="\t")
-		mean.aucs$median[mean.aucs$moa==i] = signif(median(aucs, na.rm=T),4)
+	print(code)
+	
+	# code = "N06DA"
+	level = nchar(code)-1 # for not pure, code can be multidrug_level2 multidrug_level3 multidrug_level4
+	
+	# drug info for classN cases
+	drugs.by.iid = fread("../classN_meds_processed_onlycases.dat",header=T)
+	colnames(drugs.by.iid)[colnames(drugs.by.iid)=="cases"] = "n.drugs"
+	
+	# extract IIDs for pure cases or people with multiple drugs
+	if (level < 10) {
+		iid.list = read.table(paste0("../classN_cases/",code,".pure"), header=F)$V1
+	} else {
+		level = gsub("notpure_code","",code)
+		iid.list = drugs.by.iid[n.drugs > 1]$IID
 	}
-}
-if (cell.subtype) { outname = paste0("ROC/",code,".",i,".median.aucs_sub") } else { outname = paste0("ROC/",code,".",i,".median.aucs") }
-write.table(mean.aucs, outname, row.names=F, quote=F, sep='\t')
+	iid=iid.list[2]; i="no_moa" # for running interactively
+	
+	if (cell.subtype) { moas = "no_moa" } else { moas = c("no_moa", "moa","broad","cat","cat_mono","cat_mono_exin") }
+	mean.aucs = data.frame(moa = moas, median = NA)
+	
+	if (!debug) {
+		for (i in moas) {
+			aucs = get_aucs(iid.list, MOA=i, level); mean(aucs)
+			if (cell.subtype) { outname = paste0("ROC/",code,".",i,".aucs_sub") } else { outname = paste0("ROC/",code,".",i,".aucs") }
+			fwrite(data.table(IID = iid.list, AUC = signif(aucs, 4)), outname, sep="\t")
+			mean.aucs$median[mean.aucs$moa==i] = signif(median(aucs, na.rm=T),4)
+		}
+	}
+	if (cell.subtype) { outname = paste0("ROC/",code,".",i,".median.aucs_sub") } else { outname = paste0("ROC/",code,".",i,".median.aucs") }
+	write.table(mean.aucs, outname, row.names=F, quote=F, sep='\t')
 
 }

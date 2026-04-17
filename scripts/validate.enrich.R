@@ -69,7 +69,7 @@ gc()
 # ----------------------------------------------------------------------------------------------------------- #
 #     Check how often at least one drug from relevant category is prioritised (only looking at category N)    #
 # ----------------------------------------------------------------------------------------------------------- #
-# check what is the top drug of any N
+# check what is the top drug of class N 
 # rank of relevant drug
 get.ranks=F
 if (get.ranks==T) {
@@ -180,8 +180,7 @@ if (run.ind) {
 	}
 } 
 
-
-## Enrichment of average results across individuals
+## Enrichment of average results across individuals 
 # OPTION 1: extract sigs above/below p.thresh from all ind
 # subset to those in atc, and map to drugs
 # iterate over atc and evaluate enrichment
@@ -202,11 +201,6 @@ pred$nsig = sigs$drug[match(pred$nsig, sigs$num)]
 #sapply(ls(pred), function(x) format(object.size(get(x, envir = pred)), units="auto"))
 
 
-
-
-
-#### Enrichment
-
 # --- OPTIMISATION ---
 # Below enrichment runs out of memory when N >= 2026 - 3762 somewhere
 # TODO: optimise by using numeric drug ids & set cores based on N
@@ -226,7 +220,7 @@ e = do.call(rbind, mclapply(1:n.atc, mc.cores=n.cores, mc.retry=-1, function(j) 
 
         sig = pred$sig %in% drugs.j
         nsig = pred$nsig %in% drugs.j
-	fishdat = data.frame(
+		fishdat = data.frame(
                 "sig" = c(sum(sig == T), sum(sig == F)),
                 "not_sig" = c(sum(nsig == T), sum(nsig == F)),
                 row.names = c("related", "not_related"),
@@ -264,7 +258,8 @@ write.table(e, paste0(code,"-",inprefix,".enrich-all"), row.names=F, quote=F, se
 #subset(e, atc == code)
 #head(subset(e, class1 == "Nervous System"))
 
-# TODO: ?? enrichment of moa based on e ??
+
+# TODO: also add enrichment of moa based on e
 
 
 # OPTION 2: rank drugs based on pvalues and correlation (only for ties)

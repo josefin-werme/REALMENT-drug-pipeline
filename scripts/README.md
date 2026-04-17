@@ -1,6 +1,6 @@
 # Pipeline Overview
 
-Scripts implement a 4-step pipeline to impute genetically regulated gene expression (GREx) from UK Biobank genotypes, then use those imputed values to predict drug responses and validate predictions against real medication data.
+Scripts implement a 4-step pipeline to impute genetically regulated gene expression (GREx) from UK Biobank genotypes, then use those imputed values to predict drug responses and validate predictions against true medication prescription info.
 
 **Shared settings:** All scripts source `settings.sh`, which defines paths (`$grex`, `$collated`, `$drugs_pred`, `$sigs`, `$ukb_phenos`, etc.) and utility functions (`check_disc_quota`, `nrow`, `nfiles`).
 
@@ -70,7 +70,7 @@ Scripts implement a 4-step pipeline to impute genetically regulated gene express
 
 ## Step 3: Predict Drug Responses — `predict_drugs.sh` → `predict_drugs.job` → `predict_drugs.R`
 
-**Goal:** For each individual, correlate their GREx profile with LINCS2 drug-induced transcriptomic signatures to generate a ranked list of drugs.
+**Goal:** For each individual, evaluate their GREx profile against LINCS2 drug-induced transcriptomic signatures to generate a ranked list of drugs.
 
 ### `predict_drugs.sh`
 - Sets tissue, method (`spearman` or `zhang`), resource params, and `classN_cases` flag.
