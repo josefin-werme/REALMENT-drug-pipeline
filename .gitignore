@@ -1,5 +1,7 @@
 .cache\n.npm\n.config\n.local\n.npm-global\n.wget-hsts\n.npmrc
 
+.claude/
+
 data/lava_gtex/gencode.v26.annotation.gtf
 
 data/lava_gtex/all_snps/adrenal_gland.tar.zst
