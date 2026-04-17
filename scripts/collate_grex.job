@@ -23,7 +23,7 @@ if [[ ${disc_full[0]} == T ]]; then echo echo "Error: Disk quota exceeding 80% (
 
 DEBUG=F
 #------ DEBUG TEMP DIR ---------#
-# TMPDIR="/scratch-local/josefin.tmp4"; mkdir $TMPDIR; cd $TMPDIR; maf=maf005; tissue="whole_blood"; eqtls="z165"; source "/gpfs/work5/0/vusr0748/realment/scripts/settings.sh"; export OMP_NUM_THREADS=1; DEBUG=T; n_chunks=80000; n_parallel=15; method="R"
+# TMPDIR="/scratch-local/josefin.tmp4"; mkdir $TMPDIR; cd $TMPDIR; maf=maf005; tissue="whole_blood"; eqtls="z165"; source "/path/to/your/project_dir/scripts/settings.sh"; export OMP_NUM_THREADS=1; DEBUG=T; n_chunks=80000; n_parallel=15; method="R"
 #-------------------------------#
 
 prefix="$maf-$eqtls-$tissue"

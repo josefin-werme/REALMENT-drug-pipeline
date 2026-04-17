@@ -36,7 +36,7 @@ cleanup () {
 }
 trap cleanup EXIT
 
-# tissue="brain_substantia_nigra"; method="spearman"; eqtls="z165"; n_cores=5; maf=maf005; tmpdir="/gpfs/scratch1/nodespecific/tcn1309/josefin.tmp/predict"; export OMP_NUM_THREADS=1; source /gpfs/work5/0/vusr0748/realment/scripts/settings.sh; J=1; jobtmp="$tmpdir/tmp.testdir"; mkdir $jobtmp; cd $jobtmp; classN_cases="TRUE"
+# tissue="brain_substantia_nigra"; method="spearman"; eqtls="z165"; n_cores=5; maf=maf005; tmpdir="/path/to/temp/predict"; export OMP_NUM_THREADS=1; source /path/to/proj_dir/scripts/settings.sh; J=1; jobtmp="$tmpdir/tmp.testdir"; mkdir $jobtmp; cd $jobtmp; classN_cases="TRUE"
 
 ## Print job varibles
 printf "\nPredicting drugs for individuals $chunk_start - $chunk_stop, with params: \n"

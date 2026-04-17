@@ -27,7 +27,7 @@ source settings.sh
 disc_full=($(check_disc_quota))
 if [[ ${disc_full[0]} == T ]]; then echo echo "Error: Disk quota exceeding 90% (proj: ${disc_full[1]}%, scratch: ${disc_full[2]}%); Terminating job"; exit; fi
 
-# tissue="brain_cortex"; method="spearman"; eqtls="z165"; n_cores=15; maf=maf005; tmpdir="/gpfs/scratch1/nodespecific/tcn1309/josefin.tmp/validate"; cd $tmpdir; jobdir="$tmpdir/tmpdir.test"; export OMP_NUM_THREADS=16; source /gpfs/work5/0/vusr0748/realment/scripts/settings.sh; J=1; pheno_item="d20003-ATC4N"; phen="N06AA"; ROC="1-1000"; enrich=F; classN_cases=F
+# tissue="brain_cortex"; method="spearman"; eqtls="z165"; n_cores=15; maf=maf005; tmpdir="/path/to/temp/validate"; cd $tmpdir; jobdir="$tmpdir/tmpdir.test"; export OMP_NUM_THREADS=16; source /path/to/proj_dir/scripts/settings.sh; J=1; pheno_item="d20003-ATC4N"; phen="N06AA"; ROC="1-1000"; enrich=F; classN_cases=F
 
 prefix=$maf-$eqtls-$tissue-$method
 jobdir="$tmpdir/$prefix"

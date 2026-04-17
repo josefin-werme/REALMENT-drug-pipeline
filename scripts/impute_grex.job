@@ -1,11 +1,5 @@
 #!/bin/bash
 
-#--------CHANGELOG--------#
-#
-# 1. The chunk column in ukb_snp_bim_rsid.txt must is not entirely correct, because the first SNPs in chunk 206 are listed as part of chunk 205.
-# .. This was fixed by just including 10 SNPs before and after the chunk when subsetting this file for the SNP ID conversion in R below
-#
-
 #--------STEPS----------#
 #
 # Before running analyses, check if some genes have already been analysed and exclude those from here
@@ -14,7 +8,7 @@
 # For all unique chunks, copy ukb data, convert uniq to rsid, and subset to only the SNPs mapped to any of the current genes
 # Pass a list of all genes to LAVA, it will automatically read in all chunks in the current directory (so no need to specify chunks),
 # and subset gtex data to all relevant chromosomes.
-# any processes that were terminated due to potential memory issues will be rerun (done within bettermc::mclapply in R, as well as in the job script)
+# any processes that were terminated due to potential memory issues will be rerun (done either within bettermc::mclapply in R, or the rerun() func at the end of job script)
 #
 
 #--------START SCRIPT---------#
@@ -56,7 +50,7 @@ trap cleanup EXIT
 
 #------ DEBUG TEMP DIR ---------#
 #
-# mkdir /scratch-local/josefin.tmp; TMPDIR="/scratch-local/josefin.tmp"; cd $TMPDIR; tissue="brain_cortex"; eqtls="z165"; start_idx=2; stop_idx=11; source "/gpfs/work5/0/vusr0748/realment/scripts/settings.sh"; export OMP_NUM_THREADS=1; gene_list="/gpfs/work5/0/vusr0748/realment/scripts/check_imputed/brain_cortex-z165.miss"; mc_retry=0; npar=1;  
+# mkdir /scratch-local/josefin.tmp; TMPDIR="/scratch-local/josefin.tmp"; cd $TMPDIR; tissue="brain_cortex"; eqtls="z165"; start_idx=2; stop_idx=11; source "/path/to/project_dir/scripts/settings.sh"; export OMP_NUM_THREADS=1; gene_list="/path/to/project_dir/scripts/check_imputed/brain_cortex-z165.miss"; mc_retry=0; npar=1;  
 #
 #-------------------------------#
 
@@ -113,7 +107,7 @@ for chunk in ${uniq_chunks[@]}; do # TODO: parallelise ? (depends how many chunk
 	Rscript unique_to_rsid.R $genotypes.bim $chunk.unique_to_rsid
 	
 
-	# EXTRACT only relevant SNPs, perform MAF filtering, and remove the default subject/variant exclusions
+	# EXTRACT only relevant SNPs for current genes, perform MAF filtering, and remove the default subject/variant exclusions
 	plink2 --bim rsids_$genotypes.bim --bed $genotypes.bed --fam $genotypes.fam \
                         --rm-dup exclude-all \
 			--remove defaultSubjectExclusions.txt --exclude defaultVariantExclusions_rsids.txt \

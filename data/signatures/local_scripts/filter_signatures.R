@@ -5,11 +5,9 @@
 # Last edited: 31st Oct 2024
 
 # This script subsets the data to named compounds (acc to hamonize_ids() function), and exemplar signatures
-# The initial processing/filtering script found in ~/DrugSignatures/signatureSearchProcessData.R
+# The initial processing/filtering script found in signatureSearchProcessData.R
 
-# !!!! IMPORTANT !!!! 
 # Create the filtering files locally, but RUN THE FINAL FILTERING ON THE CLUSTER (code at bottom) 
-# reason being I am not 100% whether the lincs2 data files in this directory have been altered (though I believe lincs2.h5 is identical to cluster)
 
 ## Packages
 suppressPackageStartupMessages({
@@ -17,8 +15,8 @@ suppressPackageStartupMessages({
 })
 
 ## Directories
-base.dir = "~/surfdrive/POSTDOC/Genes_to_Drugs/"
-lincs.dir = "~/surfdrive/POSTDOC/Genes_to_Drugs/DrugSignatures/LINCS2020"
+base.dir = "/path/to/your/base/dir"
+lincs.dir = "/path/to/your/lincs/data"
 
 # Read in ATC data and source drug ID harmonising function
 source(file.path(base.dir, "validation_functions.R"))
@@ -141,7 +139,7 @@ dim(sigdat.mapped)
 # ---- CODE TO FILTER THE DATA ON THE CLUSTER ---- #
 # ------------------------------------------------ #
 ##### 
-# NOTE: Doing the actual filtering on the cluster (rather than locally) 
+# NOTE: Doing the actual filtering on the cluster (rather than locally); this is the code
 # Script saved on cluster as "filter_lincs_exemplar_mapped.R"
 
 suppressPackageStartupMessages({

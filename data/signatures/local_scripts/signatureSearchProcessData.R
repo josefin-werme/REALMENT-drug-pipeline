@@ -1,6 +1,3 @@
-
-## LAST RAN ON 18th MAY 2024 (edits on 31st Oct are only to make comments)
-
 # library(BiocParallel)
 library(signatureSearch)
 library(ExperimentHub)
@@ -11,7 +8,7 @@ library(data.table)
 
 
 ######     Lincs2     ######
-setwd("~/surfdrive/POSTDOC/Genes_to_Drugs/DrugSignatures/LINCS2020/")
+setwd("~/path/to/lincs/data/")
 
 siginfo_beta <- fread("siginfo_beta.txt", data.table = F) # signature meta data
 # exemplar <- siginfo_beta %>% filter(pert_type=="trt_cp" & is_exemplar_sig == 1) # subsetting to exemplar signatures treated with compounds
@@ -32,9 +29,6 @@ gctx2h5("level5_beta_trt_cp_n720216x12328.gctx", cid=exemplar_filtered$sig_id, n
 # sedb <- SummarizedExperiment(HDF5Array(DBpath, name="assay"))
 # rownames(sedb) <- HDF5Array(DBpath, name="rownames")
 # colnames(sedb) <- HDF5Array(DBpath, name="colnames")
-
-# TODO: check if trt_cp is differential expression relative to controls
-# Finally, we apply a moderated Z-scoring procedure to replicate samples of each experiment (generally 3 replicates are made) to compute a weighted average signature. For several types of genetic perturbagens (see pert_type table below; for example, where multiple hairpins were used to target the same gene) we further collapse level 5 data to create a single consensus gene signature (CGS) that represents that perturbation.
 
 warnings()
 print(warnings())
