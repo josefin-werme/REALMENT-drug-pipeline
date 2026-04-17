@@ -1,0 +1,37 @@
+#!/bin/bash
+#SBATCH -t 1:00:00
+#SBATCH -N 1
+#SBATCH -n 10
+
+export OMP_NUM_THREADS=1
+
+# extract order of genes
+if [[ ! -f "gencode.v26.genes_ordered.gtf" ]]; then
+	awk '$3=="gene" {print $1,$4,$10}' gencode.v26.annotation.gtf | sed -s 's/"//g' | sed -s 's/;//' > gencode.v26.genes_ordered.gtf
+fi
+
+# SNP-eqtl z score threshold; to prevent dealing with delimiters in output files, this variable is assumed to be the actual z*100
+eqtl_filter=165
+
+if [[ ! -d "z${eqtl_filter}" ]]; then mkdir "z${eqtl_filter}"; fi
+
+ntiss=$(wc -l tissues.txt | awk '{print $1}')
+npar=10
+
+cp all_snps/gtex_v8.info "z${eqtl_filter}"
+
+for ((I=1; I<=$npar; I++)); do
+        (
+        for ((J=$I; J<=$ntiss; J=(J+$npar))); do
+
+		tissue=$(awk 'NR=='$J'' tissues.txt)
+		echo $tissue
+		
+		# make directories
+		if [[ ! -d "z${eqtl_filter}/${tissue}" ]]; then mkdir "z${eqtl_filter}/${tissue}"; fi
+
+		Rscript filter_snps.map_rsIDs.R $tissue $eqtl_filter
+	done
+	)&
+done
+wait

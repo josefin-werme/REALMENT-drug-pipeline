@@ -1,3 +1,9 @@
+# data
+- add at least a subset of the data/lava_gtex so you can include the filter_snps.R script too
+-- upload to zenodo and ADD LINK to data/lava_gtex/README.md
+
+# misc script dir
+- PRIO: remove redundant code in validation*.R scripts
 - remove / replace readme
 - remove the check_imputed / check_pred dirs ? (or keep for completion)
 - where is predict_drugs.check_completed.R ?? 
@@ -7,46 +13,8 @@
 - function rerun() in impute_grex.job
 - remove all the scripts/classN_*txt files? (these are just lists of phenotype IDs for the analyses; not integral and can change)
 -- but if so I should probably make a not in scripts
+- explain what defaultSubjectExclusions.txt and defaultVariantExclusions_rsids.txt are 
+- include directory tree overview
 
 # signatures
-- add data/signatures/filter_lincs_exemplar_mapped.R
-- add exemplar_signatures_mappedIDs.txt ? 
-
-
-
-
-
-
-
-
-
------
-# LINCS notes
-
-# TODO: 
-- check scripts what files are taken from data/signatures
-- get LINCS download/process code from local file ~/DrugSignatures/signatureSearchProcessData.R)
-  
-# (from signatures readme)
------
-# OLD FILES
-### lincs2.h5 (OLD)
-This contains all ~135k exemplar signatures (see comments in local file ~/DrugSignatures/signatureSearchProcessData.R)
-
-### compoundIDs_filtered.txt (OLD)
-First filtering done to remove presumed experimental compounds that only had a 'code' and did not have a different cmap or alias
-Was used in drug prediction script to filter the lincs data (resulting in ~60k signatures)
-
-# NEW FILES
-### exemplar_signatures_mappedIDs.txt (CURRENT)
-Examplar compounds where the IDs have been mapped to drug_names (see ~/DrugSignatures/filter_signatures.R), and all compounds that weren't mappable have been excluded
-
-### filter_lincs_exemplar_mapped.R
-Filters lincs2.h5 to signatures in exemplar_signatures_mappedIDs.txt
-
-### lincs2_mapped.dat
-Filtered to signatures in exemplar_signatures_mappedIDs.txt
-
-### atc_processed.txt
-Formatted atc file in drug environment (drug$atc) produced by read_atc() function in local script "~/DrugSignatures/* validate.R"
------
+- see todo in signatures dir
