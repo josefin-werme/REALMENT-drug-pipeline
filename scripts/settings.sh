@@ -1,3 +1,5 @@
+# Specifies key directories and variables for conveneince
+
 # Directories
 ukb_chunks="/path/to/UKBdata"
 project_dir="/path/to/project_dir"
@@ -13,7 +15,7 @@ ukb_phenos="$data/ukb_phenotypes"
 sigs="$data/signatures"
 validation="$project_dir/validation"
 
-# Utils
+# Utils - these are some local utility scripts (not integral to analyses)
 utils="$HOME/utils/scripts"
 source $utils/check_disk_quota.sh
 source $utils/count_rows.sh

@@ -5,6 +5,8 @@
 --- is this really everyone? if so is it per gene?
 - where to put utils scripts? 
 - function rerun() in impute_grex.job
+- remove all the scripts/classN_*txt files? (these are just lists of phenotype IDs for the analyses; not integral and can change)
+-- but if so I should probably make a not in scripts
 
 # signatures
 - add data/signatures/filter_lincs_exemplar_mapped.R
@@ -15,6 +17,11 @@
 
 
 
+
+
+
+-----
+# LINCS notes
 
 # TODO: 
 - check scripts what files are taken from data/signatures
