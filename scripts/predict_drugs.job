@@ -1,0 +1,110 @@
+#!/bin/bash
+
+maf=$1
+eqtls=$2
+tissue=$3
+method=$4
+n_cores=$5
+n_ind_tot=$6
+n_ind_per_job=$7
+tmpdir=$8
+classN_cases=$9
+
+## Set chunks
+chunk_start=$((SLURM_ARRAY_TASK_ID * n_ind_per_job - n_ind_per_job + 1)) # note, these arent chunks anymore, just individuals
+chunk_stop=$((chunk_start + n_ind_per_job - 1))
+if [[ $chunk_stop -gt $n_ind_tot ]]; then chunk_stop=$n_ind_tot; fi
+# for proof for the start / stop idx work, check anytype task 'predict drugs' in realment project (or older versions of this script in scriptarchive/v2*)
+
+## Get settings
+source settings.sh
+
+### Check whether there is enough disk quota before starting
+disc_full=($(check_disc_quota))
+if [[ ${disc_full[0]} == T ]]; then echo echo "Error: Disk quota exceeding 90% (proj: ${disc_full[1]}%, scratch: ${disc_full[2]}%); Terminating job"; exit; fi
+
+### --- Make job specific temp dir --- 
+jobtmp="$tmpdir/tmpdir.${SLURM_JOB_ID:?}_${SLURM_ARRAY_TASK_ID:?}"
+mkdir $jobtmp
+cd $jobtmp
+
+TMPDIR=$jobtmp
+
+# define trap cleanup function of jobtmp
+cleanup () { 
+	rm -rf "$jobtmp" 
+}
+trap cleanup EXIT
+
+# tissue="brain_substantia_nigra"; method="spearman"; eqtls="z165"; n_cores=5; maf=maf005; tmpdir="/gpfs/scratch1/nodespecific/tcn1309/josefin.tmp/predict"; export OMP_NUM_THREADS=1; source /gpfs/work5/0/vusr0748/realment/scripts/settings.sh; J=1; jobtmp="$tmpdir/tmp.testdir"; mkdir $jobtmp; cd $jobtmp; classN_cases="TRUE"
+
+## Print job varibles
+printf "\nPredicting drugs for individuals $chunk_start - $chunk_stop, with params: \n"
+printf " * maf: $maf \n * eqtls: $eqtls \n * tissue: $tissue \n * method: $method \n * n_cores: $n_cores \n * n_ind_tot: $n_ind_tot \n * n_ind_per_job: $n_ind_per_job \n * tmpdir: $tmpdir \n * jobtmp: $jobtmp \n"
+
+## Set input and output prefixes
+inprefix=$maf-$eqtls-$tissue
+outname=$maf-$eqtls-$tissue-$method
+
+# Extract individuals for this job
+#curr_iids=$((awk 'NR >= '$chunk_start' && NR <= '$chunk_stop'' IIDs_to_analyse.$inprefix.txt))
+
+## Predict drugs for all current individuals 
+export OMP_NUM_THREADS=1 # unsure if this makes a difference for the loop but just in case
+
+if [[ $classN_cases == "TRUE" ]]; then # only class N cases
+	date
+	for ((I=$chunk_start; I<=$((chunk_start + SLURM_CPUS_PER_TASK - 1)); I++)); do
+		(
+		for ((J=$I; J<=$chunk_stop; J+=$SLURM_CPUS_PER_TASK)); do 
+			# subset grex
+			chunk_row=$((J+1)) # since header is first row
+			awk 'NR == 1 || NR == '$chunk_row'' $tmpdir/$inprefix.zgrex_classN > chunk$J.zgrex
+		done
+		)&
+	done
+	wait
+	date
+else
+	printf "\n\n >> not classN_cases <<\n\n"
+	outname="$outname-not_classN"
+	date
+        for ((I=$chunk_start; I<=$((chunk_start + SLURM_CPUS_PER_TASK - 1)); I++)); do
+                (
+                for ((J=$I; J<=$chunk_stop; J+=$SLURM_CPUS_PER_TASK)); do
+                        # subset grex
+			IID=$(awk 'NR=='$J'' ../not_classN_IIDs.txt)
+                        awk 'NR == 1 || $1 == '$IID'' $tmpdir/$inprefix.zgrex_full > chunk$J.zgrex
+                done
+                )&
+        done
+        wait
+        date
+fi
+
+printf "\n\n *** START PREDICTION *** \n\n"
+
+export OMP_NUM_THREADS=$n_cores
+
+ls chunk*.zgrex > infiles.txt
+head -1 chunk$chunk_start.zgrex > grex.genes
+srun --ntasks=1 --cpus-per-task=$n_cores --exact Rscript ../predict_drugs.R infiles.txt $outname $method $n_cores
+#Rscript ../predict_drugs.R infiles.txt $outname $method $n_cores
+
+outdir=$drugs_pred/$outname
+if [[ ! -d $outdir ]]; then mkdir $outdir; fi
+
+# copy full drug data set
+outname_tar=$outname.$chunk_start-$chunk_stop
+
+# check that all outfiles exist before copying (since otherwise the submission script will think everyone from chunk_start - chunk_stop have been analysed)
+n_outfiles=$(nfiles "*.drugs")
+
+if [[ $n_outfiles == $((chunk_stop - chunk_start + 1)) ]]; then
+	tar -cf $outname_tar.drugs.tar.gz -I pigz *.drugs
+	cp $outname_tar.*.tar.gz $outdir
+else
+	echo "\n\n*** ERROR: missing output files for $((n_ind_per_job - n_outfiles)) individuals ***"
+fi
+
+printf "\n\n *** END JOB SCRIPT *** \n\n"

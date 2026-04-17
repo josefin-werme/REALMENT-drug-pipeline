@@ -1,0 +1,7 @@
+- remove / replace readme
+- remove the check_imputed / check_pred dirs ? (or keep for completion)
+- where is predict_drugs.check_completed.R ?? 
+- check the "collated="$grex/all_collated" # all_ind collated into single df (and class N subset)"
+--- is this really everyone? if so is it per gene?
+- where to put utils scripts? 
+- function rerun() in impute_grex.job

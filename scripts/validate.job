@@ -1,0 +1,138 @@
+#!/bin/bash
+maf=$1
+eqtls=$2
+tissue=$3
+method=$4
+n_cores=$5
+pheno_item=$6 # not used
+phen=$7
+tmpdir=$8
+enrich=$9
+ROC="${10}"
+classN_cases="${11}"
+
+# print job varibles
+printf "\nPredicting drugs for individuals $chunk_start - $chunk_stop, with params: \n"
+echo "* maf $maf"
+echo "* eqtls $eqtls"
+echo "* tissue $tissue"
+echo "* method $method"
+echo "* n_cores $n_cores"
+printf "\n* enrich $enrich \n* ROC $ROC\n"
+
+# settings
+source settings.sh
+
+# check whether there is enough disk quota before starting
+disc_full=($(check_disc_quota))
+if [[ ${disc_full[0]} == T ]]; then echo echo "Error: Disk quota exceeding 90% (proj: ${disc_full[1]}%, scratch: ${disc_full[2]}%); Terminating job"; exit; fi
+
+# tissue="brain_cortex"; method="spearman"; eqtls="z165"; n_cores=15; maf=maf005; tmpdir="/gpfs/scratch1/nodespecific/tcn1309/josefin.tmp/validate"; cd $tmpdir; jobdir="$tmpdir/tmpdir.test"; export OMP_NUM_THREADS=16; source /gpfs/work5/0/vusr0748/realment/scripts/settings.sh; J=1; pheno_item="d20003-ATC4N"; phen="N06AA"; ROC="1-1000"; enrich=F; classN_cases=F
+
+prefix=$maf-$eqtls-$tissue-$method
+jobdir="$tmpdir/$prefix"
+
+#### MAKE DIRS ####
+# jobdir
+if [[ ! -d $jobdir ]]; then mkdir $jobdir; fi
+if [[ ! -d "$jobdir/ranks" ]]; then mkdir "$jobdir/ranks"; fi
+if [[ ! -d "$jobdir/enrich_atc" ]]; then mkdir "$jobdir/enrich_atc"; fi
+if [[ ! -d "$jobdir/enrich_atc/$phen" ]]; then mkdir "$jobdir/enrich_atc/$phen"; fi
+if [[ ! -d "$jobdir/ROC" ]]; then mkdir "$jobdir/ROC"; fi
+#if [[ ! -d "$jobdir/ROC/$phen" ]]; then mkdir "$jobdir/ROC/$phen"; fi
+# local 
+outdir=$validation/$prefix # this is the project outdir, files are also left in the temporary jobdir
+if [[ ! -d $outdir ]]; then mkdir $outdir; fi
+if [[ ! -d $outdir/enrich_atc ]]; then mkdir $outdir/enrich_atc; fi 
+if [[ ! -d $outdir/ROC ]]; then mkdir $outdir/ROC; fi
+cd $jobdir
+
+#### COPY ####
+# R scripts
+cp $scripts/validate.enrich.R $tmpdir
+cp $scripts/validate.roc.R $tmpdir
+
+# signature files
+sig_files=(signatureIDs_mapped.txt atc_processed.txt exemplar_signatures_mappedIDs.txt compoundIDs_mapped.txt classN_signatures.txt)
+for f in ${sig_files[@]}; do
+	if [[ ! -f $tmpdir/$f ]]; then cp $sigs/$f $tmpdir; fi
+done
+
+# IID files
+if [[ ! -f $tmpdir/IIDs.txt ]]; then cp $grex_ind/IIDs.txt $tmpdir; fi
+if [[ ! -d $tmpdir/classN_cases ]]; then cp -r $ukb_phenos/classN_cases $tmpdir; fi
+if [[ ! -f $tmpdir/classN_meds_IIDs.txt ]]; then cp -r $ukb_phenos/classN_meds_IIDs.txt $tmpdir; fi
+#if [[ ! -f $tmpdir/d29000_processed.dat ]]; then cp $ukb_phenos/d29000_processed.dat $tmpdir; fi
+
+# drug prediction results
+export OMP_NUM_THREADS=1
+copy_drugs=F
+
+if [[ ! -d "$jobdir/drugs" ]]; then  # classN cases (was the default)
+	mkdir "$jobdir/drugs"
+	tar_files=($(ls $drugs_pred/$prefix/*.drugs.tar.gz))
+	copy_drugs=T
+fi
+if [[ $classN_cases  == F && ! -d $jobdir/drugs_notN ]]; then  # not classN; NOTE: by accident they are actually tarred into drugs below, but this dir now just serves as an indicator of whether or not the files have already been copied
+        mkdir "$jobdir/drugs_notN"
+        tar_files=($(ls $drugs_pred/$prefix-not_classN/*.drugs.tar.gz))
+        copy_drugs=T
+fi
+if [[ $copy_drugs == T ]]; then
+	for ((I=0; I<$n_cores; I++)); do
+		(
+		for ((J=$I; J<${#tar_files[@]}; J+=$n_cores)); do 
+			file=${tar_files[$J]}
+			echo $file
+			tar xf $file -I pigz -C "$jobdir/drugs"
+		done
+		)&
+	done
+	wait
+fi
+
+# ------------- #
+#    ANALYSE    #
+# ------------- #
+export OMP_NUM_THREADS=$n_cores
+
+### Enrichment
+if [[ $enrich == T ]]; then
+	srun --ntasks=1 --cpus-per-task=$n_cores --exact Rscript $tmpdir/validate.enrich.R "drugs" $prefix "enrich_atc/$phen" $phen "$tmpdir/classN_cases/$phen.cases" $n_cores
+	# remove existing local outfiles if they exist since current ones will not be gzipped otherwise
+	if [[ -f $outdir/enrich_atc/$phen.tar.gz ]]; then rm $outdir/enrich_atc/$phen.tar.gz; fi
+	tar cf $outdir/enrich_atc/$phen.tar enrich_atc/$phen -I pigz 
+	cp *enrich-all $outdir
+fi
+
+### ROC
+if [[ $ROC != F ]]; then
+	case_iids="$tmpdir/classN_cases/$phen.cases" # not actually needed in current version
+	all_iids="$tmpdir/IIDs.txt"
+	srun --ntasks=1 --cpus-per-task=$n_cores --exact Rscript $tmpdir/validate.roc.R "drugs" $prefix $phen $case_iids $all_iids $n_cores
+#	cp "ROC/$phen.cases" "ROC/$phen.controls" "$outdir/ROC"
+fi
+
+printf "\n\n *** END JOB SCRIPT *** \n\n"
+
+
+
+
+
+
+
+
+
+
+
+### use awk to extract case IIDs
+# phenfile="${pheno_item}_processed.dat"
+# if [[ ! -f $tmpdir/$phenfile ]]; then cp $ukb_phenos/$phenfile $tmpdir; fi
+
+#phenos=($(head -1 $tmpdir/$phenfile | cut -f2- -d' '))
+
+#for i in $(seq 1 1 ${#phenos[@]}); do
+#	p=${phenos[$i-1]}
+#	col=$((i+1))
+#	if [[ ! -f $tmpdir/$p.cases ]]; then awk '$'$col' == 1 {print $1}' $tmpdir/$phenfile > $tmpdir/$p.cases; fi
+#done

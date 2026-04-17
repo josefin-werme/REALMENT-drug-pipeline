@@ -1,0 +1,93 @@
+arg = commandArgs(T); finished = arg[1]; outprefix = arg[2]; n.per.job = as.numeric(arg[3]); iid_fname = arg[4]
+# finished = "maf005-z165-brain_cortex-spearman-not_classN.fin"; outfile = "maf005-z165-brain_cortex-spearman-not_classN.arr_run"; n.per.job = 320; iid_fname="/gpfs/work5/0/vusr0748/realment/data/ukb_phenotypes/not_classN_IIDs.txt"
+# finished = "maf005-z165-brain_cortex-spearman.fin"; outfile = "maf005-z165-brain_cortex-spearman.arr_run"; n.per.job = 320; iid_fname="/gpfs/work5/0/vusr0748/realment/data/ukb_phenotypes/classN_meds_IIDs.txt"
+
+# R code
+a = read.table(finished) # individuals analysed (start & stop)
+# a = a[-1,] # test for when the first chunk doesnt exist
+iid_file = read.table(iid_fname, header=F)
+
+N = nrow(iid_file)
+
+min_fin = a[1,1]
+max_fin = a[nrow(a),2]
+
+arr_run=NULL
+
+if (nrow(a) != 1) { 
+	### Check difference between stop idx and following start identify gaps
+	gaps = t(sapply(2:nrow(a), function(i) { c(a[i-1,2], a[i,1]) }))
+	diff = gaps[ ,2] - gaps[ ,1]
+
+	if (sum(diff>1) == 0 && min_fin == 1 && max_fin == N) { write("all_fin", paste0(outprefix,".arr_run")); quit(save="no") } # TODO:  does quit work?
+
+	# subset to only gaps greater than 1
+	gaps = gaps[diff>1,]
+	diff = diff[diff>1]
+
+	# if there are any gaps in between analysed individuals, get corresponding array indices 
+	if (length(diff)>0) {
+		start = gaps[,1] / n.per.job + 1
+		stop = (gaps[,2] - 1) / n.per.job
+		arr_run = paste(apply(cbind(start, stop), 1, paste, collapse="-"), collapse=",")
+	}
+}
+
+# also add indices for first and last individuals if missing
+if (min_fin != 1) {
+	start = 1
+	stop = (a[1,1] - 1) / n.per.job
+	arr_run = paste(c(paste(c(start, stop), collapse="-"), arr_run), collapse=",")
+}
+
+if (max_fin != N) { 
+	start = max_fin / n.per.job + 1
+	stop = ceiling(N / n.per.job)
+	arr_run = paste(c(arr_run, paste(c(start, stop), collapse="-")), collapse=",")
+}
+
+# SAFETY CHECK 
+# double check this is correct using the formula from the job script 
+# basically create arrays of all individuals that finished, and all unfinished (from arr_ind), convert to individuals, and compare
+fin = unlist(sapply(
+	1:nrow(a), function(i) {
+		seq(a[i,1], a[i,2])
+}))
+
+tot = 1:N
+unfin = tot[ ! tot %in% fin ] 
+
+# convert arr_run to same format as a
+arr_run.matrix = apply(do.call(rbind, sapply(strsplit(arr_run,",")[[1]], function(x) strsplit(x,"-"))), 2, as.numeric)
+if (is.null(nrow(arr_run.matrix))) {
+	to_run.arr = arr_run.matrix[1]:arr_run.matrix[2]
+} else {
+	to_run.arr = unlist(sapply(
+		1:nrow(arr_run.matrix), function(i) {
+			seq(arr_run.matrix[i,1], arr_run.matrix[i,2])
+	}))
+}
+ind_start = unique(c(to_run.arr)) * n.per.job - n.per.job + 1
+ind_stop = ind_start + n.per.job - 1
+ind_stop[ind_stop > N] = N
+arr_run.ind = cbind(ind_start, ind_stop) # this corresponds to a, but for the unfinished
+
+to_run = unlist(sapply(
+        1:nrow(arr_run.ind), function(i) {
+                seq(arr_run.ind[i,1], arr_run.ind[i,2])
+}))
+
+# check that all estimated match 
+if (all(unfin == to_run)) { 
+	print(paste("Array indices to submit:", arr_run))
+	print(paste("N/o individuals left:", length(to_run)))
+	write(arr_run, paste0(outprefix,".arr_run"))
+
+	# determine which IIDs are left
+#	iids_left = iid_file[to_run]
+#	write.table(iids_left, paste0("IIDs_to_analyse.",outprefix,".txt"), col.names=F, row.names=F)
+} else {
+	write("error", paste0(outprefix,".arr_run"))
+	stop("ERROR: unable to extract remaining arrays")
+}
+

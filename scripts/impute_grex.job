@@ -1,0 +1,195 @@
+#!/bin/bash
+
+#--------CHANGELOG--------#
+#
+# 1. The chunk column in ukb_snp_bim_rsid.txt must is not entirely correct, because the first SNPs in chunk 206 are listed as part of chunk 205.
+# .. This was fixed by just including 10 SNPs before and after the chunk when subsetting this file for the SNP ID conversion in R below
+#
+
+#--------STEPS----------#
+#
+# Before running analyses, check if some genes have already been analysed and exclude those from here
+# Selecting subset of genes from all genes at a give eqtl filtering threshold
+# For each gene, extract all SNPs and their corresponding chunks
+# For all unique chunks, copy ukb data, convert uniq to rsid, and subset to only the SNPs mapped to any of the current genes
+# Pass a list of all genes to LAVA, it will automatically read in all chunks in the current directory (so no need to specify chunks),
+# and subset gtex data to all relevant chromosomes.
+# any processes that were terminated due to potential memory issues will be rerun (done within bettermc::mclapply in R, as well as in the job script)
+#
+
+#--------START SCRIPT---------#
+#
+export OMP_NUM_THREADS=1
+
+# analysis vars
+tissue=$1
+eqtls=$2
+npar=$3
+n_genes=$4
+mc_retry=$5
+gene_list=$6
+start_idx=$(($SLURM_ARRAY_TASK_ID + 1)) # should be no lower than 2 (due to file header)
+stop_idx=$(($start_idx + $n_genes - 1))
+
+printf "\n* Imputing GREx's for $n_genes genes * \n"
+echo "* start_idx $start_idx stop_idx $stop_idx"
+printf "* USING GENE LIST: $gene_list \n"
+
+# Settings
+source settings.sh
+
+## Make temp dir and set cleanup trap
+jobtmp="/scratch-local/tmpdir.${SLURM_JOB_ID:?}_${SLURM_ARRAY_TASK_ID:?}"
+mkdir $jobtmp
+cd $jobtmp
+
+TMPDIR=$jobtmp
+echo "temp dir: $TMPDIR"
+
+# define trap cleanup function of jobtmp
+cleanup () {
+        rm -rf "$jobtmp"
+}
+trap cleanup EXIT
+
+
+
+#------ DEBUG TEMP DIR ---------#
+#
+# mkdir /scratch-local/josefin.tmp; TMPDIR="/scratch-local/josefin.tmp"; cd $TMPDIR; tissue="brain_cortex"; eqtls="z165"; start_idx=2; stop_idx=11; source "/gpfs/work5/0/vusr0748/realment/scripts/settings.sh"; export OMP_NUM_THREADS=1; gene_list="/gpfs/work5/0/vusr0748/realment/scripts/check_imputed/brain_cortex-z165.miss"; mc_retry=0; npar=1;  
+#
+#-------------------------------#
+
+
+# Check whether there is enough disk quota before running analyses
+disc_full=($(check_disc_quota))
+if [[ ${disc_full[0]} == T ]]; then echo echo "Error: Disk quota exceeding 80% (proj: ${disc_full[1]}%, scratch: ${disc_full[2]}%); Terminating job"; exit; fi
+
+# Copy data
+cp $scripts/impute_grex.R $TMPDIR # imputation script
+cp -r $gtex/$eqtls/$tissue $TMPDIR # SNP effect sizes used by lava; rsid-gene mappings (for subsetting chunks); and a list of genes by chromosome
+cp $gtex/$eqtls/gtex_v8.info $TMPDIR
+cp $scripts/unique_to_rsid.R $TMPDIR          # script for converting unique IDs to rsIDs
+cp $data/ukb_snp_bim_rsid.txt $TMPDIR  	    	# file that lists unique - rsids - chunk
+cp $data/defaultSubjectExclusions.txt $TMPDIR
+cp $data/defaultVariantExclusions_rsids.txt $TMPDIR 
+
+cd $TMPDIR
+
+# Get current genes + chromosomes based on the GTEx files
+awk 'NR >= '$start_idx' && NR <= '$stop_idx'' $gene_list > curr_genes.txt 
+# Extract rsids
+for chr in $(cut -f1 -d' ' curr_genes.txt | sort | uniq); do
+	awk 'NR==FNR {i[$2]; next} $2 in i {print $1}' curr_genes.txt $tissue/$tissue.eqtl.chr$chr.rsids > chr${chr}_genes.rsids
+done
+
+# Get unique chunks and rsids from all genes
+cat chr*_genes.rsids | sort | uniq > all_genes.rsids 
+uniq_chunks=($(awk 'NR==FNR {i[$1]; next} $3 in i {print $1}' all_genes.rsids ukb_snp_bim_rsid.txt | sort -n | uniq)) 
+
+# Process genotype data for every chunk
+for chunk in ${uniq_chunks[@]}; do # TODO: parallelise ? (depends how many chunks; not that slow)
+	# chunk=${uniq_chunks[0]}
+
+	# copy plink files to temp
+	genotypes=chunk_$chunk
+	cp $ukb_chunks/$genotypes.* $TMPDIR # cp current chunk
+	gunzip $genotypes.*.gz # unzip
+
+	## Convert unique to rsids in bim file - necessary before plink since duplicate rsids will need to be removed
+			## This original version didnt work since the chunk column occasionally assumed adjacent SNPs belong to the chunk before or after
+			## subset ukb_snp_bim to the current chunk to prevent having to read the whole thing into R
+				# awk '$1 == '$chunk'' ukb_snp_bim_rsid.txt > $chunk.unique_to_rsid
+			## Instead, we now add a small window around the original chunk to ensure we dont miss any SNPs
+			## note that this will not affect the output since its will be based only on the SNPs in the chunk.bim file
+# 
+	# Get index of first and last SNP of current chunk according to id conversion file
+	chunkSNPidx=($(awk '$1 == '$chunk' {print NR}' ukb_snp_bim_rsid.txt | (head -n1 && tail -n1)))
+	
+	# Add 10 extra SNPs on either side and subset id file 
+	awk 'NR >= '$((${chunkSNPidx[0]} - 10))' && NR <= '$((${chunkSNPidx[1]} + 10))'' ukb_snp_bim_rsid.txt > $chunk.unique_to_rsid
+
+	# convert unique to rsid in chunk bim file
+	Rscript unique_to_rsid.R $genotypes.bim $chunk.unique_to_rsid
+	
+
+	# EXTRACT only relevant SNPs, perform MAF filtering, and remove the default subject/variant exclusions
+	plink2 --bim rsids_$genotypes.bim --bed $genotypes.bed --fam $genotypes.fam \
+                        --rm-dup exclude-all \
+			--remove defaultSubjectExclusions.txt --exclude defaultVariantExclusions_rsids.txt \
+			--extract all_genes.rsids \
+			--maf .005 \
+                        --make-bed --out "${genotypes}_processed"
+			#--memory $((25000 / $npar)) \
+done
+
+mkdir out.tmp
+
+# Impute gene expression for all genes
+# LAVA will read in all available chunks at once, so you only need to pass it the list of genes to analyse, and chromosomes (so it doesnt read in all the GTEx data)
+outname=maf005-${eqtls}-${tissue}
+genes=$(cut -f2 -d' ' curr_genes.txt | tr '\n' ';')
+chrs=$(cut -f1 -d' ' curr_genes.txt | sort -n | uniq | tr '\n' ';')
+
+# First run with retry=5 for every process that was killed
+Rscript impute_grex.R $tissue $genes $chrs $outname $npar $mc_retry 	# computes both the grex and deviation from avg grex for each individual
+									# must be done for all individuals at once in order to compute avg grex
+# Check if there is any missing output
+function n_miss() {
+	n_imputed=$(nfiles "out.tmp/*locus") # creates these variables which will be available globally, but explicitly returns only n/o missing
+	n_failed=$(nfiles "out.tmp/*failed")
+	n_fin=$((n_imputed + n_failed))
+	n_genes=$(wc -l curr_genes.txt | cut -f1 -d' ')
+	echo $((n_genes - n_fin))
+}
+
+function missing_genes() {
+	if [[ $(nfiles out.tmp/*) == 0 ]]; then
+		echo $genes
+	else
+		ls out.tmp/* | cut -f4 -d'-' | cut -f1,2 -d'.' | sort | uniq > finished.txt
+		awk 'NR==FNR {i[$1]; next} !($2 in i) {print $2}' finished.txt curr_genes.txt > unfin.txt
+		echo $(cut -f2 -d' ' unfin.txt | tr '\n' ';')
+	fi
+}
+
+# If so, run again with retry=-1
+function rerun() {
+#	if [[ $(n_miss) != 0 ]]; then
+		echo "Log>> Missing output for $(n_miss) genes; Rerunning with mc_retry = -1"
+		# get missing genes (not bothering to redefine chrs)
+		genes=$(missing_genes)
+
+		# rerun with retry=-1 (reduces the number of cores every time there is a fail)
+		mc_retry=-1 # npar=2
+		Rscript impute_grex.R $tissue $genes $chrs $outname $npar $mc_retry 	# computes both the grex and dev
+#	else
+#		echo "Log>> All genes finished!"
+#	fi	
+}
+
+if [[ $(n_miss) == 0 ]]; then echo "Log>> All genes finished!"; fi
+
+# count missing again to get n_imputed/n_failed
+n_miss 1>/dev/null
+echo "Log>> $n_imputed imputed, $n_failed failed, $n_fin total"
+
+cd out.tmp
+
+if [[ $n_imputed != 0 ]]; then 
+	gzip *grex # both grex and zgrex
+	cp *grex.gz *locus $grex/all_ind/$tissue
+fi
+
+if [[ $n_failed != 0 ]]; then
+	cp *failed $grex/all_ind/$tissue
+fi
+
+# If first iteration, create a file with IIDs (to attach to the grex later)
+if [[ $start_idx == 2 && $gene_list == "$gtex/$eqtls/$tissue/$tissue.eqtl.genes" ]]; then
+	awk '{print $2}' ../chunk_${uniq_chunks[0]}_processed.fam > IIDs.txt
+	cp IIDs.txt $grex/all_ind/$tissue
+fi
+
+printf "\n\n *** END JOB SCRIPT *** \n\n"
+

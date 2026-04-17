@@ -1,0 +1,79 @@
+#!/bin/bash
+
+#--------------------#
+#     CHANGELOG      #
+#--------------------#
+
+export OMP_NUM_THREADS=16
+
+# analysis vars
+maf=$1
+eqtls=$2
+tissue=$3
+n_parallel=$4
+method=$5
+tmpdir=$6
+
+# Settings
+source settings.sh
+
+# Check whether there is enough disk quota before running analyses
+disc_full=($(check_disc_quota))
+if [[ ${disc_full[0]} == T ]]; then echo echo "Error: Disk quota exceeding 80% (proj: ${disc_full[1]}%, scratch: ${disc_full[2]}%); Terminating job"; exit; fi
+
+DEBUG=F
+#------ DEBUG TEMP DIR ---------#
+# TMPDIR="/scratch-local/josefin.tmp4"; mkdir $TMPDIR; cd $TMPDIR; maf=maf005; tissue="whole_blood"; eqtls="z165"; source "/gpfs/work5/0/vusr0748/realment/scripts/settings.sh"; export OMP_NUM_THREADS=1; DEBUG=T; n_chunks=80000; n_parallel=15; method="R"
+#-------------------------------#
+
+prefix="$maf-$eqtls-$tissue"
+
+cd $tmpdir
+
+# Copy scripts + IID file
+cp $scripts/collate_grex.R $tmpdir
+cp $grex_ind/$tissue/IIDs.txt $tmpdir
+
+# Copy and unzip all the grex files
+if [[ ! -f $prefix.gene_list ]]; then
+	echo "1. Copying and unzipping files"
+	mkdir zgrex_files
+	cp $grex_ind/$tissue/*zgrex.gz zgrex_files
+	pigz -d zgrex_files/*gz
+fi
+
+# create list of genes and store
+ls zgrex_files/*.zgrex | cut -f4 -d- | cut -f1,2 -d. > $prefix.gene_list
+
+if [[ $DEBUG == T ]]; then
+	head -100 $prefix.gene_list > gene.tmp
+	mv gene.tmp $prefix.gene_list
+fi
+
+echo "2. Collating the data"
+
+# Add IDDs and combine all the grex files into one
+if [[ $method == "paste" ]]; then
+	cp $prefix.gene_list $grex_chunks # this doesnt save gene headers in the file, so its stored here instead
+	cd zgrex_files
+	paste ../IIDs.txt $(ls *.zgrex | tr '\n' ' ') > ../$prefix.zgrex_full
+	cd ../
+else
+	# both IIDs and gene names are stored in file
+	srun --ntasks=1 --cpus-per-task=$n_parallel Rscript collate_grex.R "zgrex_files/$prefix-" ".zgrex" $prefix.zgrex_full $prefix.gene_list $n_parallel
+fi
+
+echo "3. Extracting classN cases"
+
+# Subset to class N 'cases' 
+cp $ukb_phenos/classN_meds_IIDs.txt $tmpdir
+(awk 'NR==1' $prefix.zgrex_full; awk 'NR==FNR {i[$1];next} $1 in i' classN_meds_IIDs.txt $prefix.zgrex_full) > $prefix.zgrex_classN
+
+echo "4. Copying to project outdir"
+
+# Copy full and subsetted data to proj dir
+if [[ -f $prefix.zgrex_full.gz ]]; then rm $prefix.zgrex_full.gz; fi # deleting existing files if they exist (in case job was run previously but didnt finish properly)
+if [[ -f $prefix.zgrex_classN.gz ]]; then rm $prefix.zgrex_classN.gz; fi
+pigz $prefix.zgrex_full $prefix.zgrex_classN
+cp $prefix.zgrex_*.gz $collated
+
