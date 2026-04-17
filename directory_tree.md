@@ -3,6 +3,7 @@
 The scripts assume the following directory structure
 Note that all key paths are specified in scripts/settings.sh file for convenice. As long as you set the root dir the rest will be inferred. 
 
+```
 .
 ├── data
 │   ├── lava_gtex
@@ -29,3 +30,5 @@ Note that all key paths are specified in scripts/settings.sh file for convenice.
     │   ├── enrich_atc
     │   └── ROC
     └── ...etc
+```
+
