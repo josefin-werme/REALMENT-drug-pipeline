@@ -6,6 +6,7 @@
 README.draft.md
 TODO.md
 data/signatures/TODO.md
+data/signatures/local_scripts/db_database.xml.gz
 
 data/lava_gtex/gencode.v26.annotation.gtf
 data/lava_gtex/all_snps/adrenal_gland.tar.zst

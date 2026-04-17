@@ -1,7 +1,6 @@
-# LAST EDITED: 31st Oct 2024
 
-# subsets the full lincs data to named compounds (acc to hamonize_ids() function in local script ~/DrugSignatures/LINCS2020/filter_signatures.R), and exemplar signatures
-# note that the lincs2.h5 is already subsetted to exemplar signatures (see local script ~/DrugSignatures/signatureSearchProcessData.R), but adding here to be xplicit
+# subsets the full lincs data to named compounds (acc to hamonize_ids() function in local script filter_signatures.R), and exemplar signatures
+# note that the lincs2.h5 is already subsetted to exemplar signatures (see local script signatureSearchProcessData.R), but adding here to be xplicit
 
 suppressPackageStartupMessages({
 	library(ExperimentHub); library(SummarizedExperiment); library(HDF5Array); library(annotate); library(org.Hs.eg.db); library(data.table)
@@ -37,7 +36,7 @@ sigdat.mapped = sigdat[,colnames(sigdat) %in% exem.sigs.mapped$compound_id]
 ## Save
 writeHDF5Array(sigdat.mapped, filepath = "lincs2_mapped.h5", name = "lincs2_mapped", with.dimnames = TRUE)
 #write.table(as.data.frame(sigdat.mapped), "lincs2_mapped.dat")
-#fwrite(as.data.table(sigdat.mapped), "lincs2_mapped.dt")
+#fwrite(as.data.table(sigdat.mapped), "lincs2_mapped.dat")
 
 ## Test read in
 # mat = HDF5Array(file = "lincs2_mapped.h5", name = "lincs2_mapped")

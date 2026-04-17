@@ -19,7 +19,7 @@ siginfo_beta <- fread("siginfo_beta.txt", data.table = F) # signature meta data
 exemplar <- subset(siginfo_beta, pert_type=="trt_cp" & is_exemplar_sig == 1) # jw: had to use subset cause %>% wasnt working
 
 ### Keep only named compounds (i.e.remove all that only have a BRD ID since those are not useful for validation anyway)
-# Code that produced this data can be found in filter_compounds() function in "* validation_functions.R" script
+# Code that produced this data can be found in filter_compounds() function in "validation_functions.R" script
 comp_filtered = fread("compoundIDs_filtered.txt", data.table=F)
 exemplar_filtered = exemplar[exemplar$pert_id %in% comp_filtered$pert_id,]
 

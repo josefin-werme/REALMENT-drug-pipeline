@@ -1,6 +1,6 @@
 arg = commandArgs(T); input.dir = arg[1]; in.prefix = arg[2]; code = arg[3]; case_iids = arg[4]; all_iids = arg[5]; n.cores = as.numeric(arg[6])
 debug=F
- code="N05BB"; tissue="brain_cortex"; input.dir="drugs"; in.prefix=paste0("maf005-z165-",tissue,"-spearman"); case_iids = paste0("../classN_cases/",code,".cases"); all_iids = "../IIDs.txt"; n.cores = 15; iids_to_process = "1-50000"; outname = paste0("ROC/test",".",iids_to_process); # debug=T
+# code="N05BB"; tissue="brain_cortex"; input.dir="drugs"; in.prefix=paste0("maf005-z165-",tissue,"-spearman"); case_iids = paste0("../classN_cases/",code,".cases"); all_iids = "../IIDs.txt"; n.cores = 15; iids_to_process = "1-50000"; outname = paste0("ROC/test",".",iids_to_process); # debug=T
 
 # source('/gpfs/work5/0/vusr0748/realment/scripts/validate.roc.R')
 
@@ -187,7 +187,7 @@ get_aucs = function(iid.list, MOA, level) {
 	return(auc)
 }
 
-tissue="brain_substantia_nigra"; input.dir="drugs"; in.prefix=paste0("maf005-z165-",tissue,"-spearman"); case_iids = paste0("../classN_cases/",code,".cases"); all_iids = "../IIDs.txt"; n.cores = 15; iids_to_process = "1-50000"; outname = paste0("ROC/test",".",iids_to_process); # debug=Ti
+# tissue="brain_substantia_nigra"; input.dir="drugs"; in.prefix=paste0("maf005-z165-",tissue,"-spearman"); case_iids = paste0("../classN_cases/",code,".cases"); all_iids = "../IIDs.txt"; n.cores = 15; iids_to_process = "1-50000"; outname = paste0("ROC/test",".",iids_to_process); # debug=Ti
 #tissue="whole_blood"; input.dir="drugs"; in.prefix=paste0("maf005-z165-",tissue,"-spearman"); case_iids = paste0("../classN_cases/",code,".cases"); all_iids = "../IIDs.txt"; n.cores = 15; iids_to_process = "1-50000"; outname = paste0("ROC/test",".",iids_to_process); # debug=T
 # source('/gpfs/work5/0/vusr0748/realment/scripts/validate.roc.R')
 setwd(paste0("../",in.prefix))
